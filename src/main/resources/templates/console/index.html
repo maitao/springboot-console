@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<link rel="shortcut icon" href="/static/console/img/favicon.png">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title th:text="${session.MT_SYS_CONF['02002']}"></title>
+<!-- Tell the browser to be responsive to screen width -->
+<meta
+	content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+	name="viewport">
+<!-- Bootstrap 3.3.6 -->
+<link th:href="@{/static/common/lte/bootstrap/css/bootstrap.css}"
+	rel="stylesheet" type="text/css">
+
+<!-- Select2 -->
+<link rel="stylesheet"
+	href="/static/common/lte/plugins/select2/select2.min.css">
+<!-- Font Awesome -->
+<!-- <link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"> -->
+<!-- <link rel="stylesheet" href="/static/common/lte/font-awesome.min.css"> -->
+<!-- http://www.bootcdn.cn/font-awesome/ -->
+<link rel="stylesheet"
+	href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css">
+<!-- Theme style -->
+<link rel="stylesheet"
+	href="/static/common/lte/dist/css/AdminLTE.css">
+<!-- AdminLTE Skins. Choose a skin from the css/skins
+       folder instead of downloading all of them to reduce the load. -->
+<link rel="stylesheet"
+	href="/static/common/lte/dist/css/skins/_all-skins.min.css">
+<!-- Pace style -->
+<link rel="stylesheet"
+	href="/static/common/lte/plugins/pace/pace.min.css">
+<link rel="stylesheet" href="/static/console/css/index.css">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body class="hold-transition skin-blue sidebar-mini  pace-done sidebar-open">
+	<div class="wrapper">
+		<div th:replace="console/common/header::header"></div>
+		<div th:replace="console/common/left-sidebar::left-sidebar"></div>
+		<!-- Content Wrapper. Contains page content -->
+		<div class="content-wrapper">
+			<section class="content" style="min-height: 700px;">
+
+				<div class="row">
+					<div class="col-md-12">index</div>
+					<!-- /.col -->
+				</div>
+				<!-- /.row -->
+
+			</section>
+		</div>
+		<!-- /.content-wrapper -->
+		<footer class="main-footer">
+			<div class="pull-right hidden-xs">
+				<b>版本</b> <b th:text="${session.MT_SYS_CONF['02005']}"></b>
+			</div>
+			<strong> &copy; <b th:text="${session.MT_SYS_CONF['02003']}"></b> <a><b th:text="${session.MT_SYS_CONF['02004']}"></b></a>.
+			</strong> 版权所有.
+		</footer>
+		<div th:replace="console/common/control-sidebar::control-sidebar"></div>
+
+	</div>
+	<!-- ./wrapper -->
+
+	<a><span class="chat-trigger fa fa-commenting-o text-blue"></span></a>
+	<div class="chat-main" style="display: none;">1</div>
+	<a class="cd-nav-trigger" style="display: none;">Menu<span></span></a>
+	<div class="cd-main-nav" style="display: none;">1</div>
+
+	<!-- jQuery 2.2.3 -->
+	<script
+		src="/static/common/lte/plugins/jQuery/jquery-2.2.3.min.js"></script>
+	<script src="/static/common/js/jquery.form.js"></script>
+	<script src="/static/console/js/ws.js"></script>
+	<script src="/static/console/js/page.js"></script>
+	<!-- Bootstrap 3.3.6 -->
+	<script src="/static/common/lte/bootstrap/js/bootstrap.min.js"></script>
+	<!-- PACE -->
+	<script src="/static/common/lte/plugins/pace/pace.min.js"></script>
+	<!-- SlimScroll -->
+	<script
+		src="/static/common/lte/plugins/slimScroll/jquery.slimscroll.min.js"></script>
+	<!-- FastClick -->
+	<script src="/static/common/lte/plugins/fastclick/fastclick.js"></script>
+	<!-- AdminLTE App -->
+	<script src="/static/common/lte/dist/js/app.min.js"></script>
+	<!-- AdminLTE for demo purposes -->
+	<script src="/static/common/lte/dist/js/demo.js"></script>
+	<!-- fullCalendar 2.2.5 -->
+	<script src="/static/common/js/moment.min.js"></script>
+	<script
+		src="/static/common/lte/plugins/fullcalendar/fullcalendar.min.js"></script>
+
+	<script src="/static/console/js/index_1.js?v=<%=version%>"></script>
+	<script src="/static/console/js/index_2.js"></script>
+	<script type="text/javascript">
+		// To make Pace works on Ajax calls
+		$(document).ajaxStart(function() {
+			Pace.restart();
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mt.console.web.mapper.IBuildMapper">
+
+	<!-- 删除左侧菜单列表 -->
+	<delete id="deleteSysConf">
+		delete from t_mt_sysconf
+	</delete>
+
+	<!-- 新增左侧菜单列表 -->
+	<insert id="insertSysConf" parameterType="java.util.List">
+		insert into
+		t_mt_sysconf
+		(number, parent_num, name, conf_key,
+		value,
+		status, remark, create_time)
+		values
+		<foreach collection="list" item="item" index="index"
+			separator=",">
+			(#{item.number},#{item.parentNum},#{item.name},#{item.key},#{item.value},#{item.status},#{item.remark},#{item.createTime})
+		</foreach>
+	</insert>
+
+	<!-- 删除操作列表 -->
+	<delete id="deleteOperation">
+		delete from t_mt_operation
+	</delete>
+
+	<!-- 新增操作列表 -->
+	<insert id="insertOperation" parameterType="java.util.List">
+		insert into
+		t_mt_operation
+		(number, name, class_path,
+		method_name,
+		method_remark, create_time)
+		values
+		<foreach collection="list" item="item" index="index"
+			separator=",">
+			(#{item.number},#{item.name},#{item.classPath},#{item.methodName},#{item.methodRemark},#{item.createTime})
+		</foreach>
+	</insert>
+
+	<update id="updateRoleOperation">
+		update t_mt_role
+		<set>
+			<if test="operation != null">
+				operation=#{operation},
+			</if>
+			<if test="menu != null">
+				menu=#{menu},
+			</if>
+			update_time=#{updateTime}
+		</set>
+		where number=#{number}
+	</update>
+
+	<!-- 删除左侧菜单列表 -->
+	<delete id="deleteMenu">
+		delete from t_mt_menu
+	</delete>
+
+	<!-- 新增左侧菜单列表 -->
+	<insert id="insertMenu" parameterType="java.util.List">
+		insert into
+		t_mt_menu
+		(number, parent_num, name, short_url,
+		left_icon,
+		right_icon, status, create_time)
+		values
+		<foreach collection="list" item="item" index="index"
+			separator=",">
+			(#{item.number},#{item.parentNum},#{item.name},#{item.shortUrl},#{item.leftIcon},#{item.rightIcon},#{item.status},#{item.createTime})
+		</foreach>
+	</insert>
+
+</mapper>

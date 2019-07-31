@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+
+.table>tbody>tr>td {
+	vertical-align: middle;
+}
+
+.table>tbody>tr>td {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.createtime {
+	color: #999;
+	font-size: 11px;
+	font-family: Arial, Psimsun, sans-serif;
+	word-wrap: break-word;
+}
+
+.soutu-btn {
+	z-index: 1;
+	position: absolute;
+	left: 3px;
+	top: 50%;
+	margin-top: -8px;
+	height: 16px;
+	width: 18px;
+	background: #fff
+		url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/soutu/img/camera_new_679c15cc.png)
+		no-repeat;
+	cursor: pointer;
+}

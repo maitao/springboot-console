@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mt.console.web.mapper.IIMMapper">
+	<!-- 新增记录 -->
+	<insert id="saveMsg" parameterType="com.mt.console.web.po.IM">
+		insert into
+		t_mt_im_message(from_account, to_account, content, reach, reach_time,
+		create_time)
+		values(#{fromAccount},#{toAccount},#{content},#{reach},#{reachTime},#{createTime})
+	</insert>
+
+
+<!-- 修改登录次数 -->
+	<update id="updateMsg">
+		update t_mt_im_message
+		<set>
+			reach=1,reach_time=#{reachTime}
+		</set>
+		where create_time=#{datetime}
+	</update>
+
+	<!-- 获取信息 -->
+	<select id="getMsg" resultMap="IMResultMap">
+		select id,
+		from_account, to_account, content, reach, reach_time,
+		create_time from t_mt_im_message
+		<where>
+			<if test="account != null">
+				from_account =#{account} or to_accound =#{account}
+			</if>
+		</where>
+		order by create_time
+	</select>
+
+	<!-- 获取信息 -->
+	<select id="getUnReachMsg" resultMap="IMResultMap">
+		SELECT
+		content,
+		DATE_FORMAT(create_time, '%Y-%m-%d %T') AS create_time
+		FROM
+		t_mt_im_message
+		<where>
+			reach = 0
+			<if test="fromAccount != null and toAccount != null">
+				AND from_account = #{fromAccount}
+				AND to_account =
+				#{toAccount}
+			</if>
+		</where>
+		ORDER BY
+		create_time
+	</select>
+
+	<select id="selectIMContactHistory" resultMap="IMResultMap">
+		SELECT
+		from_account,
+		to_account,
+		content,
+		DATE_FORMAT(create_time,
+		'%Y-%m-%d %T') AS create_time
+		FROM
+		t_mt_im_message
+		WHERE
+		(
+		from_account =
+		#{fromAccount}
+		AND to_account = #{toAccount}
+		)
+		OR (
+		from_account =
+		#{toAccount}
+		AND to_account = #{fromAccount}
+		)
+		ORDER BY
+		create_time DESC
+		<if test="limitNum != null">
+			limit #{limitNum}
+		</if>
+	</select>
+
+	<select id="getIMUnReachNum" resultType="java.util.HashMap">
+		SELECT
+		from_account,
+		count(IF(reach = 0, 1, NULL)) AS unReachNum
+		FROM
+		t_mt_im_message
+		WHERE
+		to_account = #{account}
+		GROUP BY
+		from_account
+		HAVING
+		unReachNum >0
+	</select>
+
+	<update id="updateUnReachMsg">
+		update t_mt_im_message
+		<set>
+			reach = 1,
+			reach_time = #{reachTime}
+		</set>
+		<where>
+			reach = 0
+			<if test="fromAccount != null and toAccount != null">
+				AND from_account = #{fromAccount}
+				AND to_account =
+				#{toAccount}
+			</if>
+		</where>
+	</update>
+
+	<resultMap type="com.mt.console.web.po.IM" id="IMResultMap">
+		<result column="from_account" property="fromAccount" />
+		<result column="to_accound" property="toAccound" />
+		<result column="reach_time" property="reachTime" />
+		<result column="create_time" property="createTime" />
+	</resultMap>
+</mapper>

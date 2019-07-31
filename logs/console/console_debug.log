@@ -1,0 +1,65 @@
+2019-07-30 16:57:08.036 [main] DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-07-30 16:57:15.036 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 55 mappings in 'requestMappingHandlerMapping'
+2019-07-30 16:57:15.233 [main] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/swagger-ui.html, /webjars/**, /static/**, /upload/**] in 'resourceHandlerMapping'
+2019-07-30 16:57:15.361 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-07-30 16:57:15.408 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-07-30 17:15:42.075 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2019-07-30 17:15:42.178 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-07-30 17:15:42.242 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/", parameters={}
+2019-07-30 17:15:42.268 [http-nio-8082-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.mt.console.web.controller.ConsoleController.index(javax.servlet.http.HttpSession)
+2019-07-30 17:15:43.248 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-30 17:15:43.303 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/common/lte/dist/css/AdminLTE.min.css", parameters={}
+2019-07-30 17:15:43.324 [http-nio-8082-exec-2] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-30 17:15:43.341 [http-nio-8082-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/common/lte/bootstrap/css/bootstrap.min.css", parameters={}
+2019-07-30 17:15:43.343 [http-nio-8082-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/common/lte/plugins/jQuery/jquery-2.2.3.min.js", parameters={}
+2019-07-30 17:15:43.345 [http-nio-8082-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/common/lte/bootstrap/js/bootstrap.min.js", parameters={}
+2019-07-30 17:15:43.346 [http-nio-8082-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/console/verifycode", parameters={}
+2019-07-30 17:15:43.343 [http-nio-8082-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/common/lte/plugins/iCheck/square/blue.css", parameters={}
+2019-07-30 17:15:43.348 [http-nio-8082-exec-3] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-30 17:15:43.353 [http-nio-8082-exec-6] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-30 17:15:43.354 [http-nio-8082-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public void com.mt.console.web.controller.ConsoleController.verifycode(javax.servlet.http.HttpSession,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException
+2019-07-30 17:15:43.358 [http-nio-8082-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-30 17:15:43.362 [http-nio-8082-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-30 17:15:43.399 [http-nio-8082-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-30 17:15:43.401 [http-nio-8082-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-30 17:15:43.401 [http-nio-8082-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-30 17:15:43.416 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-30 17:15:43.429 [http-nio-8082-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-30 17:15:43.498 [http-nio-8082-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/common/lte/plugins/iCheck/icheck.min.js", parameters={}
+2019-07-30 17:15:43.501 [http-nio-8082-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/common/js/jquery.form.js", parameters={}
+2019-07-30 17:15:43.502 [http-nio-8082-exec-8] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-30 17:15:43.503 [http-nio-8082-exec-10] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-30 17:15:43.519 [http-nio-8082-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-30 17:15:43.524 [http-nio-8082-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-30 17:15:43.540 [http-nio-8082-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/console/js/login.js", parameters={}
+2019-07-30 17:15:43.542 [http-nio-8082-exec-9] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-30 17:15:43.564 [http-nio-8082-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-30 17:15:44.074 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/common/lte/bootstrap/fonts/glyphicons-halflings-regular.woff2", parameters={}
+2019-07-30 17:15:44.077 [http-nio-8082-exec-1] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-30 17:15:44.094 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-30 17:15:44.133 [http-nio-8082-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/common/lte/plugins/iCheck/square/blue.png", parameters={}
+2019-07-30 17:15:44.135 [http-nio-8082-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-30 17:15:44.148 [http-nio-8082-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-30 17:15:44.164 [http-nio-8082-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/console/cookie", parameters={}
+2019-07-30 17:15:44.165 [http-nio-8082-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.mt.console.web.controller.ConsoleController.cookie(javax.servlet.http.HttpSession,javax.servlet.http.HttpServletRequest)
+2019-07-30 17:15:44.188 [http-nio-8082-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/json, application/*+json]
+2019-07-30 17:15:44.189 [http-nio-8082-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{account=changlaiai@sina.com}]
+2019-07-30 17:15:44.207 [http-nio-8082-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-30 17:15:44.801 [http-nio-8082-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-30 17:15:44.808 [http-nio-8082-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/console/img/favicon.png", parameters={}
+2019-07-30 17:15:44.813 [http-nio-8082-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-30 17:15:44.825 [http-nio-8082-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-30 18:00:56.736 [http-nio-8082-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/", parameters={}
+2019-07-30 18:00:56.758 [http-nio-8082-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.mt.console.web.controller.ConsoleController.index(javax.servlet.http.HttpSession)
+2019-07-30 18:00:56.863 [http-nio-8082-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-30 18:00:56.923 [http-nio-8082-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/console/verifycode", parameters={}
+2019-07-30 18:00:56.924 [http-nio-8082-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public void com.mt.console.web.controller.ConsoleController.verifycode(javax.servlet.http.HttpSession,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException
+2019-07-30 18:00:57.009 [http-nio-8082-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-30 18:00:57.236 [http-nio-8082-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/console/cookie", parameters={}
+2019-07-30 18:00:57.241 [http-nio-8082-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.mt.console.web.controller.ConsoleController.cookie(javax.servlet.http.HttpSession,javax.servlet.http.HttpServletRequest)
+2019-07-30 18:00:57.251 [http-nio-8082-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/json, application/*+json]
+2019-07-30 18:00:57.252 [http-nio-8082-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{account=changlaiai@sina.com}]
+2019-07-30 18:00:57.261 [http-nio-8082-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-30 18:00:57.314 [http-nio-8082-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/console/img/favicon.png", parameters={}
+2019-07-30 18:00:57.323 [http-nio-8082-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-30 18:00:57.340 [http-nio-8082-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK

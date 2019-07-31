@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mt.console.web.mapper.ICommonMapper">
+
+	<sql id="imagePage">
+		SELECT
+		id, img_path, name, create_time from t_mt_resource_image order by create_time
+	</sql>
+	
+	<!-- 取得系统设置记录列表 -->
+	<select id="getSysConf" resultType="java.util.HashMap">
+		SELECT
+		a.number,
+		a.parent_num,
+		a.conf_key,
+		a.value,
+		a.status,
+		a.remark,
+		a.create_time
+		FROM
+		t_mt_sysconf a
+	</select>
+
+	<select id="getSetting" resultMap="SettingResultMap">
+		select id, account, layout,
+		left_sidebar_hover,
+		left_sidebar_collapsed,
+		right_sidebar_cover,
+		right_sidebar_skin,
+		layout_skin
+		from t_mt_setting
+		<where>
+			<if test="accountId != null">
+				account_id =#{accountId}
+			</if>
+			<!-- <if test="id!=null"> and id=#{id} </if> -->
+		</where>
+	</select>
+
+	<select id="getTotalCount" resultType="int" parameterType="Map">
+		select count(1) from
+		<if test="key=='image'">t_mt_resource_image</if>
+		<if test="key=='article'">t_mt_article</if>
+	</select>
+	<!-- 取得记录列表 -->
+	<select id="getPageList" resultType="java.util.HashMap"
+		parameterType="Map">
+		<if test="key=='image'">
+			<include refid="imagePage" />
+		</if>
+		limit #{index},
+		#{offset}
+	</select>
+
+	<resultMap type="com.mt.console.web.po.Setting" id="SettingResultMap">
+		<result column="left_sidebar_hover" property="leftSidebarHover" />
+		<result column="left_sidebar_collapsed" property="leftSidebarCollapsed" />
+		<result column="right_sidebar_cover" property="rightSidebarCover" />
+		<result column="right_sidebar_skin" property="rightSidebarSkin" />
+		<result column="layout_skin" property="layoutSkin" />
+
+	</resultMap>
+
+</mapper>

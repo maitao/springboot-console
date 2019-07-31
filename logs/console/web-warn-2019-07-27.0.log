@@ -1,0 +1,600 @@
+2019-07-27 00:13:58.814 [RMI TCP Connection(2)-127.0.0.1] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1564157638814, current=DOWN, previous=UP]
+2019-07-27 00:14:13.698 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-27 00:14:15.396 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 00:14:23.476 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 00:14:23.924 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-07-27 00:16:38.600 [RMI TCP Connection(2)-127.0.0.1] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1564157798600, current=DOWN, previous=UP]
+2019-07-27 00:16:53.431 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-27 00:16:55.270 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 00:17:03.057 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 00:17:03.610 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-07-27 00:19:58.077 [RMI TCP Connection(2)-127.0.0.1] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1564157998077, current=DOWN, previous=UP]
+2019-07-27 00:20:12.053 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-27 00:20:13.761 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 00:20:21.529 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 00:20:21.954 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-07-27 00:22:01.628 [RMI TCP Connection(2)-127.0.0.1] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1564158121628, current=DOWN, previous=UP]
+2019-07-27 00:22:15.261 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-27 00:22:16.945 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 00:22:25.141 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 00:22:25.583 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-07-27 00:25:43.035 [RMI TCP Connection(2)-127.0.0.1] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1564158343035, current=DOWN, previous=UP]
+2019-07-27 00:25:57.745 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-27 00:25:59.430 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 00:26:07.372 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 00:26:07.792 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-07-27 00:26:46.618 [RMI TCP Connection(2)-127.0.0.1] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1564158406618, current=DOWN, previous=UP]
+2019-07-27 00:27:00.422 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-27 00:27:02.312 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 00:27:10.896 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 00:27:11.632 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-07-27 00:28:54.073 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-27 00:28:55.915 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 00:29:04.790 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 00:29:05.735 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-07-27 00:31:43.486 [RMI TCP Connection(2)-127.0.0.1] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1564158703486, current=DOWN, previous=UP]
+2019-07-27 00:32:08.484 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-27 00:32:10.348 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 00:32:23.101 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 00:32:23.854 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-07-27 00:36:41.986 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-27 00:36:44.151 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 00:37:20.186 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 00:37:20.903 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-07-27 00:44:04.123 [RMI TCP Connection(2)-127.0.0.1] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1564159444123, current=DOWN, previous=UP]
+2019-07-27 00:44:16.654 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-27 00:44:18.347 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 00:44:26.201 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 00:44:26.632 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-07-27 06:54:33.168 [http-nio-8082-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /swagger-ui.html
+2019-07-27 06:55:19.241 [http-nio-8082-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /swagger
+2019-07-27 06:57:31.067 [http-nio-8082-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /swagger-ui
+2019-07-27 07:00:59.308 [RMI TCP Connection(2)-127.0.0.1] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1564182059308, current=DOWN, previous=UP]
+2019-07-27 07:01:16.114 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-27 07:01:17.969 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 07:01:26.158 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 07:01:26.601 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-07-27 07:01:41.225 [http-nio-8082-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /swagger-ui
+2019-07-27 07:33:06.835 [RMI TCP Connection(2)-127.0.0.1] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1564183986835, current=DOWN, previous=UP]
+2019-07-27 07:33:28.547 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-27 07:33:30.447 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 07:33:38.797 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 07:33:39.510 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-07-27 07:35:37.476 [http-nio-8082-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /csrf
+2019-07-27 07:37:08.261 [http-nio-8082-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/112
+2019-07-27 07:37:23.433 [http-nio-8082-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/112
+2019-07-27 07:38:18.961 [http-nio-8082-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/112
+2019-07-27 07:38:47.638 [http-nio-8082-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/123dd
+2019-07-27 07:38:50.969 [http-nio-8082-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/l123dd
+2019-07-27 07:49:28.785 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-27 07:49:30.717 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 07:49:39.225 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 07:49:39.958 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-07-27 07:50:37.645 [http-nio-8082-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/l123dd
+2019-07-27 07:50:50.928 [http-nio-8082-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/cccc
+2019-07-27 07:57:33.151 [RMI TCP Connection(2)-127.0.0.1] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1564185453151, current=DOWN, previous=UP]
+2019-07-27 07:57:57.128 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-27 07:57:59.421 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 07:58:08.101 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 07:58:08.832 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-07-27 07:58:19.215 [http-nio-8082-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/cccc
+2019-07-27 07:58:42.009 [http-nio-8082-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/login1
+2019-07-27 07:59:40.210 [http-nio-8082-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/bootstrap/css/bootstrap.min.css
+2019-07-27 07:59:40.230 [http-nio-8082-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/plugins/iCheck/icheck.min.js
+2019-07-27 07:59:40.228 [http-nio-8082-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/bootstrap/js/bootstrap.min.js
+2019-07-27 07:59:40.226 [http-nio-8082-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/plugins/jQuery/jquery-2.2.3.min.js
+2019-07-27 07:59:40.223 [http-nio-8082-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/plugins/iCheck/square/blue.css
+2019-07-27 07:59:40.218 [http-nio-8082-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/dist/css/AdminLTE.min.css
+2019-07-27 07:59:40.259 [http-nio-8082-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/js/jquery.form.js
+2019-07-27 07:59:40.260 [http-nio-8082-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/console/js/register.js
+2019-07-27 07:59:40.769 [http-nio-8082-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/bootstrap/js/bootstrap.min.js
+2019-07-27 07:59:40.791 [http-nio-8082-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/plugins/iCheck/icheck.min.js
+2019-07-27 07:59:40.806 [http-nio-8082-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/js/jquery.form.js
+2019-07-27 07:59:40.815 [http-nio-8082-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/console/js/register.js
+2019-07-27 07:59:41.545 [http-nio-8082-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/console/img/favicon.png
+2019-07-27 08:02:24.077 [http-nio-8082-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /swagger-ui.html
+2019-07-27 08:02:25.322 [http-nio-8082-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /swagger-ui.html
+2019-07-27 08:02:30.809 [http-nio-8082-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /swagger-ui.html
+2019-07-27 08:12:28.492 [http-nio-8082-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/login/123
+2019-07-27 08:12:39.171 [http-nio-8082-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/login123
+2019-07-27 08:38:26.382 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-27 08:38:28.075 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 08:38:35.829 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 08:38:36.248 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-07-27 08:58:59.367 [RMI TCP Connection(2)-127.0.0.1] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1564189139367, current=DOWN, previous=UP]
+2019-07-27 09:16:54.954 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-27 09:16:56.835 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 09:17:07.157 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 09:17:07.865 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-07-27 10:50:04.792 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-27 10:50:06.698 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 10:50:21.397 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 10:50:22.102 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-07-27 10:50:30.674 [main] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: org.apache.http.conn.ConnectTimeoutException: Connect to 192.168.1.6:9991 timed out
+2019-07-27 10:50:30.681 [main] WARN  com.netflix.discovery.DiscoveryClient - Using default backup registry implementation which does not do anything.
+2019-07-27 10:50:35.750 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: org.apache.http.conn.ConnectTimeoutException: Connect to 192.168.1.6:9991 timed out
+2019-07-27 10:50:35.755 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.DiscoveryClient - DiscoveryClient_CONSOLE/DESKTOP-KNP79HU:console:8082 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2019-07-27 10:50:35.764 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.InstanceInfoReplicator - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2019-07-27 10:51:05.711 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: org.apache.http.conn.ConnectTimeoutException: Connect to 192.168.1.6:9991 timed out
+2019-07-27 10:51:05.713 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: org.apache.http.conn.ConnectTimeoutException: Connect to 192.168.1.6:9991 timed out
+2019-07-27 10:51:10.772 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: org.apache.http.conn.ConnectTimeoutException: Connect to 192.168.1.6:9991 timed out
+2019-07-27 10:51:10.776 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.DiscoveryClient - DiscoveryClient_CONSOLE/DESKTOP-KNP79HU:console:8082 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2019-07-27 10:51:10.777 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.InstanceInfoReplicator - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2019-07-27 10:51:40.728 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: org.apache.http.conn.ConnectTimeoutException: Connect to 192.168.1.6:9991 timed out
+2019-07-27 10:51:40.742 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: org.apache.http.conn.ConnectTimeoutException: Connect to 192.168.1.6:9991 timed out
+2019-07-27 10:51:45.789 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution failed with message: org.apache.http.conn.ConnectTimeoutException: Connect to 192.168.1.6:9991 timed out
+2019-07-27 10:51:45.792 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.DiscoveryClient - DiscoveryClient_CONSOLE/DESKTOP-KNP79HU:console:8082 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2019-07-27 10:51:45.795 [DiscoveryClient-InstanceInfoReplicator-0] WARN  com.netflix.discovery.InstanceInfoReplicator - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2019-07-27 10:51:47.382 [RMI TCP Connection(2)-127.0.0.1] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1564195907382, current=DOWN, previous=UP]
+2019-07-27 10:53:50.148 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-27 10:53:52.803 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 10:54:05.713 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 10:54:06.581 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-07-27 10:55:01.245 [http-nio-8082-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/plugins/select2/select2.min.css
+2019-07-27 10:55:01.254 [http-nio-8082-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/bootstrap/css/bootstrap.css
+2019-07-27 10:55:01.264 [http-nio-8082-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/dist/css/skins/_all-skins.min.css
+2019-07-27 10:55:01.270 [http-nio-8082-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/dist/css/AdminLTE.css
+2019-07-27 10:55:01.277 [http-nio-8082-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/plugins/pace/pace.min.css
+2019-07-27 10:55:01.341 [http-nio-8082-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/console/css/index.css
+2019-07-27 10:55:01.374 [http-nio-8082-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/console/js/ws.js
+2019-07-27 10:55:01.377 [http-nio-8082-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/js/jquery.form.js
+2019-07-27 10:55:01.385 [http-nio-8082-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/dist/img/user3-128x128.jpg
+2019-07-27 10:55:01.388 [http-nio-8082-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/plugins/jQuery/jquery-2.2.3.min.js
+2019-07-27 10:55:01.393 [http-nio-8082-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/console/js/page.js
+2019-07-27 10:55:01.394 [http-nio-8082-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/$%7Baminfo.image%7D
+2019-07-27 10:55:01.425 [http-nio-8082-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/dist/img/avatar5.png
+2019-07-27 10:55:01.425 [http-nio-8082-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/dist/img/user4-128x128.jpg
+2019-07-27 10:55:01.438 [http-nio-8082-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/bootstrap/js/bootstrap.min.js
+2019-07-27 10:55:01.451 [http-nio-8082-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/plugins/pace/pace.min.js
+2019-07-27 10:55:01.461 [http-nio-8082-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/plugins/slimScroll/jquery.slimscroll.min.js
+2019-07-27 10:55:01.472 [http-nio-8082-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/plugins/fastclick/fastclick.js
+2019-07-27 10:55:01.481 [http-nio-8082-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/dist/js/demo.js
+2019-07-27 10:55:01.485 [http-nio-8082-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/dist/js/app.min.js
+2019-07-27 10:55:01.510 [http-nio-8082-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/js/moment.min.js
+2019-07-27 10:55:01.529 [http-nio-8082-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/plugins/fullcalendar/fullcalendar.min.js
+2019-07-27 10:55:01.542 [http-nio-8082-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/console/js/index_2.js
+2019-07-27 10:55:01.549 [http-nio-8082-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/js/jquery.form.js
+2019-07-27 10:55:01.580 [http-nio-8082-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/console/js/index_1.js
+2019-07-27 10:55:01.712 [http-nio-8082-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/console/js/ws.js
+2019-07-27 10:55:01.762 [http-nio-8082-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/console/js/page.js
+2019-07-27 10:55:01.773 [http-nio-8082-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/bootstrap/js/bootstrap.min.js
+2019-07-27 10:55:01.787 [http-nio-8082-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/plugins/pace/pace.min.js
+2019-07-27 10:55:01.796 [http-nio-8082-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/plugins/slimScroll/jquery.slimscroll.min.js
+2019-07-27 10:55:01.806 [http-nio-8082-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/plugins/fastclick/fastclick.js
+2019-07-27 10:55:01.814 [http-nio-8082-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/dist/js/app.min.js
+2019-07-27 10:55:01.820 [http-nio-8082-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/dist/js/demo.js
+2019-07-27 10:55:01.827 [http-nio-8082-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/js/moment.min.js
+2019-07-27 10:55:01.835 [http-nio-8082-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/plugins/fullcalendar/fullcalendar.min.js
+2019-07-27 10:55:01.844 [http-nio-8082-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/console/js/index_1.js
+2019-07-27 10:55:01.858 [http-nio-8082-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/console/js/index_2.js
+2019-07-27 10:55:01.877 [http-nio-8082-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/console/img/favicon.png
+2019-07-27 10:56:34.063 [http-nio-8082-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/$%7Baminfo.image%7D
+2019-07-27 10:56:34.084 [http-nio-8082-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/dist/img/user3-128x128.jpg
+2019-07-27 10:56:34.089 [http-nio-8082-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/dist/img/user4-128x128.jpg
+2019-07-27 10:56:34.098 [http-nio-8082-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/dist/img/avatar5.png
+2019-07-27 10:56:34.625 [http-nio-8082-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /undefined
+2019-07-27 10:56:34.628 [http-nio-8082-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/mtcommon/lte/dist/img/avatar5.png
+2019-07-27 10:56:34.700 [http-nio-8082-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /admin/ws
+2019-07-27 10:56:55.789 [http-nio-8082-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/$%7Baminfo.image%7D
+2019-07-27 10:56:55.794 [http-nio-8082-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/dist/img/user3-128x128.jpg
+2019-07-27 10:56:55.794 [http-nio-8082-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/dist/img/user4-128x128.jpg
+2019-07-27 10:56:55.801 [http-nio-8082-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/dist/img/avatar5.png
+2019-07-27 10:56:56.118 [http-nio-8082-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /admin/ws
+2019-07-27 10:56:56.138 [http-nio-8082-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /undefined
+2019-07-27 10:56:56.139 [http-nio-8082-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/mtcommon/lte/dist/img/avatar5.png
+2019-07-27 10:57:13.437 [http-nio-8082-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/im/chat2
+2019-07-27 10:58:57.483 [http-nio-8082-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/dist/img/user3-128x128.jpg
+2019-07-27 10:58:57.483 [http-nio-8082-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/$%7Baminfo.image%7D
+2019-07-27 10:58:57.487 [http-nio-8082-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/dist/img/user4-128x128.jpg
+2019-07-27 10:58:57.498 [http-nio-8082-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/dist/img/avatar5.png
+2019-07-27 10:58:59.074 [http-nio-8082-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /undefined
+2019-07-27 10:58:59.087 [http-nio-8082-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/mtcommon/lte/dist/img/avatar5.png
+2019-07-27 10:58:59.122 [http-nio-8082-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /admin/ws
+2019-07-27 10:59:03.615 [http-nio-8082-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/$%7Baminfo.image%7D
+2019-07-27 10:59:03.618 [http-nio-8082-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/dist/img/user3-128x128.jpg
+2019-07-27 10:59:03.625 [http-nio-8082-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/dist/img/avatar5.png
+2019-07-27 10:59:03.626 [http-nio-8082-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/dist/img/user4-128x128.jpg
+2019-07-27 10:59:03.931 [http-nio-8082-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /undefined
+2019-07-27 10:59:03.939 [http-nio-8082-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/mtcommon/lte/dist/img/avatar5.png
+2019-07-27 10:59:03.940 [http-nio-8082-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /admin/ws
+2019-07-27 10:59:13.352 [http-nio-8082-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/$%7Baminfo.image%7D
+2019-07-27 10:59:13.358 [http-nio-8082-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/dist/img/user3-128x128.jpg
+2019-07-27 10:59:13.359 [http-nio-8082-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/dist/img/user4-128x128.jpg
+2019-07-27 10:59:13.362 [http-nio-8082-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/dist/img/avatar5.png
+2019-07-27 10:59:13.639 [http-nio-8082-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /undefined
+2019-07-27 10:59:13.642 [http-nio-8082-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /admin/ws
+2019-07-27 10:59:13.659 [http-nio-8082-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/mtcommon/lte/dist/img/avatar5.png
+2019-07-27 11:48:32.612 [RMI TCP Connection(2)-127.0.0.1] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1564199312612, current=DOWN, previous=UP]
+2019-07-27 14:40:05.316 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-27 14:40:08.119 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 14:40:18.676 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 14:40:19.191 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-07-27 14:40:45.869 [http-nio-8082-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/$%7Baminfo.image%7D
+2019-07-27 14:40:45.892 [http-nio-8082-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/dist/img/user3-128x128.jpg
+2019-07-27 14:40:45.892 [http-nio-8082-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/dist/img/user4-128x128.jpg
+2019-07-27 14:40:45.898 [http-nio-8082-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/dist/img/avatar5.png
+2019-07-27 14:40:46.971 [http-nio-8082-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /undefined
+2019-07-27 14:40:46.971 [http-nio-8082-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/mtcommon/lte/dist/img/avatar5.png
+2019-07-27 14:40:47.031 [http-nio-8082-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /admin/ws
+2019-07-27 14:43:50.809 [http-nio-8082-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/mtcommon/lte/dist/img/avatar5.png
+2019-07-27 14:43:56.306 [http-nio-8082-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/common/lte/dist/img/avatar5.png
+2019-07-27 14:44:05.477 [http-nio-8082-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/static/common/lte/dist/img/avatar5.png
+2019-07-27 14:45:50.681 [http-nio-8082-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/$%7Baminfo.image%7D
+2019-07-27 14:45:50.681 [http-nio-8082-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/dist/img/user3-128x128.jpg
+2019-07-27 14:45:50.683 [http-nio-8082-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/dist/img/user4-128x128.jpg
+2019-07-27 14:45:50.694 [http-nio-8082-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/dist/img/avatar5.png
+2019-07-27 14:45:51.271 [http-nio-8082-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /undefined
+2019-07-27 14:45:51.284 [http-nio-8082-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /admin/ws
+2019-07-27 14:45:51.304 [http-nio-8082-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/mtcommon/lte/dist/img/avatar5.png
+2019-07-27 14:46:08.279 [http-nio-8082-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/$%7Baminfo.image%7D
+2019-07-27 14:46:08.286 [http-nio-8082-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/dist/img/user3-128x128.jpg
+2019-07-27 14:46:08.289 [http-nio-8082-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/dist/img/avatar5.png
+2019-07-27 14:46:08.280 [http-nio-8082-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/dist/img/user4-128x128.jpg
+2019-07-27 14:46:08.628 [http-nio-8082-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /undefined
+2019-07-27 14:46:08.641 [http-nio-8082-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /admin/ws
+2019-07-27 14:46:08.658 [http-nio-8082-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/static/common/lte/dist/img/avatar5.png
+2019-07-27 14:46:48.285 [http-nio-8082-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/$%7Baminfo.image%7D
+2019-07-27 14:46:48.290 [http-nio-8082-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/dist/img/user3-128x128.jpg
+2019-07-27 14:46:48.293 [http-nio-8082-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/dist/img/avatar5.png
+2019-07-27 14:46:48.298 [http-nio-8082-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/dist/img/user4-128x128.jpg
+2019-07-27 14:46:48.659 [http-nio-8082-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /undefined
+2019-07-27 14:46:48.664 [http-nio-8082-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /admin/ws
+2019-07-27 14:46:48.669 [http-nio-8082-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/static/common/lte/dist/img/avatar5.png
+2019-07-27 14:46:59.142 [http-nio-8082-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/$%7Baminfo.image%7D
+2019-07-27 14:46:59.168 [http-nio-8082-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/dist/img/user3-128x128.jpg
+2019-07-27 14:46:59.168 [http-nio-8082-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/dist/img/user4-128x128.jpg
+2019-07-27 14:46:59.180 [http-nio-8082-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/dist/img/avatar5.png
+2019-07-27 14:46:59.785 [http-nio-8082-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /undefined
+2019-07-27 14:46:59.838 [http-nio-8082-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /admin/ws
+2019-07-27 14:47:37.223 [http-nio-8082-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/$%7Baminfo.image%7D
+2019-07-27 14:47:37.241 [http-nio-8082-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/dist/img/user3-128x128.jpg
+2019-07-27 14:47:37.261 [http-nio-8082-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/dist/img/avatar5.png
+2019-07-27 14:47:37.261 [http-nio-8082-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/common/lte/dist/img/user4-128x128.jpg
+2019-07-27 14:47:37.702 [http-nio-8082-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /admin/ws
+2019-07-27 14:47:37.712 [http-nio-8082-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /undefined
+2019-07-27 14:49:19.056 [http-nio-8082-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/$%7Baminfo.image%7D
+2019-07-27 14:49:19.458 [http-nio-8082-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /undefined
+2019-07-27 14:49:19.462 [http-nio-8082-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /admin/ws
+2019-07-27 14:50:13.297 [http-nio-8082-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/$%7Baminfo.image%7D
+2019-07-27 14:50:13.617 [http-nio-8082-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /undefined
+2019-07-27 14:50:13.618 [http-nio-8082-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /admin/ws
+2019-07-27 14:52:38.639 [http-nio-8082-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /admin/ws
+2019-07-27 14:52:38.641 [http-nio-8082-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /undefined
+2019-07-27 14:52:54.156 [http-nio-8082-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/console/js/page.js
+2019-07-27 14:52:54.167 [http-nio-8082-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/console/js/gdate.js
+2019-07-27 14:53:14.468 [http-nio-8082-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/console/js/page.js
+2019-07-27 14:53:14.482 [http-nio-8082-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/console/js/gdate.js
+2019-07-27 14:53:18.353 [http-nio-8082-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/console/js/page.js
+2019-07-27 14:53:18.365 [http-nio-8082-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /assets/console/js/gdate.js
+2019-07-27 14:56:01.750 [http-nio-8082-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150318/20150318183113_638.jpg
+2019-07-27 14:56:01.753 [http-nio-8082-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150320/20150320115947_773.jpg
+2019-07-27 14:56:01.753 [http-nio-8082-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150316/20150316131835_713.jpg
+2019-07-27 14:56:01.757 [http-nio-8082-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150319/20150319171054_29.jpg
+2019-07-27 14:56:01.757 [http-nio-8082-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150316/20150316132432_689.jpg
+2019-07-27 14:56:01.758 [http-nio-8082-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150316/20150316132717_300.jpg
+2019-07-27 14:56:01.793 [http-nio-8082-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150328/20150328195913_34.jpg
+2019-07-27 14:56:01.796 [http-nio-8082-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150317/20150317171328_127.jpeg
+2019-07-27 14:56:01.796 [http-nio-8082-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150328/20150328200201_493.jpg
+2019-07-27 14:56:01.796 [http-nio-8082-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150318/20150318170543_879.jpg
+2019-07-27 14:56:01.793 [http-nio-8082-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150316/20150316134831_719.jpg
+2019-07-27 14:56:01.793 [http-nio-8082-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150320/20150320135631_409.jpg
+2019-07-27 14:56:01.808 [http-nio-8082-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150317/20150317212650_100.jpg
+2019-07-27 14:56:01.810 [http-nio-8082-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150317/20150317213615_16.jpg
+2019-07-27 14:56:01.819 [http-nio-8082-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150319/20150319185235_690.jpg
+2019-07-27 14:56:01.822 [http-nio-8082-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150318/20150318052736_897.jpg
+2019-07-27 14:56:01.823 [http-nio-8082-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150318/20150318212211_468.jpg
+2019-07-27 14:56:01.824 [http-nio-8082-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150319/20150319114524_147.jpg
+2019-07-27 14:56:01.827 [http-nio-8082-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150319/20150319172430_55.jpg
+2019-07-27 14:56:01.828 [http-nio-8082-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150322/20150322112118_757.jpg
+2019-07-27 14:56:05.919 [http-nio-8082-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150318/20150318183113_638.jpg
+2019-07-27 14:56:05.919 [http-nio-8082-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150320/20150320115947_773.jpg
+2019-07-27 14:56:05.932 [http-nio-8082-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150316/20150316131835_713.jpg
+2019-07-27 14:56:05.936 [http-nio-8082-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150319/20150319171054_29.jpg
+2019-07-27 14:56:05.938 [http-nio-8082-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150316/20150316132432_689.jpg
+2019-07-27 14:56:05.938 [http-nio-8082-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150316/20150316132717_300.jpg
+2019-07-27 14:56:05.955 [http-nio-8082-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150328/20150328195913_34.jpg
+2019-07-27 14:56:05.963 [http-nio-8082-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150328/20150328200201_493.jpg
+2019-07-27 14:56:05.962 [http-nio-8082-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150316/20150316134831_719.jpg
+2019-07-27 14:56:05.964 [http-nio-8082-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150320/20150320135631_409.jpg
+2019-07-27 14:56:05.968 [http-nio-8082-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150317/20150317171328_127.jpeg
+2019-07-27 14:56:05.968 [http-nio-8082-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150318/20150318170543_879.jpg
+2019-07-27 14:56:05.976 [http-nio-8082-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150317/20150317212650_100.jpg
+2019-07-27 14:56:05.978 [http-nio-8082-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150317/20150317213615_16.jpg
+2019-07-27 14:56:05.980 [http-nio-8082-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150319/20150319185235_690.jpg
+2019-07-27 14:56:05.981 [http-nio-8082-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150318/20150318052736_897.jpg
+2019-07-27 14:56:05.982 [http-nio-8082-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150318/20150318212211_468.jpg
+2019-07-27 14:56:05.987 [http-nio-8082-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150319/20150319114524_147.jpg
+2019-07-27 14:56:05.995 [http-nio-8082-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150319/20150319172430_55.jpg
+2019-07-27 14:56:05.995 [http-nio-8082-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150322/20150322112118_757.jpg
+2019-07-27 15:01:27.229 [RMI TCP Connection(2)-127.0.0.1] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1564210887229, current=DOWN, previous=UP]
+2019-07-27 15:01:47.157 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-27 15:01:49.539 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 15:01:59.938 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 15:02:00.777 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-07-27 15:02:56.402 [http-nio-8082-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /undefined
+2019-07-27 15:02:56.409 [http-nio-8082-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /admin/ws
+2019-07-27 15:03:02.764 [http-nio-8082-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150318/20150318183113_638.jpg
+2019-07-27 15:03:02.766 [http-nio-8082-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150320/20150320115947_773.jpg
+2019-07-27 15:03:02.774 [http-nio-8082-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150316/20150316131835_713.jpg
+2019-07-27 15:03:02.779 [http-nio-8082-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150316/20150316132432_689.jpg
+2019-07-27 15:03:02.787 [http-nio-8082-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150316/20150316132717_300.jpg
+2019-07-27 15:03:02.790 [http-nio-8082-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150319/20150319171054_29.jpg
+2019-07-27 15:03:02.809 [http-nio-8082-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150328/20150328200201_493.jpg
+2019-07-27 15:03:02.809 [http-nio-8082-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150328/20150328195913_34.jpg
+2019-07-27 15:03:02.813 [http-nio-8082-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150316/20150316134831_719.jpg
+2019-07-27 15:03:02.820 [http-nio-8082-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150320/20150320135631_409.jpg
+2019-07-27 15:03:02.821 [http-nio-8082-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150317/20150317171328_127.jpeg
+2019-07-27 15:03:02.845 [http-nio-8082-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150318/20150318170543_879.jpg
+2019-07-27 15:03:02.855 [http-nio-8082-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150317/20150317213615_16.jpg
+2019-07-27 15:03:02.856 [http-nio-8082-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150317/20150317212650_100.jpg
+2019-07-27 15:03:02.856 [http-nio-8082-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150319/20150319185235_690.jpg
+2019-07-27 15:03:02.858 [http-nio-8082-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150318/20150318052736_897.jpg
+2019-07-27 15:03:02.858 [http-nio-8082-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150318/20150318212211_468.jpg
+2019-07-27 15:03:02.866 [http-nio-8082-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150319/20150319114524_147.jpg
+2019-07-27 15:03:02.872 [http-nio-8082-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150319/20150319172430_55.jpg
+2019-07-27 15:03:02.881 [http-nio-8082-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150322/20150322112118_757.jpg
+2019-07-27 15:04:15.365 [http-nio-8082-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/image/20150318/20150318183113_638.jpg
+2019-07-27 15:04:18.343 [http-nio-8082-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150318/20150318183113_638.jpg
+2019-07-27 15:05:07.705 [http-nio-8082-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150318/20150318183113_638.jpg
+2019-07-27 15:05:23.883 [http-nio-8082-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/image/20150318/20150318183113_638.jpg
+2019-07-27 15:08:49.543 [RMI TCP Connection(2)-127.0.0.1] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1564211329543, current=DOWN, previous=UP]
+2019-07-27 15:09:10.416 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-27 15:09:12.620 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 15:09:22.976 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 15:09:23.499 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-07-27 15:10:01.727 [RMI TCP Connection(2)-127.0.0.1] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1564211401727, current=DOWN, previous=UP]
+2019-07-27 15:10:20.221 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-27 15:10:25.516 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 15:10:37.315 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 15:11:09.860 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-07-27 15:11:27.595 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-27 15:11:29.869 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 15:11:41.514 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 15:11:42.165 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-07-27 15:12:10.511 [http-nio-8082-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150318/20150318183113_638.jpg
+2019-07-27 15:12:16.161 [http-nio-8082-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150318/20150318183113_638.jpg
+2019-07-27 15:17:58.374 [RMI TCP Connection(2)-127.0.0.1] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1564211878374, current=DOWN, previous=UP]
+2019-07-27 15:19:13.693 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-27 15:19:16.253 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 15:19:27.429 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 15:19:28.317 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-07-27 15:21:08.664 [http-nio-8082-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150318/20150318045421_685.jpg
+2019-07-27 15:22:06.867 [http-nio-8082-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/upload/image/20150318/20150318045421_685.jpg
+2019-07-27 15:22:13.698 [http-nio-8082-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/image/20150318/20150318045421_685.jpg
+2019-07-27 15:22:24.346 [http-nio-8082-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /upload1/image/20150318/20150318045421_685.jpg
+2019-07-27 15:23:05.857 [RMI TCP Connection(2)-127.0.0.1] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1564212185857, current=DOWN, previous=UP]
+2019-07-27 15:23:26.140 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-27 15:23:29.329 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 15:23:41.816 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 15:23:42.717 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-07-27 15:25:59.696 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-27 15:26:02.120 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 15:26:07.302 [main] WARN  org.apache.catalina.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [cluster-ClusterId{value='5d3bfc8c68919a286cd26330', description='null'}-127.0.0.1:27017] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.waitForSignalOrTimeout(DefaultServerMonitor.java:229)
+ com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.waitForNext(DefaultServerMonitor.java:210)
+ com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:157)
+ java.lang.Thread.run(Thread.java:748)
+2019-07-27 15:26:07.305 [main] WARN  org.apache.catalina.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [CleanCursors-1-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:748)
+2019-07-27 15:26:07.307 [main] WARN  org.apache.catalina.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [Druid-ConnectionPool-Create-1423992712] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2443)
+2019-07-27 15:26:07.307 [main] WARN  org.apache.catalina.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [Druid-ConnectionPool-Destroy-1423992712] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ com.alibaba.druid.pool.DruidDataSource$DestroyConnectionThread.run(DruidDataSource.java:2540)
+2019-07-27 15:26:07.311 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2019-07-27 15:26:49.444 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-27 15:26:52.018 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 15:27:02.317 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 15:27:03.264 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-07-27 15:30:25.173 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-27 15:30:27.689 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 15:30:37.657 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 15:30:38.452 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-07-27 15:33:51.077 [RMI TCP Connection(2)-127.0.0.1] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1564212831077, current=DOWN, previous=UP]
+2019-07-27 15:34:14.950 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-27 15:34:17.518 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 15:34:28.976 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 15:34:30.304 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-07-27 15:35:33.129 [http-nio-8082-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150317/20150317212650_100.jpg
+2019-07-27 15:38:17.237 [RMI TCP Connection(2)-127.0.0.1] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1564213097237, current=DOWN, previous=UP]
+2019-07-27 15:38:37.993 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-27 15:38:40.106 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 15:38:50.426 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 15:38:51.441 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-07-27 15:39:04.993 [http-nio-8082-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+2019-07-27 15:45:37.599 [http-nio-8082-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /admin/ws
+2019-07-27 15:45:37.696 [http-nio-8082-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /undefined
+2019-07-27 15:45:42.720 [http-nio-8082-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150318/20150318183113_638.jpg
+2019-07-27 15:45:42.731 [http-nio-8082-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150319/20150319171054_29.jpg
+2019-07-27 15:45:42.735 [http-nio-8082-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150316/20150316132432_689.jpg
+2019-07-27 15:45:42.738 [http-nio-8082-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150320/20150320115947_773.jpg
+2019-07-27 15:45:42.740 [http-nio-8082-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150316/20150316132717_300.jpg
+2019-07-27 15:45:42.745 [http-nio-8082-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150316/20150316131835_713.jpg
+2019-07-27 15:45:42.759 [http-nio-8082-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150328/20150328200201_493.jpg
+2019-07-27 15:45:42.759 [http-nio-8082-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150328/20150328195913_34.jpg
+2019-07-27 15:45:42.768 [http-nio-8082-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150317/20150317171328_127.jpeg
+2019-07-27 15:45:42.777 [http-nio-8082-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150317/20150317212650_100.jpg
+2019-07-27 15:45:42.778 [http-nio-8082-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150316/20150316134831_719.jpg
+2019-07-27 15:45:42.779 [http-nio-8082-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150320/20150320135631_409.jpg
+2019-07-27 15:45:42.777 [http-nio-8082-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150318/20150318170543_879.jpg
+2019-07-27 15:45:42.806 [http-nio-8082-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150317/20150317213615_16.jpg
+2019-07-27 15:45:42.812 [http-nio-8082-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150318/20150318052736_897.jpg
+2019-07-27 15:45:42.812 [http-nio-8082-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150318/20150318212211_468.jpg
+2019-07-27 15:45:42.815 [http-nio-8082-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150319/20150319114524_147.jpg
+2019-07-27 15:45:42.818 [http-nio-8082-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150319/20150319185235_690.jpg
+2019-07-27 15:45:42.819 [http-nio-8082-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150319/20150319172430_55.jpg
+2019-07-27 15:45:42.830 [http-nio-8082-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150322/20150322112118_757.jpg
+2019-07-27 15:45:56.030 [http-nio-8082-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150317/20150317212650_100.jpg
+2019-07-27 15:48:23.941 [http-nio-8082-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /admin/ws
+2019-07-27 15:48:31.218 [http-nio-8082-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /admin/ws
+2019-07-27 15:48:40.573 [http-nio-8082-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/$%7Bgdate.imgpath%7D
+2019-07-27 15:48:40.574 [http-nio-8082-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/$%7Bgplist.picurl%7D
+2019-07-27 15:50:39.666 [http-nio-8082-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/$%7Bgdate.imgpath%7D
+2019-07-27 15:50:39.674 [http-nio-8082-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/$%7Bgplist.picurl%7D
+2019-07-27 15:51:58.729 [http-nio-8082-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/$%7Bgdate.imgpath%7D
+2019-07-27 15:51:58.742 [http-nio-8082-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/$%7Bgplist.picurl%7D
+2019-07-27 15:52:35.079 [RMI TCP Connection(2)-127.0.0.1] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1564213955079, current=DOWN, previous=UP]
+2019-07-27 15:52:57.112 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-27 15:52:59.696 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 15:53:26.566 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 15:53:28.974 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-07-27 15:54:23.323 [http-nio-8082-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /undefined
+2019-07-27 15:54:23.413 [http-nio-8082-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /admin/ws
+2019-07-27 15:55:27.724 [http-nio-8082-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/$%7Bgdate.imgpath%7D
+2019-07-27 15:55:27.731 [http-nio-8082-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/$%7Bgplist.picurl%7D
+2019-07-27 15:59:31.237 [http-nio-8082-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/$%7Bgdate.imgpath%7D
+2019-07-27 15:59:31.251 [http-nio-8082-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/$%7Bgplist.picurl%7D
+2019-07-27 16:02:51.621 [http-nio-8082-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/$%7Bgdate.imgpath%7D
+2019-07-27 16:02:51.635 [http-nio-8082-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/$%7Bgplist.picurl%7D
+2019-07-27 16:11:03.357 [http-nio-8082-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /gdate
+2019-07-27 16:11:38.987 [http-nio-8082-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /gdate/$%7Bgdate.imgpath%7D
+2019-07-27 16:11:38.987 [http-nio-8082-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /gdate/$%7Bgplist.picurl%7D
+2019-07-27 16:13:06.049 [http-nio-8082-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /gdate/$%7Bgdate.imgpath%7D
+2019-07-27 16:13:06.059 [http-nio-8082-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /gdate/$%7Bgplist.picurl%7D
+2019-07-27 16:13:35.181 [http-nio-8082-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /gdate/$%7Bgdate.imgpath%7D
+2019-07-27 16:13:35.182 [http-nio-8082-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /gdate/$%7Bgplist.picurl%7D
+2019-07-27 16:13:39.613 [http-nio-8082-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /gdate/$%7Bgdate.imgpath%7D
+2019-07-27 16:13:39.615 [http-nio-8082-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /gdate/$%7Bgplist.picurl%7D
+2019-07-27 16:13:39.658 [http-nio-8082-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+2019-07-27 16:14:29.590 [http-nio-8082-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /gdate/$%7Bgdate.imgpath%7D
+2019-07-27 16:14:29.591 [http-nio-8082-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /gdate/$%7Bgplist.picurl%7D
+2019-07-27 16:16:30.376 [http-nio-8082-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /gdate/$%7Bgdate.imgpath%7D
+2019-07-27 16:16:30.394 [http-nio-8082-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /gdate/$%7Bgplist.picurl%7D
+2019-07-27 16:17:17.587 [http-nio-8082-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /gdate/$%7Bgdate.imgpath%7D
+2019-07-27 16:17:17.587 [http-nio-8082-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /gdate/$%7Bgplist.picurl%7D
+2019-07-27 16:17:39.227 [http-nio-8082-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /gdate/$%7Bgdate.imgpath%7D
+2019-07-27 16:17:39.230 [http-nio-8082-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /gdate/$%7Bgplist.picurl%7D
+2019-07-27 16:19:26.798 [http-nio-8082-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /gdate/$%7Bgdate.imgpath%7D
+2019-07-27 16:19:26.798 [http-nio-8082-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /gdate/$%7Bgplist.picurl%7D
+2019-07-27 16:21:49.122 [http-nio-8082-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /gdate/$%7Bgplist.picurl%7D
+2019-07-27 16:21:49.122 [http-nio-8082-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /gdate/$%7Bgdate.imgpath%7D
+2019-07-27 16:23:44.778 [http-nio-8082-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /gdate/$%7Bgdate.imgpath%7D
+2019-07-27 16:23:44.781 [http-nio-8082-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /gdate/$%7Bgplist.picurl%7D
+2019-07-27 16:24:06.514 [http-nio-8082-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /gdate/$%7Bgdate.imgpath%7D
+2019-07-27 16:24:06.526 [http-nio-8082-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /gdate/$%7Bgplist.picurl%7D
+2019-07-27 16:26:53.758 [http-nio-8082-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /image/20150320/20150320115947_773.jpg
+2019-07-27 16:26:53.759 [http-nio-8082-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /gdate/$%7Bgplist.picurl%7D
+2019-07-27 16:28:22.902 [http-nio-8082-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /gdate/$%7Bgplist.picurl%7D
+2019-07-27 16:40:42.280 [http-nio-8082-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /undefined
+2019-07-27 16:40:42.303 [http-nio-8082-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /admin/ws
+2019-07-27 16:51:44.829 [http-nio-8082-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /admin/ws
+2019-07-27 16:51:44.845 [http-nio-8082-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /undefined
+2019-07-27 16:52:46.465 [http-nio-8082-exec-6] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /undefined
+2019-07-27 16:52:46.594 [http-nio-8082-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /admin/ws
+2019-07-27 16:55:34.383 [http-nio-8082-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /undefined
+2019-07-27 16:55:34.469 [http-nio-8082-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /admin/ws
+2019-07-27 17:03:21.267 [http-nio-8082-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /admin/ws
+2019-07-27 17:13:14.018 [http-nio-8082-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /admin/ws
+2019-07-27 17:13:14.024 [http-nio-8082-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /undefined
+2019-07-27 17:33:58.547 [RMI TCP Connection(2)-127.0.0.1] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1564220038547, current=DOWN, previous=UP]
+2019-07-27 17:34:47.434 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-27 17:34:51.585 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 17:35:03.429 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-27 17:35:05.705 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-07-27 17:41:52.874 [RMI TCP Connection(2)-127.0.0.1] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1564220512874, current=DOWN, previous=UP]

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mt.console.web.mapper.IQaArticleMapper">
+	<!-- 新增记录 -->
+	<insert id="insert" parameterType="com.mt.console.web.po.QaArticle"
+		useGeneratedKeys="true" keyProperty="id">
+		<selectKey resultType="java.lang.Long" order="AFTER"
+			keyProperty="id">
+			SELECT LAST_INSERT_ID() AS ID
+		</selectKey>
+		insert into t_mt_article(number, title, content, create_account,
+		create_time, category_id, summary)
+		values(#{number},#{title},#{content},#{createAccount},#{createTime},#{categoryId},#{summary})
+	</insert>
+	<!-- 删除记录 -->
+	<delete id="deleteById" parameterType="Long">
+		delete from t_mt_article
+		where id = #{id}
+	</delete>
+	<!-- 修改记录 -->
+	<update id="update" parameterType="com.mt.console.web.po.QaArticle">
+		update t_mt_article
+		<set>
+			title=#{title}, content=#{content}, update_time=#{updateTime},
+			update_account=#{updateAccount},summary=#{summary}
+		</set>
+		where id=#{id}
+	</update>
+	<!-- 修改查看次数 -->
+	<update id="updateCount">
+		update t_mt_article
+		<set>
+			view_count = view_count+1
+		</set>
+		where id=#{id}
+	</update>
+	<!-- 记录标星 -->
+	<update id="addStar">
+		update t_mt_article
+		<set> level = #{level} </set>
+		where id = #{id}
+	</update>
+	<!-- 取得记录 -->
+	<select id="selectById" resultMap="QaArticleMap">
+		select id, number, title, content, view_count from t_mt_article
+		<where>
+			id=#{id}
+		</where>
+	</select>
+	<!-- 取得记录总数 -->
+	<select id="getTotalCount" resultType="int" parameterType="Map">
+		select count(1) from (select id from t_mt_article a where a.number
+		LIKE #{number} AND a.title LIKE #{title} AND a.create_account LIKE
+		#{createAccount} AND a.create_time > #{createTime}) b
+	</select>
+	<!-- 取得记录列表 -->
+	<select id="getPageList" resultType="java.util.HashMap"
+		parameterType="Map">
+		SELECT
+		a.id,
+		a.number,
+		a.title,
+		a.level,
+		a.view_count,
+		a.content,
+		DATE_FORMAT(a.create_time, '%Y-%m-%d %T') AS create_time,
+		DATE_FORMAT(a.update_time, '%Y-%m-%d %T') AS update_time,
+		create_account,
+		update_account
+		FROM
+		t_mt_article a
+		<where>
+			a.number LIKE #{number}
+			AND a.title LIKE #{title}
+			AND
+			a.create_account LIKE #{createAccount} AND
+			a.create_time >
+			#{createTime}
+		</where>
+		ORDER BY a.level DESC,
+		a.create_time DESC limit #{index}, #{offset}
+	</select>
+	<!-- 取得记录总数 -->
+	<select id="getTotalQaArticleCount" resultType="int"
+		parameterType="Map">
+		select count(1) from t_mt_qa_article
+	</select>
+	<!-- 取得记录列表 -->
+	<select id="getQaArticlesList" parameterType="Map" resultType="Map">
+		SELECT
+		t1.number,
+		t1.title,
+		t1.create_time as createTime,
+		t1.level,
+		t1.update_time as updateTime,
+		t1.summary,
+		t1.view_count as viewCount,
+		t1.comment_count as commentCount,
+		t1.like_count as likeCount,
+		t1.create_account as createAccount,
+		t1.revise_account as reviseAccount,
+		t2.name
+		FROM
+		t_mt_qa_article t1, t_mt_qa_category t2 where t1.category_id = t2.id
+		<if test="key=='last'">
+			ORDER BY t1.create_time DESC,
+		</if>
+		<if test="key=='likeCount'">
+			ORDER BY t1.like_count DESC,
+		</if>
+		<if test="key=='commentCount'">
+			ORDER BY t1.comment_count DESC,
+		</if>
+		<if test="key!='last' and key!='likeCount' and key!='commentCount'">
+			and t2.key = #{key} 
+			ORDER BY t1.level DESC,
+		</if>
+		t1.create_time DESC limit #{index}, #{offset}
+	</select>
+	<!-- 取得记录 -->
+	<select id="getQaArticle" resultType="Map">
+		select
+		t1.number,
+		t1.title,
+		t1.create_time as createTime,
+		t1.comment_count as commentCount,
+		t1.like_count as likeCount,
+		t2.content from
+		t_mt_qa_article t1,
+		t_mt_qa_article_content t2
+		where t1.id = t2.id and
+		t1.number = #{number}
+	</select>
+
+	<!-- 取得记录 -->
+	<select id="getQaCategory" resultMap="QaCategoryMap">
+		select t1.id, t1.name from t_mt_qa_category t1 where t1.key = #{key}
+	</select>
+
+	<!-- 新增记录 -->
+	<insert id="saveQaArticle" parameterType="com.mt.console.web.po.QaArticle"
+		useGeneratedKeys="true" keyProperty="id">
+		<selectKey resultType="java.lang.Long" order="AFTER"
+			keyProperty="id">
+			SELECT LAST_INSERT_ID() AS ID
+		</selectKey>
+		insert into t_mt_qa_article(number, title, content, create_account,
+		create_time, category_id, summary)
+		values(#{number},#{title},#{content},#{createAccount},#{createTime},#{categoryId},#{summary})
+	</insert>
+	<!-- 新增记录 -->
+	<insert id="saveQaContent" parameterType="Map">
+		insert into
+		t_mt_qa_article_content(article_id, content)
+		values(#{articleId},#{content})
+	</insert>
+	<resultMap type="com.mt.console.web.po.QaArticle" id="QaArticleMap">
+
+	</resultMap>
+	<resultMap type="com.mt.console.web.po.QaCategory" id="QaCategoryMap">
+
+	</resultMap>
+</mapper>

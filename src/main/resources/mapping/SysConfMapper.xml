@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mt.console.web.mapper.ISysConfMapper">
+	<!-- 取得记录总数 -->
+	<select id="getTotalCount" resultType="int" parameterType="Map">
+		select count(1) from t_mt_sysconf
+	</select>
+	<!-- 取得记录列表 -->
+	<select id="getPageList" resultType="java.util.HashMap"
+		parameterType="Map">
+		SELECT
+		a.number,
+		a.parent_num,
+		a.conf_key,
+		a.value,
+		a.status,
+		a.remark,
+		DATE_FORMAT(a.create_time, '%Y-%m-%d %T') AS
+		create_time,
+		DATE_FORMAT(a.update_time, '%Y-%m-%d %T') AS update_time
+		FROM
+		t_mt_sysconf a
+		ORDER BY
+		a.number
+		limit #{index}, #{offset}
+	</select>
+	<resultMap type="com.mt.console.web.po.SysConf" id="SysConfResultMap">
+	</resultMap>
+</mapper>

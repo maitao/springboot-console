@@ -1,0 +1,743 @@
+2019-07-29 15:31:50.857 [main] DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-07-29 15:32:00.846 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 55 mappings in 'requestMappingHandlerMapping'
+2019-07-29 15:32:01.203 [main] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/swagger-ui.html, /webjars/**, /static/**, /upload/**] in 'resourceHandlerMapping'
+2019-07-29 15:32:01.336 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-07-29 15:32:01.398 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-07-29 15:32:02.399 [main] DEBUG o.s.w.servlet.view.freemarker.FreeMarkerConfigurer - Template loader path [class path resource [templates/]] resolved to file path [C:\mt\workspace\springboot-console\target\classes\templates]
+2019-07-29 15:33:06.963 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2019-07-29 15:33:06.983 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-07-29 15:33:07.012 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/", parameters={}
+2019-07-29 15:33:07.032 [http-nio-8082-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.mt.console.web.controller.ConsoleController.index(javax.servlet.http.HttpSession)
+2019-07-29 15:33:07.721 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 15:33:07.804 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/common/lte/bootstrap/css/bootstrap.min.css", parameters={}
+2019-07-29 15:33:07.812 [http-nio-8082-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/common/lte/dist/css/AdminLTE.min.css", parameters={}
+2019-07-29 15:33:07.815 [http-nio-8082-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/common/lte/plugins/iCheck/square/blue.css", parameters={}
+2019-07-29 15:33:07.817 [http-nio-8082-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/common/lte/plugins/jQuery/jquery-2.2.3.min.js", parameters={}
+2019-07-29 15:33:07.818 [http-nio-8082-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/common/lte/bootstrap/js/bootstrap.min.js", parameters={}
+2019-07-29 15:33:07.821 [http-nio-8082-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/console/verifycode", parameters={}
+2019-07-29 15:33:07.824 [http-nio-8082-exec-2] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-29 15:33:07.825 [http-nio-8082-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-29 15:33:07.825 [http-nio-8082-exec-3] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-29 15:33:07.828 [http-nio-8082-exec-6] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-29 15:33:07.829 [http-nio-8082-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public void com.mt.console.web.controller.ConsoleController.verifycode(javax.servlet.http.HttpSession,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException
+2019-07-29 15:33:07.829 [http-nio-8082-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-29 15:33:07.839 [http-nio-8082-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2019-07-29 15:33:07.841 [http-nio-8082-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2019-07-29 15:33:07.841 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2019-07-29 15:33:07.843 [http-nio-8082-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2019-07-29 15:33:07.855 [http-nio-8082-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2019-07-29 15:33:07.875 [http-nio-8082-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/common/js/jquery.form.js", parameters={}
+2019-07-29 15:33:07.878 [http-nio-8082-exec-9] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-29 15:33:07.879 [http-nio-8082-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/console/js/login.js", parameters={}
+2019-07-29 15:33:07.880 [http-nio-8082-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/common/lte/plugins/iCheck/icheck.min.js", parameters={}
+2019-07-29 15:33:07.881 [http-nio-8082-exec-8] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-29 15:33:07.884 [http-nio-8082-exec-10] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-29 15:33:07.893 [http-nio-8082-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2019-07-29 15:33:07.894 [http-nio-8082-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2019-07-29 15:33:07.894 [http-nio-8082-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2019-07-29 15:33:08.472 [http-nio-8082-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/common/lte/bootstrap/fonts/glyphicons-halflings-regular.woff2", parameters={}
+2019-07-29 15:33:08.475 [http-nio-8082-exec-3] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-29 15:33:08.503 [http-nio-8082-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2019-07-29 15:33:08.566 [http-nio-8082-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/common/lte/plugins/iCheck/square/blue.png", parameters={}
+2019-07-29 15:33:08.571 [http-nio-8082-exec-9] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-29 15:33:08.578 [http-nio-8082-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2019-07-29 15:33:08.614 [http-nio-8082-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/console/cookie", parameters={}
+2019-07-29 15:33:08.614 [http-nio-8082-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.mt.console.web.controller.ConsoleController.cookie(javax.servlet.http.HttpSession,javax.servlet.http.HttpServletRequest)
+2019-07-29 15:33:08.638 [http-nio-8082-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/xml, text/xml, application/*+xml, application/json, application/*+json]
+2019-07-29 15:33:08.639 [http-nio-8082-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{account=changlaiai@sina.com}]
+2019-07-29 15:33:08.656 [http-nio-8082-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 15:33:09.646 [http-nio-8082-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 15:33:09.668 [http-nio-8082-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/console/img/favicon.png", parameters={}
+2019-07-29 15:33:09.671 [http-nio-8082-exec-8] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-29 15:33:09.677 [http-nio-8082-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2019-07-29 15:33:12.552 [http-nio-8082-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/console/logon", parameters={masked}
+2019-07-29 15:33:12.553 [http-nio-8082-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.mt.console.web.controller.ConsoleController.logon(javax.servlet.http.HttpSession,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,com.mt.console.web.po.AdminMembership,java.lang.String)
+2019-07-29 15:33:12.847 [http-nio-8082-exec-6] DEBUG c.m.c.w.m.I.selectAdminMembership - ==>  Preparing: SELECT id, account, name, role_num, DATE_FORMAT(create_time, '%Y-%m-%d %T') AS create_time, status FROM t_mt_admin WHERE account =? and password =? 
+2019-07-29 15:33:12.921 [http-nio-8082-exec-6] DEBUG c.m.c.w.m.I.selectAdminMembership - ==> Parameters: changlaiai@sina.com(String), 40D99A166F17FB9905282DED67E3F9AB0EF6A636(String)
+2019-07-29 15:33:13.050 [http-nio-8082-exec-6] DEBUG c.m.c.w.m.I.selectAdminMembership - <==      Total: 1
+2019-07-29 15:33:13.066 [http-nio-8082-exec-6] DEBUG c.m.c.w.m.I.updateAdminMembership - ==>  Preparing: update t_mt_admin SET online = ?,login_count=login_count+1,last_login_ip=?,last_login_time=? where id=? 
+2019-07-29 15:33:13.074 [http-nio-8082-exec-6] DEBUG c.m.c.w.m.I.updateAdminMembership - ==> Parameters: 1(Integer), 0:0:0:0:0:0:0:1(String), 2019-07-29 15:33:13.064(Timestamp), 4(Long)
+2019-07-29 15:33:13.205 [http-nio-8082-exec-6] DEBUG c.m.c.w.m.I.updateAdminMembership - <==    Updates: 1
+2019-07-29 15:33:13.355 [http-nio-8082-exec-6] DEBUG com.mt.console.web.mapper.ICommonMapper.getSysConf - ==>  Preparing: SELECT a.number, a.parent_num, a.conf_key, a.value, a.status, a.remark, a.create_time FROM t_mt_sysconf a 
+2019-07-29 15:33:13.356 [http-nio-8082-exec-6] DEBUG com.mt.console.web.mapper.ICommonMapper.getSysConf - ==> Parameters: 
+2019-07-29 15:33:13.423 [http-nio-8082-exec-6] DEBUG com.mt.console.web.mapper.ICommonMapper.getSysConf - <==      Total: 9
+2019-07-29 15:33:13.437 [http-nio-8082-exec-6] DEBUG com.mt.console.web.mapper.ICommonMapper.getSetting - ==>  Preparing: select id, account, layout, left_sidebar_hover, left_sidebar_collapsed, right_sidebar_cover, right_sidebar_skin, layout_skin from t_mt_setting WHERE account_id =? 
+2019-07-29 15:33:13.437 [http-nio-8082-exec-6] DEBUG com.mt.console.web.mapper.ICommonMapper.getSetting - ==> Parameters: 4(Long)
+2019-07-29 15:33:13.482 [http-nio-8082-exec-6] DEBUG com.mt.console.web.mapper.ICommonMapper.getSetting - <==      Total: 1
+2019-07-29 15:33:13.538 [http-nio-8082-exec-6] DEBUG c.m.c.w.m.I.selectAdminMembershipInfo - ==>  Preparing: SELECT id, account, phone, email, age, occupation, education, location, skills, image, remark, DATE_FORMAT(update_time, '%Y-%m-%d %T') AS update_time FROM t_mt_admin_info WHERE account =? 
+2019-07-29 15:33:13.539 [http-nio-8082-exec-6] DEBUG c.m.c.w.m.I.selectAdminMembershipInfo - ==> Parameters: changlaiai@sina.com(String)
+2019-07-29 15:33:13.587 [http-nio-8082-exec-6] DEBUG c.m.c.w.m.I.selectAdminMembershipInfo - <==      Total: 1
+2019-07-29 15:33:13.721 [http-nio-8082-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/xml, text/xml, application/*+xml, application/json, application/*+json]
+2019-07-29 15:33:13.721 [http-nio-8082-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{}]
+2019-07-29 15:33:13.722 [http-nio-8082-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 15:33:13.763 [http-nio-8082-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/console/", parameters={}
+2019-07-29 15:33:13.772 [http-nio-8082-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.mt.console.web.controller.ConsoleController.admin(javax.servlet.http.HttpSession)
+2019-07-29 15:33:14.304 [http-nio-8082-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 15:33:14.332 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/common/lte/plugins/select2/select2.min.css", parameters={}
+2019-07-29 15:33:14.334 [http-nio-8082-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/common/lte/plugins/pace/pace.min.css", parameters={}
+2019-07-29 15:33:14.334 [http-nio-8082-exec-2] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-29 15:33:14.336 [http-nio-8082-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-29 15:33:14.370 [http-nio-8082-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2019-07-29 15:33:14.370 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2019-07-29 15:33:14.377 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/console/css/index.css", parameters={}
+2019-07-29 15:33:14.379 [http-nio-8082-exec-1] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-29 15:33:14.384 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2019-07-29 15:33:14.384 [http-nio-8082-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/common/lte/dist/css/skins/_all-skins.min.css", parameters={}
+2019-07-29 15:33:14.385 [http-nio-8082-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/common/lte/dist/css/AdminLTE.css", parameters={}
+2019-07-29 15:33:14.387 [http-nio-8082-exec-9] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-29 15:33:14.387 [http-nio-8082-exec-3] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-29 15:33:14.387 [http-nio-8082-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/common/lte/bootstrap/css/bootstrap.css", parameters={}
+2019-07-29 15:33:14.391 [http-nio-8082-exec-10] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-29 15:33:14.393 [http-nio-8082-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2019-07-29 15:33:14.398 [http-nio-8082-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2019-07-29 15:33:14.399 [http-nio-8082-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2019-07-29 15:33:14.439 [http-nio-8082-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/console/js/ws.js", parameters={}
+2019-07-29 15:33:14.443 [http-nio-8082-exec-8] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-29 15:33:14.443 [http-nio-8082-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/common/lte/plugins/pace/pace.min.js", parameters={}
+2019-07-29 15:33:14.445 [http-nio-8082-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/console/js/page.js", parameters={}
+2019-07-29 15:33:14.446 [http-nio-8082-exec-6] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-29 15:33:14.450 [http-nio-8082-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/common/lte/plugins/slimScroll/jquery.slimscroll.min.js", parameters={}
+2019-07-29 15:33:14.448 [http-nio-8082-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/common/lte/plugins/fastclick/fastclick.js", parameters={}
+2019-07-29 15:33:14.451 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/common/lte/dist/js/app.min.js", parameters={}
+2019-07-29 15:33:14.454 [http-nio-8082-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-29 15:33:14.454 [http-nio-8082-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2019-07-29 15:33:14.454 [http-nio-8082-exec-2] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-29 15:33:14.455 [http-nio-8082-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-29 15:33:14.452 [http-nio-8082-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-29 15:33:14.461 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/common/lte/dist/js/demo.js", parameters={}
+2019-07-29 15:33:14.463 [http-nio-8082-exec-1] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-29 15:33:14.464 [http-nio-8082-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2019-07-29 15:33:14.467 [http-nio-8082-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2019-07-29 15:33:14.467 [http-nio-8082-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2019-07-29 15:33:14.475 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2019-07-29 15:33:14.480 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2019-07-29 15:33:14.505 [http-nio-8082-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/common/js/moment.min.js", parameters={}
+2019-07-29 15:33:14.505 [http-nio-8082-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/common/lte/plugins/fullcalendar/fullcalendar.min.js", parameters={}
+2019-07-29 15:33:14.507 [http-nio-8082-exec-10] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-29 15:33:14.508 [http-nio-8082-exec-9] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-29 15:33:14.511 [http-nio-8082-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/common/lte/dist/img/user3-128x128.jpg", parameters={}
+2019-07-29 15:33:14.513 [http-nio-8082-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/console/js/index_2.js", parameters={}
+2019-07-29 15:33:14.515 [http-nio-8082-exec-8] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-29 15:33:14.515 [http-nio-8082-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-29 15:33:14.517 [http-nio-8082-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2019-07-29 15:33:14.517 [http-nio-8082-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2019-07-29 15:33:14.520 [http-nio-8082-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2019-07-29 15:33:14.521 [http-nio-8082-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2019-07-29 15:33:14.533 [http-nio-8082-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/console/js/index_1.js?v=%3C%=version%%3E", parameters={}
+2019-07-29 15:33:14.535 [http-nio-8082-exec-3] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-29 15:33:14.539 [http-nio-8082-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2019-07-29 15:33:14.566 [http-nio-8082-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2019-07-29 15:33:14.588 [http-nio-8082-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/common/lte/dist/img/user4-128x128.jpg", parameters={}
+2019-07-29 15:33:14.588 [http-nio-8082-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/common/lte/dist/img/avatar5.png", parameters={}
+2019-07-29 15:33:14.597 [http-nio-8082-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-29 15:33:14.598 [http-nio-8082-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-29 15:33:14.607 [http-nio-8082-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2019-07-29 15:33:14.612 [http-nio-8082-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2019-07-29 15:33:14.878 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/console/init", parameters={}
+2019-07-29 15:33:14.879 [http-nio-8082-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.mt.console.web.controller.ConsoleController.init(javax.servlet.http.HttpSession)
+2019-07-29 15:33:14.891 [http-nio-8082-exec-2] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==>  Preparing: SELECT a.menu FROM t_mt_role a where a.number = ? 
+2019-07-29 15:33:14.892 [http-nio-8082-exec-2] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==> Parameters: 0(Integer)
+2019-07-29 15:33:14.946 [http-nio-8082-exec-2] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - <==      Total: 1
+2019-07-29 15:33:14.956 [http-nio-8082-exec-2] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==>  Preparing: SELECT a.number, a.parent_num, a.name, a.short_url, a.left_icon, a.right_icon FROM t_mt_menu a where a.number in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) 
+2019-07-29 15:33:14.958 [http-nio-8082-exec-2] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==> Parameters: 01-01(String), 01-02(String), 02-01(String), 02-02(String), 02-03(String), 02-04(String), 02-05(String), 05-01(String), 05-02(String), 05-03(String), 05-04(String), 05-05(String), 05-06(String), 05-07(String), 05-08(String), 05-09(String), 05-10(String), 05-11(String), 06-01(String), 06-02(String), 06-03(String), 07-01(String), 07-02(String), 07-03(String), 07-04(String), 08-01(String), 08-02(String), 08-03(String), 08-04(String), 08-05(String), 08-06(String), 08-07(String), 08-08(String), 09-01(String)
+2019-07-29 15:33:15.013 [http-nio-8082-exec-2] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - <==      Total: 34
+2019-07-29 15:33:15.021 [http-nio-8082-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/xml, text/xml, application/*+xml, application/json, application/*+json]
+2019-07-29 15:33:15.021 [http-nio-8082-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{menu=[{number=01-01, name=主页, right_icon=fa fa-angle-left pull-right, parent_num=0-0, left_icon=fa  (truncated)...]
+2019-07-29 15:33:15.045 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 15:33:15.077 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/common/lte/dist/img/avatar04.png", parameters={}
+2019-07-29 15:33:15.079 [http-nio-8082-exec-1] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-29 15:33:15.083 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2019-07-29 15:33:15.096 [http-nio-8082-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/admin/ws", parameters={}
+2019-07-29 15:33:15.099 [http-nio-8082-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2019-07-29 15:33:15.100 [http-nio-8082-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/undefined", parameters={}
+2019-07-29 15:33:15.105 [http-nio-8082-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2019-07-29 15:33:15.112 [http-nio-8082-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+2019-07-29 15:33:15.112 [http-nio-8082-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+2019-07-29 15:33:15.114 [http-nio-8082-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-07-29 15:33:15.116 [http-nio-8082-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-29 15:33:15.118 [http-nio-8082-exec-10] DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Using 'application/xml', given [*/*] and supported [application/xml, text/xml, application/*+xml, application/json, application/*+json]
+2019-07-29 15:33:15.118 [http-nio-8082-exec-10] DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Writing [{timestamp=Mon Jul 29 15:33:15 CST 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-07-29 15:33:15.204 [http-nio-8082-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+2019-07-29 15:33:15.239 [http-nio-8082-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+2019-07-29 15:33:20.679 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/menu/gdate", parameters={}
+2019-07-29 15:33:20.682 [http-nio-8082-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.mt.console.web.controller.CommonController.menu(javax.servlet.http.HttpSession,java.lang.String)
+2019-07-29 15:33:20.726 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 15:33:20.740 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/console/js/page.js?_=1564385594564", parameters={masked}
+2019-07-29 15:33:20.741 [http-nio-8082-exec-1] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-29 15:33:20.754 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 15:33:20.761 [http-nio-8082-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/console/js/gdate.js?_=1564385594565", parameters={masked}
+2019-07-29 15:33:20.763 [http-nio-8082-exec-9] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-29 15:33:20.772 [http-nio-8082-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 15:33:20.783 [http-nio-8082-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/dataList/gdate", parameters={masked}
+2019-07-29 15:33:20.783 [http-nio-8082-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.mt.console.web.controller.CommonController.dataList(java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.String)
+2019-07-29 15:33:20.794 [http-nio-8082-exec-10] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==>  Preparing: select count(1) from t_mt_gdate 
+2019-07-29 15:33:20.794 [http-nio-8082-exec-10] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==> Parameters: 
+2019-07-29 15:33:20.957 [http-nio-8082-exec-10] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - <==      Total: 1
+2019-07-29 15:33:20.960 [http-nio-8082-exec-10] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a ORDER BY a.num limit ?, ? 
+2019-07-29 15:33:20.961 [http-nio-8082-exec-10] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==> Parameters: 0(Integer), 50(Integer)
+2019-07-29 15:33:21.106 [http-nio-8082-exec-10] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - <==      Total: 20
+2019-07-29 15:33:21.114 [http-nio-8082-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/xml, text/xml, application/*+xml, application/json, application/*+json]
+2019-07-29 15:33:21.115 [http-nio-8082-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{data=com.mt.console.util.PageList@61ea923}]
+2019-07-29 15:33:21.120 [http-nio-8082-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 15:33:21.194 [http-nio-8082-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/upload/image/20150318/20150318052736_897.jpg", parameters={}
+2019-07-29 15:33:21.196 [http-nio-8082-exec-8] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["file:///C:/mt/workspace_upload//console/"]
+2019-07-29 15:33:21.199 [http-nio-8082-exec-8] DEBUG o.s.w.servlet.resource.ResourceHttpRequestHandler - Resource not found
+2019-07-29 15:33:21.199 [http-nio-8082-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2019-07-29 15:33:21.200 [http-nio-8082-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+2019-07-29 15:33:21.201 [http-nio-8082-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-07-29 15:33:21.201 [http-nio-8082-exec-8] DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Using 'application/xml;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/xml, text/xml, application/*+xml, application/json, application/*+json]
+2019-07-29 15:33:21.202 [http-nio-8082-exec-8] DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Writing [{timestamp=Mon Jul 29 15:33:21 CST 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-07-29 15:33:21.203 [http-nio-8082-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+2019-07-29 15:33:24.030 [http-nio-8082-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/gdate/infoPage", parameters={masked}
+2019-07-29 15:33:24.032 [http-nio-8082-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.web.servlet.ModelAndView com.mt.console.web.controller.GDateController.infoPage(java.lang.String)
+2019-07-29 15:33:24.054 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-29 15:33:24.058 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 5(Integer)
+2019-07-29 15:33:24.107 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-29 15:33:24.115 [http-nio-8082-exec-3] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-29 15:33:24.115 [http-nio-8082-exec-3] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 5(Integer)
+2019-07-29 15:33:24.160 [http-nio-8082-exec-3] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 12
+2019-07-29 15:33:24.247 [http-nio-8082-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 15:33:24.271 [http-nio-8082-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/upload/image/20150317/20150317114603_695.jpg", parameters={}
+2019-07-29 15:33:24.273 [http-nio-8082-exec-6] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["file:///C:/mt/workspace_upload//console/"]
+2019-07-29 15:33:24.275 [http-nio-8082-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/upload/image/20150317/20150317114603_412.jpg", parameters={}
+2019-07-29 15:33:24.276 [http-nio-8082-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/upload/image/20150317/20150317114603_110.jpg", parameters={}
+2019-07-29 15:33:24.276 [http-nio-8082-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/upload/image/20150317/20150317114603_849.jpg", parameters={}
+2019-07-29 15:33:24.277 [http-nio-8082-exec-7] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["file:///C:/mt/workspace_upload//console/"]
+2019-07-29 15:33:24.277 [http-nio-8082-exec-5] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["file:///C:/mt/workspace_upload//console/"]
+2019-07-29 15:33:24.277 [http-nio-8082-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["file:///C:/mt/workspace_upload//console/"]
+2019-07-29 15:33:24.278 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/upload/image/20150317/20150317114603_741.jpg", parameters={}
+2019-07-29 15:33:24.279 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/upload/image/20150317/20150317114603_141.jpg", parameters={}
+2019-07-29 15:33:24.280 [http-nio-8082-exec-2] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["file:///C:/mt/workspace_upload//console/"]
+2019-07-29 15:33:24.282 [http-nio-8082-exec-1] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["file:///C:/mt/workspace_upload//console/"]
+2019-07-29 15:33:24.292 [http-nio-8082-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 15:33:24.292 [http-nio-8082-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 15:33:24.296 [http-nio-8082-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 15:33:24.301 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 15:33:24.303 [http-nio-8082-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 15:33:24.312 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 15:33:24.349 [http-nio-8082-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/upload/image/20150317/20150317114604_148.jpg", parameters={}
+2019-07-29 15:33:24.352 [http-nio-8082-exec-9] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["file:///C:/mt/workspace_upload//console/"]
+2019-07-29 15:33:24.362 [http-nio-8082-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 15:33:24.406 [http-nio-8082-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/upload/image/20150317/20150317114604_819.jpg", parameters={}
+2019-07-29 15:33:24.407 [http-nio-8082-exec-10] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["file:///C:/mt/workspace_upload//console/"]
+2019-07-29 15:33:24.409 [http-nio-8082-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/upload/image/20150317/20150317114604_442.jpg", parameters={}
+2019-07-29 15:33:24.411 [http-nio-8082-exec-8] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["file:///C:/mt/workspace_upload//console/"]
+2019-07-29 15:33:24.413 [http-nio-8082-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 15:33:24.416 [http-nio-8082-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 15:33:24.423 [http-nio-8082-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/upload/image/20150317/20150317114604_957.jpg", parameters={}
+2019-07-29 15:33:24.423 [http-nio-8082-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/upload/image/20150317/20150317114604_795.jpg", parameters={}
+2019-07-29 15:33:24.423 [http-nio-8082-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/upload/image/20150317/20150317114604_228.jpg", parameters={}
+2019-07-29 15:33:24.424 [http-nio-8082-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["file:///C:/mt/workspace_upload//console/"]
+2019-07-29 15:33:24.424 [http-nio-8082-exec-3] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["file:///C:/mt/workspace_upload//console/"]
+2019-07-29 15:33:24.424 [http-nio-8082-exec-6] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["file:///C:/mt/workspace_upload//console/"]
+2019-07-29 15:33:24.430 [http-nio-8082-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 15:33:24.430 [http-nio-8082-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 15:33:24.441 [http-nio-8082-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 15:33:27.099 [http-nio-8082-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/favicon.ico", parameters={}
+2019-07-29 15:33:27.119 [http-nio-8082-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2019-07-29 15:33:27.123 [http-nio-8082-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+2019-07-29 15:33:27.124 [http-nio-8082-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-07-29 15:33:27.127 [http-nio-8082-exec-7] DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Using 'application/xml;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/xml, text/xml, application/*+xml, application/json, application/*+json]
+2019-07-29 15:33:27.127 [http-nio-8082-exec-7] DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Writing [{timestamp=Mon Jul 29 15:33:27 CST 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-07-29 15:33:27.130 [http-nio-8082-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+2019-07-29 15:33:34.118 [http-nio-8082-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/menu/gdate", parameters={}
+2019-07-29 15:33:34.121 [http-nio-8082-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.mt.console.web.controller.CommonController.menu(javax.servlet.http.HttpSession,java.lang.String)
+2019-07-29 15:33:34.140 [http-nio-8082-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 15:33:34.151 [http-nio-8082-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/console/js/page.js?_=1564385594566", parameters={masked}
+2019-07-29 15:33:34.152 [http-nio-8082-exec-3] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-29 15:33:34.158 [http-nio-8082-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 15:33:34.166 [http-nio-8082-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/console/js/gdate.js?_=1564385594567", parameters={masked}
+2019-07-29 15:33:34.169 [http-nio-8082-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-29 15:33:34.174 [http-nio-8082-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 15:33:34.183 [http-nio-8082-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/dataList/gdate", parameters={masked}
+2019-07-29 15:33:34.184 [http-nio-8082-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.mt.console.web.controller.CommonController.dataList(java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.String)
+2019-07-29 15:33:34.186 [http-nio-8082-exec-7] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==>  Preparing: select count(1) from t_mt_gdate 
+2019-07-29 15:33:34.187 [http-nio-8082-exec-7] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==> Parameters: 
+2019-07-29 15:33:34.244 [http-nio-8082-exec-7] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - <==      Total: 1
+2019-07-29 15:33:34.248 [http-nio-8082-exec-7] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a ORDER BY a.num limit ?, ? 
+2019-07-29 15:33:34.250 [http-nio-8082-exec-7] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==> Parameters: 0(Integer), 50(Integer)
+2019-07-29 15:33:34.296 [http-nio-8082-exec-7] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - <==      Total: 20
+2019-07-29 15:33:34.306 [http-nio-8082-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/xml, text/xml, application/*+xml, application/json, application/*+json]
+2019-07-29 15:33:34.306 [http-nio-8082-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{data=com.mt.console.util.PageList@39061d91}]
+2019-07-29 15:33:34.309 [http-nio-8082-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 15:33:34.323 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/upload/image/20150318/20150318052736_897.jpg", parameters={}
+2019-07-29 15:33:34.324 [http-nio-8082-exec-1] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["file:///C:/mt/workspace_upload//console/"]
+2019-07-29 15:33:34.325 [http-nio-8082-exec-1] DEBUG o.s.w.servlet.resource.ResourceHttpRequestHandler - Resource not found
+2019-07-29 15:33:34.325 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2019-07-29 15:33:34.325 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+2019-07-29 15:33:34.327 [http-nio-8082-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-07-29 15:33:34.327 [http-nio-8082-exec-1] DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Using 'application/xml;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/xml, text/xml, application/*+xml, application/json, application/*+json]
+2019-07-29 15:33:34.328 [http-nio-8082-exec-1] DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Writing [{timestamp=Mon Jul 29 15:33:34 CST 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-07-29 15:33:34.329 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+2019-07-29 15:33:36.117 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/console/menu/xwzx", parameters={}
+2019-07-29 15:33:36.121 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2019-07-29 15:33:36.122 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+2019-07-29 15:33:36.123 [http-nio-8082-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-29 15:33:36.139 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+2019-07-29 15:37:31.388 [http-nio-8082-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/console/plugin/ueditor/index.html", parameters={}
+2019-07-29 15:37:31.395 [http-nio-8082-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2019-07-29 15:37:31.398 [http-nio-8082-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+2019-07-29 15:37:31.400 [http-nio-8082-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-29 15:37:31.416 [http-nio-8082-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+2019-07-29 15:37:38.306 [http-nio-8082-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/menu/gdate", parameters={}
+2019-07-29 15:37:38.308 [http-nio-8082-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.mt.console.web.controller.CommonController.menu(javax.servlet.http.HttpSession,java.lang.String)
+2019-07-29 15:37:38.323 [http-nio-8082-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 15:37:38.330 [http-nio-8082-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/console/js/page.js?_=1564385594568", parameters={masked}
+2019-07-29 15:37:38.332 [http-nio-8082-exec-3] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-29 15:37:38.337 [http-nio-8082-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 15:37:38.345 [http-nio-8082-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/console/js/gdate.js?_=1564385594569", parameters={masked}
+2019-07-29 15:37:38.346 [http-nio-8082-exec-4] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-29 15:37:38.352 [http-nio-8082-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 15:37:38.358 [http-nio-8082-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/dataList/gdate", parameters={masked}
+2019-07-29 15:37:38.359 [http-nio-8082-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.mt.console.web.controller.CommonController.dataList(java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.String)
+2019-07-29 15:37:38.423 [http-nio-8082-exec-7] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==>  Preparing: select count(1) from t_mt_gdate 
+2019-07-29 15:37:38.424 [http-nio-8082-exec-7] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==> Parameters: 
+2019-07-29 15:37:38.472 [http-nio-8082-exec-7] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - <==      Total: 1
+2019-07-29 15:37:38.474 [http-nio-8082-exec-7] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a ORDER BY a.num limit ?, ? 
+2019-07-29 15:37:38.474 [http-nio-8082-exec-7] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==> Parameters: 0(Integer), 50(Integer)
+2019-07-29 15:37:38.535 [http-nio-8082-exec-7] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - <==      Total: 20
+2019-07-29 15:37:38.540 [http-nio-8082-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/xml, text/xml, application/*+xml, application/json, application/*+json]
+2019-07-29 15:37:38.540 [http-nio-8082-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{data=com.mt.console.util.PageList@72e0c697}]
+2019-07-29 15:37:38.542 [http-nio-8082-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 15:37:38.594 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/upload/image/20150318/20150318052736_897.jpg", parameters={}
+2019-07-29 15:37:38.595 [http-nio-8082-exec-1] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["file:///C:/mt/workspace_upload//console/"]
+2019-07-29 15:37:38.596 [http-nio-8082-exec-1] DEBUG o.s.w.servlet.resource.ResourceHttpRequestHandler - Resource not found
+2019-07-29 15:37:38.596 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2019-07-29 15:37:38.598 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+2019-07-29 15:37:38.599 [http-nio-8082-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-07-29 15:37:38.599 [http-nio-8082-exec-1] DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Using 'application/xml;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/xml, text/xml, application/*+xml, application/json, application/*+json]
+2019-07-29 15:37:38.599 [http-nio-8082-exec-1] DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Writing [{timestamp=Mon Jul 29 15:37:38 CST 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-07-29 15:37:38.600 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+2019-07-29 15:37:41.447 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/console/menu/xwzx", parameters={}
+2019-07-29 15:37:41.451 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2019-07-29 15:37:41.453 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+2019-07-29 15:37:41.455 [http-nio-8082-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-29 15:37:41.474 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+2019-07-29 15:37:48.188 [http-nio-8082-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/static/common/lte/bootstrap/css/bootstrap.css.map", parameters={}
+2019-07-29 15:37:48.191 [http-nio-8082-exec-10] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/static/"]
+2019-07-29 15:37:48.201 [http-nio-8082-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 304 NOT_MODIFIED
+2019-07-29 15:37:54.020 [http-nio-8082-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/console/menu/xwzx", parameters={}
+2019-07-29 15:37:54.023 [http-nio-8082-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2019-07-29 15:37:54.025 [http-nio-8082-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+2019-07-29 15:37:54.027 [http-nio-8082-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-29 15:37:54.041 [http-nio-8082-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+2019-07-29 15:38:38.913 [http-nio-8082-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/console/menu/xwzx", parameters={}
+2019-07-29 15:38:38.921 [http-nio-8082-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2019-07-29 15:38:38.923 [http-nio-8082-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+2019-07-29 15:38:38.924 [http-nio-8082-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-29 15:38:38.944 [http-nio-8082-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+2019-07-29 15:38:51.089 [http-nio-8082-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/console/tableList/sysConf", parameters={}
+2019-07-29 15:38:51.093 [http-nio-8082-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2019-07-29 15:38:51.093 [http-nio-8082-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+2019-07-29 15:38:51.094 [http-nio-8082-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-29 15:38:51.108 [http-nio-8082-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+2019-07-29 15:38:51.117 [http-nio-8082-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/web/mtadmin/js/tableList/sysConf.js?_=1564385594570", parameters={masked}
+2019-07-29 15:38:51.120 [http-nio-8082-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2019-07-29 15:38:51.120 [http-nio-8082-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error?_=1564385594570", parameters={masked}
+2019-07-29 15:38:51.121 [http-nio-8082-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-07-29 15:38:51.123 [http-nio-8082-exec-4] DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Using 'application/xml;q=0.01', given [text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*;q=0.01] and supported [application/xml, text/xml, application/*+xml, application/json, application/*+json]
+2019-07-29 15:38:51.123 [http-nio-8082-exec-4] DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Writing [{timestamp=Mon Jul 29 15:38:51 CST 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-07-29 15:38:51.124 [http-nio-8082-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+2019-07-29 15:38:53.019 [http-nio-8082-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/console/menu/membership", parameters={}
+2019-07-29 15:38:53.022 [http-nio-8082-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2019-07-29 15:38:53.023 [http-nio-8082-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+2019-07-29 15:38:53.024 [http-nio-8082-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-29 15:38:53.037 [http-nio-8082-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+2019-07-29 15:38:53.726 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/console/tableList/role", parameters={}
+2019-07-29 15:38:53.729 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2019-07-29 15:38:53.729 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+2019-07-29 15:38:53.730 [http-nio-8082-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-29 15:38:53.743 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+2019-07-29 15:38:53.756 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/web/mtadmin/js/tableList/role.js?_=1564385594571", parameters={masked}
+2019-07-29 15:38:53.759 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2019-07-29 15:38:53.760 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error?_=1564385594571", parameters={masked}
+2019-07-29 15:38:53.763 [http-nio-8082-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-07-29 15:38:53.764 [http-nio-8082-exec-2] DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Using 'application/xml;q=0.01', given [text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*;q=0.01] and supported [application/xml, text/xml, application/*+xml, application/json, application/*+json]
+2019-07-29 15:38:53.764 [http-nio-8082-exec-2] DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Writing [{timestamp=Mon Jul 29 15:38:53 CST 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-07-29 15:38:53.767 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+2019-07-29 15:38:54.207 [http-nio-8082-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/console/menu/menu", parameters={}
+2019-07-29 15:38:54.209 [http-nio-8082-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2019-07-29 15:38:54.209 [http-nio-8082-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+2019-07-29 15:38:54.210 [http-nio-8082-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-29 15:38:54.224 [http-nio-8082-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+2019-07-29 15:38:54.667 [http-nio-8082-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/console/tableList/operation", parameters={}
+2019-07-29 15:38:54.670 [http-nio-8082-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2019-07-29 15:38:54.671 [http-nio-8082-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+2019-07-29 15:38:54.671 [http-nio-8082-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-29 15:38:54.683 [http-nio-8082-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+2019-07-29 15:38:54.712 [http-nio-8082-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/web/mtadmin/js/tableList/operation.js?_=1564385594572", parameters={masked}
+2019-07-29 15:38:54.714 [http-nio-8082-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2019-07-29 15:38:54.716 [http-nio-8082-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error?_=1564385594572", parameters={masked}
+2019-07-29 15:38:54.717 [http-nio-8082-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-07-29 15:38:54.718 [http-nio-8082-exec-8] DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Using 'application/xml;q=0.01', given [text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*;q=0.01] and supported [application/xml, text/xml, application/*+xml, application/json, application/*+json]
+2019-07-29 15:38:54.718 [http-nio-8082-exec-8] DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Writing [{timestamp=Mon Jul 29 15:38:54 CST 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-07-29 15:38:54.720 [http-nio-8082-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+2019-07-29 15:38:55.189 [http-nio-8082-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/console/menu/log", parameters={}
+2019-07-29 15:38:55.191 [http-nio-8082-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2019-07-29 15:38:55.192 [http-nio-8082-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+2019-07-29 15:38:55.194 [http-nio-8082-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-29 15:38:55.207 [http-nio-8082-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+2019-07-29 15:39:10.403 [http-nio-8082-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/console/menu/home", parameters={}
+2019-07-29 15:39:10.407 [http-nio-8082-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2019-07-29 15:39:10.409 [http-nio-8082-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+2019-07-29 15:39:10.411 [http-nio-8082-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-29 15:39:10.429 [http-nio-8082-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+2019-07-29 16:12:36.054 [http-nio-8082-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/getMsg", parameters={}
+2019-07-29 16:12:36.064 [http-nio-8082-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.mt.console.web.feign.FeignTestController.getMsg(java.lang.Integer)
+2019-07-29 16:12:36.137 [http-nio-8082-exec-7] DEBUG o.s.w.s.m.m.a.ServletInvocableHandlerMethod - Could not resolve parameter [0] in public java.util.Map<java.lang.String, java.lang.Object> com.mt.console.web.feign.FeignTestController.getMsg(java.lang.Integer): Required Integer parameter 'id' is not present
+2019-07-29 16:12:36.162 [http-nio-8082-exec-7] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler public org.springframework.web.servlet.ModelAndView com.mt.console.exception.GlobalExceptionHandler.defaultErrorHandler(javax.servlet.http.HttpServletRequest,java.lang.Exception) throws java.lang.Exception
+2019-07-29 16:12:36.181 [http-nio-8082-exec-7] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required Integer parameter 'id' is not present] to ModelAndView [view="error"; model={exception=org.springframework.web.bind.MissingServletRequestParameterException: Required Integer parameter 'id' is not present, url=http://localhost:8082/getMsg}]
+2019-07-29 16:12:36.183 [http-nio-8082-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - Using resolved error view: ModelAndView [view="error"; model={exception=org.springframework.web.bind.MissingServletRequestParameterException: Required Integer parameter 'id' is not present, url=http://localhost:8082/getMsg}]
+2019-07-29 16:12:36.258 [http-nio-8082-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 16:12:48.736 [http-nio-8082-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/getMsg?id=1", parameters={masked}
+2019-07-29 16:12:48.738 [http-nio-8082-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.mt.console.web.feign.FeignTestController.getMsg(java.lang.Integer)
+2019-07-29 16:12:50.403 [http-nio-8082-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/xhtml+xml', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [application/xml, text/xml, application/*+xml, application/json, application/*+json]
+2019-07-29 16:12:50.406 [http-nio-8082-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Nothing to write: null body
+2019-07-29 16:12:50.408 [http-nio-8082-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 16:14:46.074 [http-nio-8082-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/v1/send/ooo", parameters={}
+2019-07-29 16:14:46.079 [http-nio-8082-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to java.lang.String com.mt.console.web.feign.FeignTestController.send(java.lang.String)
+2019-07-29 16:14:46.125 [http-nio-8082-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/xml, text/xml, application/*+xml, application/json, application/*+json]
+2019-07-29 16:14:46.127 [http-nio-8082-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Nothing to write: null body
+2019-07-29 16:14:46.127 [http-nio-8082-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 16:15:08.387 [http-nio-8082-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/v1/send/ooo", parameters={}
+2019-07-29 16:15:08.390 [http-nio-8082-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to java.lang.String com.mt.console.web.feign.FeignTestController.send(java.lang.String)
+2019-07-29 16:15:08.412 [http-nio-8082-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/xml, text/xml, application/*+xml, application/json, application/*+json]
+2019-07-29 16:15:08.412 [http-nio-8082-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Nothing to write: null body
+2019-07-29 16:15:08.413 [http-nio-8082-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 16:15:21.157 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/v1/send/ooo", parameters={}
+2019-07-29 16:15:21.160 [http-nio-8082-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to java.lang.String com.mt.console.web.feign.FeignTestController.send(java.lang.String)
+2019-07-29 16:15:21.186 [http-nio-8082-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/xml, text/xml, application/*+xml, application/json, application/*+json]
+2019-07-29 16:15:21.188 [http-nio-8082-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Nothing to write: null body
+2019-07-29 16:15:21.188 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 16:31:08.644 [main] DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-07-29 16:31:17.978 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 55 mappings in 'requestMappingHandlerMapping'
+2019-07-29 16:31:18.288 [main] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/swagger-ui.html, /webjars/**, /static/**, /upload/**] in 'resourceHandlerMapping'
+2019-07-29 16:31:18.397 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-07-29 16:31:18.458 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-07-29 16:31:19.464 [main] DEBUG o.s.w.servlet.view.freemarker.FreeMarkerConfigurer - Template loader path [class path resource [templates/]] resolved to file path [C:\mt\workspace\springboot-console\target\classes\templates]
+2019-07-29 16:31:29.675 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2019-07-29 16:31:29.725 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-07-29 16:31:29.865 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/v1/send/ooo", parameters={}
+2019-07-29 16:31:30.020 [http-nio-8082-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to java.lang.String com.mt.console.web.feign.FeignTestController.send(java.lang.String)
+2019-07-29 16:31:31.411 [http-nio-8082-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/xml, text/xml, application/*+xml, application/json, application/*+json]
+2019-07-29 16:31:31.412 [http-nio-8082-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Nothing to write: null body
+2019-07-29 16:31:31.415 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 16:33:20.933 [http-nio-8082-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/getMsg?id=2", parameters={masked}
+2019-07-29 16:33:20.939 [http-nio-8082-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.mt.console.web.feign.FeignTestController.getMsg(java.lang.Integer)
+2019-07-29 16:33:21.291 [http-nio-8082-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/xhtml+xml', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [application/xml, text/xml, application/*+xml, application/json, application/*+json]
+2019-07-29 16:33:21.293 [http-nio-8082-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Nothing to write: null body
+2019-07-29 16:33:21.293 [http-nio-8082-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 16:33:59.358 [http-nio-8082-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/getMsg?id=2", parameters={masked}
+2019-07-29 16:33:59.366 [http-nio-8082-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.mt.console.web.feign.FeignTestController.getMsg(java.lang.Integer)
+2019-07-29 16:33:59.390 [http-nio-8082-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/xhtml+xml', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [application/xml, text/xml, application/*+xml, application/json, application/*+json]
+2019-07-29 16:33:59.390 [http-nio-8082-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Nothing to write: null body
+2019-07-29 16:33:59.392 [http-nio-8082-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 16:59:50.395 [main] DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-07-29 17:00:11.740 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 55 mappings in 'requestMappingHandlerMapping'
+2019-07-29 17:00:12.098 [main] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/swagger-ui.html, /webjars/**, /static/**, /upload/**] in 'resourceHandlerMapping'
+2019-07-29 17:00:12.269 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-07-29 17:00:12.335 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-07-29 17:00:31.183 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2019-07-29 17:00:31.218 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-07-29 17:00:31.265 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/getMsg?id=2", parameters={masked}
+2019-07-29 17:00:31.281 [http-nio-8082-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.mt.console.web.feign.TestFeignController.getMsg(java.lang.Integer)
+2019-07-29 17:00:33.087 [http-nio-8082-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+2019-07-29 17:00:33.089 [http-nio-8082-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Nothing to write: null body
+2019-07-29 17:00:33.092 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 17:33:11.103 [main] DEBUG o.s.web.context.support.StandardServletEnvironment - Adding PropertySource 'configurationProperties' with highest search precedence
+2019-07-29 17:33:11.178 [main] DEBUG o.s.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletConfigInitParams' with lowest search precedence
+2019-07-29 17:33:11.180 [main] DEBUG o.s.web.context.support.StandardServletEnvironment - Adding PropertySource 'servletContextInitParams' with lowest search precedence
+2019-07-29 17:33:11.182 [main] DEBUG o.s.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemProperties' with lowest search precedence
+2019-07-29 17:33:11.183 [main] DEBUG o.s.web.context.support.StandardServletEnvironment - Adding PropertySource 'systemEnvironment' with lowest search precedence
+2019-07-29 17:33:11.183 [main] DEBUG o.s.web.context.support.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [StubPropertySource {name='servletConfigInitParams'}, StubPropertySource {name='servletContextInitParams'}, MapPropertySource {name='systemProperties'}, SystemEnvironmentPropertySource {name='systemEnvironment'}]
+2019-07-29 17:33:13.701 [main] DEBUG o.s.web.context.support.StandardServletEnvironment - Adding PropertySource 'class path resource [eureka/server.properties]' with lowest search precedence
+2019-07-29 17:47:46.204 [main] DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-07-29 17:47:53.019 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 55 mappings in 'requestMappingHandlerMapping'
+2019-07-29 17:47:53.211 [main] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/swagger-ui.html, /webjars/**, /static/**, /upload/**] in 'resourceHandlerMapping'
+2019-07-29 17:47:53.314 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-07-29 17:47:53.375 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-07-29 17:49:18.737 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2019-07-29 17:49:18.768 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-07-29 17:49:18.810 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/getMsg?id=2", parameters={masked}
+2019-07-29 17:49:18.820 [http-nio-8082-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.mt.console.web.feign.TestFeignController.getMsg(java.lang.Integer)
+2019-07-29 17:49:20.232 [http-nio-8082-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+2019-07-29 17:49:20.236 [http-nio-8082-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Nothing to write: null body
+2019-07-29 17:49:20.242 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 18:02:42.837 [main] DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-07-29 18:02:51.197 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 55 mappings in 'requestMappingHandlerMapping'
+2019-07-29 18:02:51.397 [main] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/swagger-ui.html, /webjars/**, /static/**, /upload/**] in 'resourceHandlerMapping'
+2019-07-29 18:02:51.569 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-07-29 18:02:51.648 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-07-29 18:03:10.590 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2019-07-29 18:03:10.610 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-07-29 18:03:10.647 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/console/plugin/ueditor/index.html", parameters={}
+2019-07-29 18:03:10.683 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2019-07-29 18:03:10.708 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+2019-07-29 18:03:10.716 [http-nio-8082-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-29 18:03:11.280 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+2019-07-29 18:03:21.658 [http-nio-8082-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/getMsg?id=999", parameters={masked}
+2019-07-29 18:03:21.660 [http-nio-8082-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.mt.console.web.feign.TestFeignController.getMsg(java.lang.Integer)
+2019-07-29 18:03:22.672 [hystrix-service-collection-1] DEBUG o.s.web.client.HttpMessageConverterExtractor - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+2019-07-29 18:03:22.958 [http-nio-8082-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+2019-07-29 18:03:22.960 [http-nio-8082-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["mt collection"]
+2019-07-29 18:03:22.967 [http-nio-8082-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 18:04:15.169 [http-nio-8082-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/getMsg?id=999", parameters={masked}
+2019-07-29 18:04:15.172 [http-nio-8082-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.mt.console.web.feign.TestFeignController.getMsg(java.lang.Integer)
+2019-07-29 18:04:15.255 [hystrix-service-collection-2] DEBUG o.s.web.client.HttpMessageConverterExtractor - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+2019-07-29 18:04:15.289 [http-nio-8082-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+2019-07-29 18:04:15.291 [http-nio-8082-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["mt collection"]
+2019-07-29 18:04:15.292 [http-nio-8082-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 18:04:18.860 [http-nio-8082-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/getMsg?id=999", parameters={masked}
+2019-07-29 18:04:18.862 [http-nio-8082-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.mt.console.web.feign.TestFeignController.getMsg(java.lang.Integer)
+2019-07-29 18:04:18.880 [hystrix-service-collection-3] DEBUG o.s.web.client.HttpMessageConverterExtractor - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+2019-07-29 18:04:18.895 [http-nio-8082-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+2019-07-29 18:04:18.896 [http-nio-8082-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["mt collection"]
+2019-07-29 18:04:18.897 [http-nio-8082-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 18:04:22.547 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/getMsg?id=999", parameters={masked}
+2019-07-29 18:04:22.549 [http-nio-8082-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.mt.console.web.feign.TestFeignController.getMsg(java.lang.Integer)
+2019-07-29 18:04:22.569 [hystrix-service-collection-4] DEBUG o.s.web.client.HttpMessageConverterExtractor - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+2019-07-29 18:04:22.583 [http-nio-8082-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+2019-07-29 18:04:22.585 [http-nio-8082-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["mt collection"]
+2019-07-29 18:04:22.586 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 18:04:31.773 [http-nio-8082-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/getMsg?id=999", parameters={masked}
+2019-07-29 18:04:31.776 [http-nio-8082-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.mt.console.web.feign.TestFeignController.getMsg(java.lang.Integer)
+2019-07-29 18:04:31.795 [hystrix-service-collection-5] DEBUG o.s.web.client.HttpMessageConverterExtractor - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+2019-07-29 18:04:31.822 [http-nio-8082-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+2019-07-29 18:04:31.823 [http-nio-8082-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["mt collection"]
+2019-07-29 18:04:31.824 [http-nio-8082-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 18:05:46.450 [http-nio-8082-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/getMsg?id=999", parameters={masked}
+2019-07-29 18:05:46.451 [http-nio-8082-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.mt.console.web.feign.TestFeignController.getMsg(java.lang.Integer)
+2019-07-29 18:05:47.495 [http-nio-8082-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+2019-07-29 18:05:47.498 [http-nio-8082-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Nothing to write: null body
+2019-07-29 18:05:47.499 [http-nio-8082-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 18:13:01.137 [main] DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-07-29 18:13:08.421 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 55 mappings in 'requestMappingHandlerMapping'
+2019-07-29 18:13:08.640 [main] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/swagger-ui.html, /webjars/**, /static/**, /upload/**] in 'resourceHandlerMapping'
+2019-07-29 18:13:08.798 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-07-29 18:13:08.851 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-07-29 18:14:33.912 [main] DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-07-29 18:14:41.471 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 55 mappings in 'requestMappingHandlerMapping'
+2019-07-29 18:14:41.684 [main] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/swagger-ui.html, /webjars/**, /static/**, /upload/**] in 'resourceHandlerMapping'
+2019-07-29 18:14:41.830 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-07-29 18:14:41.888 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-07-29 18:15:13.020 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2019-07-29 18:15:13.053 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-07-29 18:15:13.093 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/getMsg?id=999", parameters={masked}
+2019-07-29 18:15:13.101 [http-nio-8082-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.mt.console.web.feign.TestFeignController.getMsg(java.lang.Integer)
+2019-07-29 18:15:14.196 [http-nio-8082-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+2019-07-29 18:15:14.197 [http-nio-8082-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Nothing to write: null body
+2019-07-29 18:15:14.200 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 18:16:48.387 [main] DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-07-29 18:16:55.596 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 55 mappings in 'requestMappingHandlerMapping'
+2019-07-29 18:16:55.827 [main] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/swagger-ui.html, /webjars/**, /static/**, /upload/**] in 'resourceHandlerMapping'
+2019-07-29 18:16:55.960 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-07-29 18:16:56.020 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-07-29 18:17:36.029 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2019-07-29 18:17:36.053 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-07-29 18:17:36.086 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/getMsg?id=999", parameters={masked}
+2019-07-29 18:17:36.095 [http-nio-8082-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.mt.console.web.feign.TestFeignController.getMsg(java.lang.Integer)
+2019-07-29 18:17:37.195 [http-nio-8082-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+2019-07-29 18:17:37.197 [http-nio-8082-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Nothing to write: null body
+2019-07-29 18:17:37.199 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 18:18:54.857 [main] DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-07-29 18:18:59.510 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 55 mappings in 'requestMappingHandlerMapping'
+2019-07-29 18:18:59.665 [main] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/swagger-ui.html, /webjars/**, /static/**, /upload/**] in 'resourceHandlerMapping'
+2019-07-29 18:18:59.797 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-07-29 18:18:59.854 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-07-29 18:19:14.191 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2019-07-29 18:19:14.216 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-07-29 18:19:14.248 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/getMsg?id=999", parameters={masked}
+2019-07-29 18:19:14.261 [http-nio-8082-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.mt.console.web.feign.TestFeignController.getMsg(java.lang.Integer)
+2019-07-29 18:19:15.307 [http-nio-8082-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+2019-07-29 18:19:15.310 [http-nio-8082-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["sorry 999，service has fail!"]
+2019-07-29 18:19:15.326 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 18:22:31.311 [main] DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-07-29 18:22:38.080 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 55 mappings in 'requestMappingHandlerMapping'
+2019-07-29 18:22:38.282 [main] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/swagger-ui.html, /webjars/**, /static/**, /upload/**] in 'resourceHandlerMapping'
+2019-07-29 18:22:38.526 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-07-29 18:22:38.586 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-07-29 18:22:49.303 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2019-07-29 18:22:49.324 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-07-29 18:22:49.355 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/getMsg?id=999", parameters={masked}
+2019-07-29 18:22:49.366 [http-nio-8082-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.mt.console.feign.TestFeignController.getMsg(java.lang.Integer)
+2019-07-29 18:22:49.413 [http-nio-8082-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+2019-07-29 18:22:49.414 [http-nio-8082-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["sorry 999，service has fail!"]
+2019-07-29 18:22:49.446 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 18:23:04.798 [http-nio-8082-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/getMsg?id=999", parameters={masked}
+2019-07-29 18:23:04.800 [http-nio-8082-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.mt.console.feign.TestFeignController.getMsg(java.lang.Integer)
+2019-07-29 18:23:04.806 [http-nio-8082-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+2019-07-29 18:23:04.806 [http-nio-8082-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["sorry 999，service has fail!"]
+2019-07-29 18:23:04.813 [http-nio-8082-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 18:23:16.507 [http-nio-8082-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/getMsg?id=999", parameters={masked}
+2019-07-29 18:23:16.510 [http-nio-8082-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.mt.console.feign.TestFeignController.getMsg(java.lang.Integer)
+2019-07-29 18:23:16.512 [http-nio-8082-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+2019-07-29 18:23:16.513 [http-nio-8082-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["sorry 999，service has fail!"]
+2019-07-29 18:23:16.515 [http-nio-8082-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 18:24:13.281 [http-nio-8082-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/getMsg?id=999", parameters={masked}
+2019-07-29 18:24:13.283 [http-nio-8082-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.mt.console.feign.TestFeignController.getMsg(java.lang.Integer)
+2019-07-29 18:24:13.286 [http-nio-8082-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+2019-07-29 18:24:13.286 [http-nio-8082-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["sorry 999，service has fail!"]
+2019-07-29 18:24:13.290 [http-nio-8082-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 18:24:24.531 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/getMsg?id=999", parameters={masked}
+2019-07-29 18:24:24.533 [http-nio-8082-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.mt.console.feign.TestFeignController.getMsg(java.lang.Integer)
+2019-07-29 18:24:24.534 [http-nio-8082-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+2019-07-29 18:24:24.534 [http-nio-8082-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["sorry 999，service has fail!"]
+2019-07-29 18:24:24.536 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 18:24:25.201 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/getMsg?id=999", parameters={masked}
+2019-07-29 18:24:25.202 [http-nio-8082-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.mt.console.feign.TestFeignController.getMsg(java.lang.Integer)
+2019-07-29 18:24:25.204 [http-nio-8082-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+2019-07-29 18:24:25.204 [http-nio-8082-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["sorry 999，service has fail!"]
+2019-07-29 18:24:25.205 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 18:24:25.677 [http-nio-8082-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/getMsg?id=999", parameters={masked}
+2019-07-29 18:24:25.684 [http-nio-8082-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.mt.console.feign.TestFeignController.getMsg(java.lang.Integer)
+2019-07-29 18:24:25.686 [http-nio-8082-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+2019-07-29 18:24:25.689 [http-nio-8082-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["sorry 999，service has fail!"]
+2019-07-29 18:24:25.690 [http-nio-8082-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 18:24:25.979 [http-nio-8082-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/getMsg?id=999", parameters={masked}
+2019-07-29 18:24:25.981 [http-nio-8082-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.mt.console.feign.TestFeignController.getMsg(java.lang.Integer)
+2019-07-29 18:24:25.984 [http-nio-8082-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+2019-07-29 18:24:25.984 [http-nio-8082-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["sorry 999，service has fail!"]
+2019-07-29 18:24:25.985 [http-nio-8082-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 18:24:26.177 [http-nio-8082-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/getMsg?id=999", parameters={masked}
+2019-07-29 18:24:26.179 [http-nio-8082-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.mt.console.feign.TestFeignController.getMsg(java.lang.Integer)
+2019-07-29 18:24:26.181 [http-nio-8082-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+2019-07-29 18:24:26.182 [http-nio-8082-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["sorry 999，service has fail!"]
+2019-07-29 18:24:26.183 [http-nio-8082-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 18:25:14.196 [http-nio-8082-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/getMsg?id=999", parameters={masked}
+2019-07-29 18:25:14.198 [http-nio-8082-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.mt.console.feign.TestFeignController.getMsg(java.lang.Integer)
+2019-07-29 18:25:14.204 [http-nio-8082-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+2019-07-29 18:25:14.204 [http-nio-8082-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["sorry 999，service has fail!"]
+2019-07-29 18:25:14.208 [http-nio-8082-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 18:25:14.908 [http-nio-8082-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/getMsg?id=999", parameters={masked}
+2019-07-29 18:25:14.909 [http-nio-8082-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.mt.console.feign.TestFeignController.getMsg(java.lang.Integer)
+2019-07-29 18:25:14.909 [http-nio-8082-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+2019-07-29 18:25:14.910 [http-nio-8082-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["sorry 999，service has fail!"]
+2019-07-29 18:25:14.910 [http-nio-8082-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 18:26:15.659 [main] DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-07-29 18:26:22.761 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 55 mappings in 'requestMappingHandlerMapping'
+2019-07-29 18:26:23.019 [main] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/swagger-ui.html, /webjars/**, /static/**, /upload/**] in 'resourceHandlerMapping'
+2019-07-29 18:26:23.161 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-07-29 18:26:23.215 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-07-29 18:26:41.204 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2019-07-29 18:26:41.223 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-07-29 18:26:41.250 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/getMsg?id=999", parameters={masked}
+2019-07-29 18:26:41.257 [http-nio-8082-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.mt.console.feign.TestFeignController.getMsg(java.lang.Integer)
+2019-07-29 18:26:42.262 [hystrix-service-collection-1] DEBUG o.s.web.client.HttpMessageConverterExtractor - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+2019-07-29 18:26:42.285 [http-nio-8082-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+2019-07-29 18:26:42.287 [http-nio-8082-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["mt collection"]
+2019-07-29 18:26:42.299 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 18:26:44.364 [http-nio-8082-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/getMsg?id=999", parameters={masked}
+2019-07-29 18:26:44.369 [http-nio-8082-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.mt.console.feign.TestFeignController.getMsg(java.lang.Integer)
+2019-07-29 18:26:44.388 [hystrix-service-collection-2] DEBUG o.s.web.client.HttpMessageConverterExtractor - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+2019-07-29 18:26:44.391 [http-nio-8082-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+2019-07-29 18:26:44.392 [http-nio-8082-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["mt collection"]
+2019-07-29 18:26:44.393 [http-nio-8082-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 18:26:54.325 [http-nio-8082-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/getMsg?id=999", parameters={masked}
+2019-07-29 18:26:54.330 [http-nio-8082-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.mt.console.feign.TestFeignController.getMsg(java.lang.Integer)
+2019-07-29 18:26:54.343 [hystrix-service-collection-3] DEBUG o.s.web.client.HttpMessageConverterExtractor - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+2019-07-29 18:26:54.349 [http-nio-8082-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+2019-07-29 18:26:54.349 [http-nio-8082-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["mt collection"]
+2019-07-29 18:26:54.353 [http-nio-8082-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 18:27:23.725 [http-nio-8082-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/getMsg?id=999", parameters={masked}
+2019-07-29 18:27:23.730 [http-nio-8082-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.mt.console.feign.TestFeignController.getMsg(java.lang.Integer)
+2019-07-29 18:27:24.755 [http-nio-8082-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+2019-07-29 18:27:24.757 [http-nio-8082-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["sorry 999，service has fail!"]
+2019-07-29 18:27:24.758 [http-nio-8082-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 18:27:28.727 [http-nio-8082-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/getMsg?id=999", parameters={masked}
+2019-07-29 18:27:28.728 [http-nio-8082-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.mt.console.feign.TestFeignController.getMsg(java.lang.Integer)
+2019-07-29 18:27:29.736 [http-nio-8082-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+2019-07-29 18:27:29.737 [http-nio-8082-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["sorry 999，service has fail!"]
+2019-07-29 18:27:29.740 [http-nio-8082-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 18:28:01.170 [http-nio-8082-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/getMsg?id=999", parameters={masked}
+2019-07-29 18:28:01.172 [http-nio-8082-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.mt.console.feign.TestFeignController.getMsg(java.lang.Integer)
+2019-07-29 18:28:01.228 [http-nio-8082-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+2019-07-29 18:28:01.230 [http-nio-8082-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["sorry 999，service has fail!"]
+2019-07-29 18:28:01.231 [http-nio-8082-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 18:28:02.689 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/getMsg?id=999", parameters={masked}
+2019-07-29 18:28:02.691 [http-nio-8082-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.mt.console.feign.TestFeignController.getMsg(java.lang.Integer)
+2019-07-29 18:28:02.701 [http-nio-8082-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+2019-07-29 18:28:02.701 [http-nio-8082-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["sorry 999，service has fail!"]
+2019-07-29 18:28:02.706 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 18:28:03.499 [http-nio-8082-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/getMsg?id=999", parameters={masked}
+2019-07-29 18:28:03.500 [http-nio-8082-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.mt.console.feign.TestFeignController.getMsg(java.lang.Integer)
+2019-07-29 18:28:03.506 [http-nio-8082-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+2019-07-29 18:28:03.507 [http-nio-8082-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["sorry 999，service has fail!"]
+2019-07-29 18:28:03.509 [http-nio-8082-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 18:28:03.969 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/getMsg?id=999", parameters={masked}
+2019-07-29 18:28:03.970 [http-nio-8082-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.mt.console.feign.TestFeignController.getMsg(java.lang.Integer)
+2019-07-29 18:28:03.977 [http-nio-8082-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+2019-07-29 18:28:03.977 [http-nio-8082-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["sorry 999，service has fail!"]
+2019-07-29 18:28:03.980 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 18:28:04.140 [http-nio-8082-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/getMsg?id=999", parameters={masked}
+2019-07-29 18:28:04.142 [http-nio-8082-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.mt.console.feign.TestFeignController.getMsg(java.lang.Integer)
+2019-07-29 18:28:04.149 [http-nio-8082-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+2019-07-29 18:28:04.150 [http-nio-8082-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["sorry 999，service has fail!"]
+2019-07-29 18:28:04.151 [http-nio-8082-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 18:28:04.320 [http-nio-8082-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/getMsg?id=999", parameters={masked}
+2019-07-29 18:28:04.320 [http-nio-8082-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.mt.console.feign.TestFeignController.getMsg(java.lang.Integer)
+2019-07-29 18:28:04.327 [http-nio-8082-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+2019-07-29 18:28:04.327 [http-nio-8082-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["sorry 999，service has fail!"]
+2019-07-29 18:28:04.331 [http-nio-8082-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 18:28:45.583 [http-nio-8082-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/getMsg?id=999", parameters={masked}
+2019-07-29 18:28:45.587 [http-nio-8082-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.mt.console.feign.TestFeignController.getMsg(java.lang.Integer)
+2019-07-29 18:28:45.907 [hystrix-service-collection-10] DEBUG o.s.web.client.HttpMessageConverterExtractor - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+2019-07-29 18:28:45.911 [http-nio-8082-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, application/json, application/*+json]
+2019-07-29 18:28:45.911 [http-nio-8082-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["mt collection"]
+2019-07-29 18:28:45.914 [http-nio-8082-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 18:29:24.903 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/", parameters={}
+2019-07-29 18:29:24.908 [http-nio-8082-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.mt.console.web.controller.ConsoleController.index(javax.servlet.http.HttpSession)
+2019-07-29 18:29:25.702 [http-nio-8082-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 18:29:25.776 [http-nio-8082-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/console/verifycode", parameters={}
+2019-07-29 18:29:25.781 [http-nio-8082-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public void com.mt.console.web.controller.ConsoleController.verifycode(javax.servlet.http.HttpSession,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException
+2019-07-29 18:29:26.171 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/console/cookie", parameters={}
+2019-07-29 18:29:26.172 [http-nio-8082-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.mt.console.web.controller.ConsoleController.cookie(javax.servlet.http.HttpSession,javax.servlet.http.HttpServletRequest)
+2019-07-29 18:29:26.193 [http-nio-8082-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/json, application/*+json]
+2019-07-29 18:29:26.194 [http-nio-8082-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{account=changlaiai@sina.com}]
+2019-07-29 18:29:26.202 [http-nio-8082-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 18:29:27.064 [http-nio-8082-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 18:29:29.448 [http-nio-8082-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/console/logon", parameters={masked}
+2019-07-29 18:29:29.451 [http-nio-8082-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.mt.console.web.controller.ConsoleController.logon(javax.servlet.http.HttpSession,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,com.mt.console.web.po.AdminMembership,java.lang.String)
+2019-07-29 18:29:29.708 [http-nio-8082-exec-4] DEBUG c.m.c.w.m.I.selectAdminMembership - ==>  Preparing: SELECT id, account, name, role_num, DATE_FORMAT(create_time, '%Y-%m-%d %T') AS create_time, status FROM t_mt_admin WHERE account =? and password =? 
+2019-07-29 18:29:29.761 [http-nio-8082-exec-4] DEBUG c.m.c.w.m.I.selectAdminMembership - ==> Parameters: changlaiai@sina.com(String), 40D99A166F17FB9905282DED67E3F9AB0EF6A636(String)
+2019-07-29 18:29:29.861 [http-nio-8082-exec-4] DEBUG c.m.c.w.m.I.selectAdminMembership - <==      Total: 1
+2019-07-29 18:29:29.869 [http-nio-8082-exec-4] DEBUG c.m.c.w.m.I.updateAdminMembership - ==>  Preparing: update t_mt_admin SET online = ?,login_count=login_count+1,last_login_ip=?,last_login_time=? where id=? 
+2019-07-29 18:29:29.876 [http-nio-8082-exec-4] DEBUG c.m.c.w.m.I.updateAdminMembership - ==> Parameters: 1(Integer), 0:0:0:0:0:0:0:1(String), 2019-07-29 18:29:29.867(Timestamp), 4(Long)
+2019-07-29 18:29:29.965 [http-nio-8082-exec-4] DEBUG c.m.c.w.m.I.updateAdminMembership - <==    Updates: 1
+2019-07-29 18:29:30.129 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.ICommonMapper.getSysConf - ==>  Preparing: SELECT a.number, a.parent_num, a.conf_key, a.value, a.status, a.remark, a.create_time FROM t_mt_sysconf a 
+2019-07-29 18:29:30.130 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.ICommonMapper.getSysConf - ==> Parameters: 
+2019-07-29 18:29:30.183 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.ICommonMapper.getSysConf - <==      Total: 9
+2019-07-29 18:29:30.194 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.ICommonMapper.getSetting - ==>  Preparing: select id, account, layout, left_sidebar_hover, left_sidebar_collapsed, right_sidebar_cover, right_sidebar_skin, layout_skin from t_mt_setting WHERE account_id =? 
+2019-07-29 18:29:30.195 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.ICommonMapper.getSetting - ==> Parameters: 4(Long)
+2019-07-29 18:29:30.243 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.ICommonMapper.getSetting - <==      Total: 1
+2019-07-29 18:29:30.301 [http-nio-8082-exec-4] DEBUG c.m.c.w.m.I.selectAdminMembershipInfo - ==>  Preparing: SELECT id, account, phone, email, age, occupation, education, location, skills, image, remark, DATE_FORMAT(update_time, '%Y-%m-%d %T') AS update_time FROM t_mt_admin_info WHERE account =? 
+2019-07-29 18:29:30.302 [http-nio-8082-exec-4] DEBUG c.m.c.w.m.I.selectAdminMembershipInfo - ==> Parameters: changlaiai@sina.com(String)
+2019-07-29 18:29:30.348 [http-nio-8082-exec-4] DEBUG c.m.c.w.m.I.selectAdminMembershipInfo - <==      Total: 1
+2019-07-29 18:29:30.489 [http-nio-8082-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/json, application/*+json]
+2019-07-29 18:29:30.491 [http-nio-8082-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{}]
+2019-07-29 18:29:30.492 [http-nio-8082-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 18:29:30.505 [http-nio-8082-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/console/", parameters={}
+2019-07-29 18:29:30.511 [http-nio-8082-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.lang.String com.mt.console.web.controller.ConsoleController.admin(javax.servlet.http.HttpSession)
+2019-07-29 18:29:30.894 [http-nio-8082-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 18:29:31.197 [http-nio-8082-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/console/init", parameters={}
+2019-07-29 18:29:31.198 [http-nio-8082-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public java.util.Map<java.lang.String, java.lang.Object> com.mt.console.web.controller.ConsoleController.init(javax.servlet.http.HttpSession)
+2019-07-29 18:29:31.209 [http-nio-8082-exec-6] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==>  Preparing: SELECT a.menu FROM t_mt_role a where a.number = ? 
+2019-07-29 18:29:31.209 [http-nio-8082-exec-6] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==> Parameters: 0(Integer)
+2019-07-29 18:29:31.263 [http-nio-8082-exec-6] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - <==      Total: 1
+2019-07-29 18:29:31.271 [http-nio-8082-exec-6] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==>  Preparing: SELECT a.number, a.parent_num, a.name, a.short_url, a.left_icon, a.right_icon FROM t_mt_menu a where a.number in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) 
+2019-07-29 18:29:31.273 [http-nio-8082-exec-6] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==> Parameters: 01-01(String), 01-02(String), 02-01(String), 02-02(String), 02-03(String), 02-04(String), 02-05(String), 05-01(String), 05-02(String), 05-03(String), 05-04(String), 05-05(String), 05-06(String), 05-07(String), 05-08(String), 05-09(String), 05-10(String), 05-11(String), 06-01(String), 06-02(String), 06-03(String), 07-01(String), 07-02(String), 07-03(String), 07-04(String), 08-01(String), 08-02(String), 08-03(String), 08-04(String), 08-05(String), 08-06(String), 08-07(String), 08-08(String), 09-01(String)
+2019-07-29 18:29:31.328 [http-nio-8082-exec-6] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - <==      Total: 34
+2019-07-29 18:29:31.338 [http-nio-8082-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/json, application/*+json]
+2019-07-29 18:29:31.338 [http-nio-8082-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [{menu=[{number=01-01, name=主页, right_icon=fa fa-angle-left pull-right, parent_num=0-0, left_icon=fa  (truncated)...]
+2019-07-29 18:29:31.365 [http-nio-8082-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2019-07-29 18:29:31.384 [http-nio-8082-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/undefined", parameters={}
+2019-07-29 18:29:31.391 [http-nio-8082-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2019-07-29 18:29:31.403 [http-nio-8082-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+2019-07-29 18:29:31.407 [http-nio-8082-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-29 18:29:31.447 [http-nio-8082-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+2019-07-29 18:29:31.479 [http-nio-8082-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/admin/ws", parameters={}
+2019-07-29 18:29:31.483 [http-nio-8082-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2019-07-29 18:29:31.484 [http-nio-8082-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+2019-07-29 18:29:31.485 [http-nio-8082-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-07-29 18:29:31.487 [http-nio-8082-exec-8] DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2019-07-29 18:29:31.487 [http-nio-8082-exec-8] DEBUG o.s.w.s.m.m.annotation.HttpEntityMethodProcessor - Writing [{timestamp=Mon Jul 29 18:29:31 CST 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-07-29 18:29:31.492 [http-nio-8082-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404

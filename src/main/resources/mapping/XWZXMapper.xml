@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mt.console.web.mapper.IXWZXMapper">
+	<!-- 取得记录总数 -->
+	<select id="getTotalCount" resultType="int" parameterType="Map">
+		select count(1) from t_mt_xwzx
+	</select>
+	<!-- 取得记录列表 -->
+	<select id="getPageList" resultType="java.util.HashMap"
+		parameterType="Map">
+		SELECT
+		a.id,
+		a.name,
+		a.phonenum,
+		a.adddate,
+		a.addtime,
+		a.addip,
+		a.agreecount,
+		a.ranking,
+		a.display
+		FROM
+		t_mt_xwzx a
+		ORDER BY
+		a.agreecount desc
+		limit #{index}, #{offset}
+	</select>
+
+	<!-- 取得记录总数 -->
+	<select id="getXTotalCount" resultType="int" parameterType="Map">
+		select count(1) from t_mt_xwzx_agree
+	</select>
+	
+	<!-- 取得记录列表 -->
+	<select id="getXPageList" resultType="java.util.HashMap"
+		parameterType="Map">
+		SELECT
+		a.id,
+		a.openid,
+		a.aopenid,
+		a.adddate,
+		a.addtime,
+		a.addip
+		FROM
+		t_mt_xwzx_agree a
+		ORDER BY
+		a.addtime, a.addtime
+		limit
+		#{index}, #{offset}
+	</select>
+
+	<select id="getXWZXCount" resultType="java.util.HashMap"
+		parameterType="Map">
+		SELECT
+		(
+		SELECT
+		count(1)
+		FROM
+		t_mt_xwzx
+		) AS a,
+		(
+		SELECT
+		count(DISTINCT aopenid)
+		FROM
+		t_mt_xwzx_agree
+		) AS b,
+		(
+		SELECT
+		count(1)
+		FROM
+		t_mt_xwzx
+		WHERE
+		adddate = #{adddate}
+		) AS c
+	</select>
+
+	<resultMap type="com.mt.console.web.po.XWZX" id="XWZXResultMap">
+	</resultMap>
+</mapper>

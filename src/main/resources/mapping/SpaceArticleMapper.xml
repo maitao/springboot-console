@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mt.console.web.mapper.ISpaceArticleMapper">
+
+	<!-- 取得菜单记录列表 -->
+	<select id="getCategory" resultType="java.util.HashMap">
+		SELECT
+		a.id,
+		a.parent_id,
+		a.name,
+		a.icon,
+		a.sequence,
+		a.create_time,
+		a.update_time
+		FROM
+		t_mt_article_category a where
+		(a.account = 'changlaiai@sina.com' or  a.account = '' or a.account is null) and status = 1
+	</select>
+
+	<!-- 新增分类 -->
+	<insert id="addNode" parameterType="com.mt.console.web.po.Category" useGeneratedKeys="true" keyProperty="id">
+		insert into
+		t_mt_qa_category(parent_id, name, create_time, account)
+		values(#{parentId},#{name},#{createTime},#{account})
+	</insert>
+	
+	<!-- 修改分类名称 -->
+	<update id="renameNode">
+		update t_mt_qa_category
+		<set>
+			name=#{name},update_time=#{updateTime}
+		</set>
+		where id=#{id} and account = #{account}
+	</update>
+	
+	<!-- 修改分类名称 -->
+	<update id="removeNode">
+		update t_mt_qa_category
+		<set>
+			status=0, update_time=#{updateTime}
+		</set>
+		where parent_id=#{pId} and id=#{id} and account = #{account}
+	</update>
+	
+	<resultMap type="com.mt.console.web.po.Category" id="CategoryResultMap">
+		<result column="parent_id" property="roleNum" />
+		<result column="create_time" property="createTime" />
+		<result column="update_time" property="lastLoginTime" />
+	</resultMap>
+</mapper>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mt.console.web.mapper.IAccountMapper">
+
+	<!-- 新增帐号 -->
+	<insert id="insert" parameterType="com.mt.console.web.po.Account">
+		insert into t_szyx_account(account, password, phone, email, remark,
+		status, create_time, last_login_ip)
+		values(#{account},#{password},#{phoneNum},#{email},#{remark},#{status}, #{createTime},#{lastLoginIp})
+		<selectKey keyProperty="id" resultType="Long">
+			select
+			last_insert_id() as id
+		</selectKey>
+	</insert>
+	<!-- 新增用户信息 -->
+	<insert id="insertUser" parameterType="com.mt.console.web.po.User">
+		insert into
+		t_szyx_user(phone_num, person_name, account_id)
+		values(#{phoneNum},#{personName},#{accountId})
+	</insert>
+	<!-- 新增权限信息 -->
+	<insert id="insertPermission" parameterType="com.mt.console.web.po.Permission">
+		insert into
+		t_szyx_permission(number, method_num, name, class_path, method_name,
+		is_ajax, is_menu, status, method_remark, create_time)
+		values(#{number},#{methodNum},#{name},#{classPath},#{methodName},#{isAjax},#{isMenu},#{status},#{methodRemark},#{createTime})
+	</insert>
+	<!-- 删除权限 -->
+	<delete id="deletePermission" parameterType="Long">
+		delete from
+		t_szyx_permission
+	</delete>
+
+	<!-- 修改登录次数 -->
+	<update id="updateAccountLoginCount">
+		update t_szyx_account
+		<set>
+			login_count=login_count+1,last_login_time=#{lastLoginTime}
+		</set>
+		where id=#{id}
+	</update>
+
+	<!-- 修改角色 -->
+	<update id="updateRole">
+		update t_szyx_role
+		<set>
+			permission=#{permission},update_time=#{updateTime}
+		</set>
+		where number=#{number}
+	</update>
+
+	<!-- 改变帐号状态 -->
+	<update id="accountStatus">
+		update t_szyx_account
+		set status = #{status}
+		where id =
+		#{id}
+	</update>
+
+	<!-- 取得用户列表 -->
+	<select id="selectAccount" resultMap="AccountResultMap">
+		select id, account, status, role_num from t_szyx_account
+		<where>
+			<if test="account != null and password != null">
+				account =#{account} and password =#{password}
+			</if>
+			<!-- <if test="id!=null"> and id=#{id} </if> -->
+		</where>
+	</select>
+	<!-- 帐号重复检查 -->
+	<select id="checkAccountExit" resultMap="AccountResultMap">
+		select account from t_szyx_account
+		<where>
+			account = #{account}
+		</where>
+	</select>
+	<!-- 选择角色 -->
+	<select id="selectRole" resultMap="AccountResultMap">
+		select id, number, permission, status, update_time from t_szyx_role
+		<where>
+			number = #{number}
+		</where>
+	</select>
+
+	<!-- 取得记录总数 -->
+	<select id="getTotalCount" resultType="int" parameterType="Map">
+		select count(1) from (select id from t_szyx_account a) b
+	</select>
+	<!-- 取得记录列表 -->
+	<select id="getPageList" resultType="java.util.HashMap"
+		parameterType="Map">
+		SELECT
+		a.id,
+		a.account,
+		a.phone,
+		a.email,
+		a.status,
+		DATE_FORMAT(a.create_time, '%Y-%m-%d %T') AS create_time,
+		DATE_FORMAT(
+		a.last_login_time,
+		'%Y-%m-%d %T'
+		) AS last_login_time,
+		a.login_count,
+		b.name AS role_name
+		FROM
+		t_szyx_account a
+		LEFT JOIN t_szyx_role b
+		ON
+		a.role_num = b.number
+		ORDER BY a.create_time DESC limit #{index},
+		#{offset}
+	</select>
+
+	<resultMap type="com.mt.console.web.po.Account" id="AccountResultMap">
+		<result column="role_num" property="parentId" />
+		<result column="create_time" property="createTime" />
+		<result column="update_time" property="updateTime" />
+		<result column="last_login_ip" property="lastLoginIp" />
+	</resultMap>
+
+</mapper>

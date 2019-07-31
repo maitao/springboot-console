@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<style>
+.box_shadow {
+	/* 	border: 1px solid #e5e5e5;
+ */
+	box-shadow: 0px 0px 5px #CCC;
+	background-color: #fff;
+	padding: 15px;
+	/* 	margin-bottom: 10px;
+ */
+}
+</style>
+<!-- Content Header (Page header) -->
+
+<!-- Main content -->
+<section class="content">
+
+	<div class="row">
+		<div class="col-md-3">
+
+
+			<div class="box box-primary box_shadow">
+				<!-- /.box-header -->
+				<div class="box-body">
+					<div class="thumbnail" data-value="${num}">
+
+						<img alt="100%x200"
+							th:src="@{/upload{filename}(filename=${gdate.imgpath})}"
+							data-holder-rendered="true"
+							style="height: auto; width: 100%; display: block;">
+
+						<div class="caption">
+							<p>
+								<font style="color: #cbcbcb;">名字：</font><font
+									style="color: #666; font-weight: bold;" th:text="${gdate.name}"></font>
+							</p>
+							<p>
+								<font style="color: #cbcbcb;">身高：</font><font
+									style="color: #999;" th:text="${gdate.height}"></font>cm
+							</p>
+							<p>
+								<font style="color: #999;" th:text="${gdate.gperintro}"></font>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="box box-primary box_shadow">
+				<div class="box-header with-border">
+					<h3 class="box-title">
+						<font style="font-weight: bold;"><b th:text="${gdate.name}"></b>的简介</font>
+					</h3>
+				</div>
+				<!-- /.box-header -->
+				<div class="box-body ">
+					<table class="table">
+						<tbody>
+							<tr>
+								<td>中文名</td>
+								<td><b th:text="${gdate.name}"></b></td>
+							</tr>
+
+							<tr>
+								<td>别 名</td>
+								<td><th:block th:text="${gdate.nickname}" /></td>
+							</tr>
+
+							<tr>
+								<td>外文名</td>
+								<td><th:block th:text="${gdate.foreignname}" /></td>
+							</tr>
+							<tr>
+								<td>三 围</td>
+								<td><font style="color: #cbcbcb;">胸</font>
+								<th:block th:text="${gdate.bust}" /><font
+									style="color: #cbcbcb;">腰</font>
+								<th:block th:text="${gdate.waist}" /><font
+									style="color: #cbcbcb;">臀</font>
+								<th:block th:text="${gdate.hip}" /></td>
+							</tr>
+							<tr>
+								<td>国 籍</td>
+								<td><th:block th:text="${gdate.country}" /></td>
+							</tr>
+							<tr>
+								<td>民 族</td>
+								<td><th:block th:text="${gdate.nation}" /></td>
+							</tr>
+							<tr>
+								<td>星 座</td>
+								<td><th:block th:text="${constellation}" /></td>
+							</tr>
+							<tr>
+								<td>血 型</td>
+								<td><th:block th:text="${gdate.bloodgroup}" />型</td>
+							</tr>
+							<tr>
+								<td>身 高</td>
+								<td><th:block th:text="${gdate.height}" />cm</td>
+							</tr>
+							<tr>
+								<td>体 重</td>
+								<td><th:block th:text="${gdate.weight}" />kg</td>
+							</tr>
+							<tr>
+								<td>出生地</td>
+								<td><th:block th:text="${gdate.province}" />
+									<th:block th:text="${gdate.city}" /></td>
+							</tr>
+							<tr>
+								<td>出生日期</td>
+								<td><th:block th:text="${gdate.birthdate}" /></td>
+							</tr>
+							<tr>
+								<td>职 业</td>
+								<td><th:block th:text="${gdate.occupation}" /></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<!-- /.box-body -->
+			</div>
+			<!-- /.box -->
+		</div>
+
+		<!-- /.col -->
+		<div class="col-md-9">
+			<div class="box box-primary">
+				<!-- /.box-header -->
+				<div class="box-body table-responsive" style="padding: 15px;">
+					<tr th:each="gplist,iterStat : ${picList}">
+						<!-- <td th:text="|下标：${iterStat.index} 下标是不是单数：${iterStat.odd}|" /> --> 
+						<th th:if="${iterStat.index%4}==0"><div class="row"></th>
+						<div class="col-sm-6 col-md-3">
+							<div class="thumbnail" style="padding: 0px; border: 0px;">
+								<a th:href="${gplist.picurl}" target="_blank"> <img
+									alt="100%x200" th:src="${gplist.picurl}"
+									data-holder-rendered="true"
+									style="height: auto; width: 100%; display: block;">
+								</a>
+								<div class="caption" style="padding: 0px;">
+									<p>
+										<font style="color: #cbcbcb;">湛江赤坎 2015年3月7日</font>
+									</p>
+								</div>
+							</div>
+						</div>
+						<th th:if="${iterStat.index%4}==3"><p th:utext="'</div>'"></p></th>
+					</tr>
+					<!-- 
+					<c:forEach items="${picList}" var="gplist" varStatus="gp">
+						<c:if test="${gp.index%4==0}">
+							<div class="row">
+						</c:if>
+						<div class="col-sm-6 col-md-3">
+							<div class="thumbnail" style="padding: 0px; border: 0px;">
+								<a href="${gplist.picurl}" target="_blank"> <img
+									alt="100%x200" src="${gplist.picurl}"
+									data-holder-rendered="true"
+									style="height: auto; width: 100%; display: block;">
+								</a>
+								<div class="caption" style="padding: 0px;">
+									<p>
+										<font style="color: #cbcbcb;">湛江赤坎 2015年3月7日</font>
+									</p>
+								</div>
+							</div>
+						</div>
+						<c:if test="${gp.index%4==3}">
+							</div>
+						</c:if>
+				</c:forEach> -->
+			</div>
+			<!-- /.box-body -->
+		</div>
+		<!-- /.box -->
+
+	</div>
+	<!-- /.col -->
+	</div>
+	<!-- /.row -->
+
+</section>
+<!-- /.content -->
+</html>

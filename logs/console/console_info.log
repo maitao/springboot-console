@@ -1,0 +1,141 @@
+2019-07-30 16:57:02.575 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e65df93a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-30 16:57:03.715 [main] INFO  com.mt.console.SpringbootConsoleApplication - The following profiles are active: dev
+2019-07-30 16:57:05.872 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-30 16:57:06.068 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 186ms. Found 0 repository interfaces.
+2019-07-30 16:57:06.558 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=ec519ed6-07c9-316a-a8ae-4490812283b7
+2019-07-30 16:57:06.591 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.mt.console.feign.IFeignServiceTestClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-30 16:57:06.819 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ca43f63d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-30 16:57:07.003 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e65df93a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-30 16:57:07.640 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2019-07-30 16:57:07.660 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2019-07-30 16:57:07.672 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-30 16:57:07.673 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-07-30 16:57:08.034 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-30 16:57:08.043 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4299 ms
+2019-07-30 16:57:09.989 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-07-30 16:57:10.099 [cluster-ClusterId{value='5d40066505783a3bfcf1cc28', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:24}] to 127.0.0.1:27017
+2019-07-30 16:57:10.107 [cluster-ClusterId{value='5d40066505783a3bfcf1cc28', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 8]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4449416}
+2019-07-30 16:57:10.933 [main] INFO  com.mt.console.listener.InitData - =================初始化系统参数=================
+2019-07-30 16:57:11.055 [main] INFO  com.mt.console.sysinit.SysInitService - 开启定时任务++++++++++++++++++++++++++++++++
+2019-07-30 16:57:11.056 [main] INFO  com.mt.console.sysinit.SysInitService - 读入系统变量++++++++++++++++++++++++++++++++
+2019-07-30 16:57:11.113 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-07-30 16:57:13.841 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-07-30 16:57:15.175 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-07-30 16:57:15.443 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-07-30 16:57:15.457 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-07-30 16:57:18.728 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-07-30 16:57:18.774 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-07-30 16:57:18.884 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-07-30 16:57:18.885 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-07-30 16:57:19.087 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-07-30 16:57:19.087 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-07-30 16:57:19.588 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-30 16:57:20.081 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-07-30 16:57:20.082 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-07-30 16:57:20.082 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-07-30 16:57:20.083 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-07-30 16:57:20.084 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-07-30 16:57:20.085 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-07-30 16:57:20.085 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-07-30 16:57:20.395 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-07-30 16:57:20.399 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-07-30 16:57:20.403 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-07-30 16:57:20.407 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1564477040406 with initial instances count: 3
+2019-07-30 16:57:20.414 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application SERVICE-CONSOLE with eureka with status UP
+2019-07-30 16:57:20.415 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1564477040415, current=UP, previous=STARTING]
+2019-07-30 16:57:20.419 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-CONSOLE/DESKTOP-KNP79HU:service-console:8082: registering service...
+2019-07-30 16:57:20.419 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-07-30 16:57:20.455 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-07-30 16:57:20.514 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-07-30 16:57:20.515 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-CONSOLE/DESKTOP-KNP79HU:service-console:8082 - registration status: 204
+2019-07-30 16:57:20.964 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: menuUsingGET_1
+2019-07-30 16:57:21.110 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: indexUsingGET_1
+2019-07-30 16:57:21.454 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: menuUsingPOST_1
+2019-07-30 16:57:21.472 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: indexUsingGET_2
+2019-07-30 16:57:21.474 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: indexUsingHEAD_1
+2019-07-30 16:57:21.476 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: indexUsingPOST_1
+2019-07-30 16:57:21.482 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: indexUsingPUT_1
+2019-07-30 16:57:21.486 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: indexUsingPATCH_1
+2019-07-30 16:57:21.487 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: indexUsingDELETE_1
+2019-07-30 16:57:21.489 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: indexUsingOPTIONS_1
+2019-07-30 16:57:21.496 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: indexUsingTRACE_1
+2019-07-30 16:57:21.542 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: jsonUsingPOST_1
+2019-07-30 16:57:21.603 [main] INFO  com.mt.console.listener.InitData - =================初始化系统参数=================
+2019-07-30 16:57:21.606 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2019-07-30 16:57:21.654 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2019-07-30 16:57:21.661 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8082
+2019-07-30 16:57:21.665 [main] INFO  com.mt.console.SpringbootConsoleApplication - Started SpringbootConsoleApplication in 21.387 seconds (JVM running for 23.275)
+2019-07-30 17:02:20.089 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-30 17:07:20.091 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-30 17:12:20.094 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-30 17:15:42.070 [http-nio-8082-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-30 17:15:42.071 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-30 17:15:42.179 [http-nio-8082-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 106 ms
+2019-07-30 17:15:42.337 [http-nio-8082-exec-1] INFO  com.mt.console.util.IllegalStrFilterUtil - 通过sql检测
+2019-07-30 17:15:42.338 [http-nio-8082-exec-1] INFO  com.mt.console.util.IllegalStrFilterUtil - 通过字符串检测
+2019-07-30 17:15:42.361 [http-nio-8082-exec-1] INFO  com.mt.console.aop.WebLogAspect - WebLogAspect: http://localhost:8082/
+2019-07-30 17:15:42.733 [http-nio-8082-exec-1] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:25}] to 127.0.0.1:27017
+2019-07-30 17:15:43.355 [http-nio-8082-exec-7] INFO  com.mt.console.util.IllegalStrFilterUtil - 通过sql检测
+2019-07-30 17:15:43.355 [http-nio-8082-exec-7] INFO  com.mt.console.util.IllegalStrFilterUtil - 通过字符串检测
+2019-07-30 17:15:44.167 [http-nio-8082-exec-6] INFO  com.mt.console.util.IllegalStrFilterUtil - 通过sql检测
+2019-07-30 17:15:44.168 [http-nio-8082-exec-6] INFO  com.mt.console.util.IllegalStrFilterUtil - 通过字符串检测
+2019-07-30 17:15:44.174 [http-nio-8082-exec-6] INFO  com.mt.console.aop.WebLogAspect - WebLogAspect: http://localhost:8082/console/cookie
+2019-07-30 17:15:44.796 [http-nio-8082-exec-7] INFO  com.mt.console.aop.WebLogAspect - WebLogAspect: http://localhost:8082/console/verifycode
+2019-07-30 17:17:20.096 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-30 17:22:20.099 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-30 17:27:20.102 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-30 17:31:37.578 [DiscoveryClient-HeartbeatExecutor-0] INFO  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution succeeded on retry #1
+2019-07-30 17:31:37.579 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-CONSOLE/DESKTOP-KNP79HU:service-console:8082 - Re-registering apps/SERVICE-CONSOLE
+2019-07-30 17:31:37.580 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-CONSOLE/DESKTOP-KNP79HU:service-console:8082: registering service...
+2019-07-30 17:31:37.601 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution succeeded on retry #1
+2019-07-30 17:31:37.893 [DiscoveryClient-HeartbeatExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-CONSOLE/DESKTOP-KNP79HU:service-console:8082 - registration status: 204
+2019-07-30 17:32:07.645 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-07-30 17:32:07.647 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-07-30 17:32:07.648 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-07-30 17:32:07.648 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-07-30 17:32:07.649 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-07-30 17:32:07.649 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: false
+2019-07-30 17:32:07.649 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-07-30 17:32:07.713 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-07-30 17:32:20.104 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-30 17:35:39.174 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution succeeded on retry #1
+2019-07-30 17:37:20.106 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-30 17:41:10.063 [DiscoveryClient-HeartbeatExecutor-0] INFO  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution succeeded on retry #1
+2019-07-30 17:42:20.110 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-30 17:47:20.113 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-30 17:52:20.116 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-30 17:53:11.881 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution succeeded on retry #1
+2019-07-30 17:53:12.484 [DiscoveryClient-HeartbeatExecutor-0] INFO  c.n.d.s.t.decorator.RetryableEurekaHttpClient - Request execution succeeded on retry #1
+2019-07-30 17:57:20.120 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-30 18:00:56.774 [http-nio-8082-exec-4] INFO  com.mt.console.util.IllegalStrFilterUtil - 通过sql检测
+2019-07-30 18:00:56.775 [http-nio-8082-exec-4] INFO  com.mt.console.util.IllegalStrFilterUtil - 通过字符串检测
+2019-07-30 18:00:56.778 [http-nio-8082-exec-4] INFO  com.mt.console.aop.WebLogAspect - WebLogAspect: http://localhost:8082/
+2019-07-30 18:00:56.925 [http-nio-8082-exec-6] INFO  com.mt.console.util.IllegalStrFilterUtil - 通过sql检测
+2019-07-30 18:00:56.926 [http-nio-8082-exec-6] INFO  com.mt.console.util.IllegalStrFilterUtil - 通过字符串检测
+2019-07-30 18:00:57.000 [http-nio-8082-exec-6] INFO  com.mt.console.aop.WebLogAspect - WebLogAspect: http://localhost:8082/console/verifycode
+2019-07-30 18:00:57.243 [http-nio-8082-exec-7] INFO  com.mt.console.util.IllegalStrFilterUtil - 通过sql检测
+2019-07-30 18:00:57.243 [http-nio-8082-exec-7] INFO  com.mt.console.util.IllegalStrFilterUtil - 通过字符串检测
+2019-07-30 18:00:57.244 [http-nio-8082-exec-7] INFO  com.mt.console.aop.WebLogAspect - WebLogAspect: http://localhost:8082/console/cookie
+2019-07-30 18:02:20.193 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-30 18:07:20.204 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-30 18:12:20.207 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-30 18:17:20.209 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-30 18:22:20.212 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-30 18:27:20.215 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-30 18:32:20.225 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-30 18:37:20.227 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-30 18:38:56.696 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2019-07-30 18:38:56.790 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Unregistering application SERVICE-CONSOLE with eureka with status DOWN
+2019-07-30 18:38:56.799 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-CONSOLE/DESKTOP-KNP79HU:service-console:8082: registering service...
+2019-07-30 18:38:56.898 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-CONSOLE/DESKTOP-KNP79HU:service-console:8082 - registration status: 204
+2019-07-30 18:38:57.087 [RMI TCP Connection(2)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-07-30 18:38:57.128 [RMI TCP Connection(2)-127.0.0.1] INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:25}] to 127.0.0.1:27017 because the pool has been closed.
+2019-07-30 18:38:57.171 [RMI TCP Connection(2)-127.0.0.1] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-07-30 18:39:00.176 [RMI TCP Connection(2)-127.0.0.1] INFO  com.netflix.discovery.DiscoveryClient - Unregistering ...
+2019-07-30 18:39:00.391 [RMI TCP Connection(2)-127.0.0.1] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-CONSOLE/DESKTOP-KNP79HU:service-console:8082 - deregister  status: 200
+2019-07-30 18:39:00.445 [RMI TCP Connection(2)-127.0.0.1] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2019-07-30 18:39:00.498 [RMI TCP Connection(2)-127.0.0.1] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8082"]
+2019-07-30 18:39:01.380 [RMI TCP Connection(2)-127.0.0.1] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-07-30 18:39:01.407 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2019-07-30 18:39:01.464 [RMI TCP Connection(2)-127.0.0.1] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8082"]
+2019-07-30 18:39:01.485 [RMI TCP Connection(2)-127.0.0.1] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8082"]

@@ -1,0 +1,162 @@
+<HTML>
+	<HEAD>
+		<title>下拉框测试</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+		<script src="change_region.js"></script>
+		<form name="form1" method="post">
+	</HEAD>
+	<body>
+		<table>
+			<tr>
+				<td>国家</td>
+				<td width="140" class="SELECT"><select name="country" id="country" onChange="change_region( &#13;&#10;       window.document.form1.state , &#13;&#10;       window.document.form1.country.options[selectedIndex].value );">
+						<option value="Not set" selected>-- 所有国家 --</option>
+						<script language="javascript">
+        set_select_options( window.document.form1.country, country, "" ) ;
+						</script>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>州/省</td>
+				<td class="SELECT">
+					<div align="left">
+						<select name="state" onChange="change_region( &#13;&#10;        window.document.form1.city , &#13;&#10;        window.document.form1.state.options[selectedIndex].value );">
+							<option value="Not set" selected>-- 所有州/省--</option>
+						</select>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>城市</td>
+				<td>
+					<select name="city" id="city">
+						<option value="Not set" selected>-- 城市 --</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>年龄</td>
+				<td>
+					<select name='age' size='1'>
+						<option value="0" selected>-- 都可以 --</option>
+						<script language="javascript">
+        set_select_options( window.document.form1.age, age, "" ) ;
+						</script>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>身高</td>
+				<td>
+					<select name='height' size='1'>
+						<option value="0" selected>-- 都可以 --</option>
+						<script language="javascript">
+        set_select_options( window.document.form1.height, height, "" ) ;
+						</script>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>体重</td>
+				<td>
+					<select name='weight' size='1'>
+						<option value="0" selected>-- 都可以 --</option>
+						<script language="javascript">
+        set_select_options( window.document.form1.weight, weight, "" ) ;
+						</script>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>学位</td>
+				<td>
+					<select name="degree" id="degree">
+						<option value="Not set" selected>-- 都可以 --</option>
+						<script language="javascript">
+       set_select_options( window.document.form1.degree , degree , "" ) ;
+						</script>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>职业</td>
+				<td>
+					<select name="occupation" id="occupation">
+						<option value="Not set" selected>-- 职业 --</option>
+						<script language="javascript">
+       set_select_options( window.document.form1.occupation, occupation, "" ) ;
+						</script>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>交友目的</td>
+				<td>
+					<select id="purpose" name="purpose">
+						<option value="Not set" selected>都可以</option>
+						<script language="javascript">
+       set_select_options( window.document.form1.purpose, purpose, "" ) ;
+						</script>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>生肖</td>
+				<td>
+					<select name="sheng_xiao" id="sheng_xiao">
+						<option value="Not set" selected>不详</option>
+						<script language="javascript">
+      set_select_options( window.document.form1.sheng_xiao , sheng_xiao , "" ) ;
+						</script>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>星座</td>
+				<td>
+					<select name="astrology" id="astrology">
+						<option value="Not set" selected>不详</option>
+						<script language="javascript">
+     set_select_options( window.document.form1.astrology , astrology , "" ) ;
+						</script>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>血型</td>
+				<td>
+					<select name="blood_type" id="blood_type">
+						<option value="Not set" selected>不详</option>
+						<script language="javascript">
+      set_select_options( window.document.form1.blood_type , blood_type , "" ) ;
+						</script>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>相貌</td>
+				<td>
+					<select name="appearance" id="appearance">
+						<option value="Not set" selected>以后再告诉你</option>
+						<script language="javascript">
+       set_select_options( window.document.form1.appearance , appearance , "" ) ;
+						</script>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>年收入</td>
+				<td>
+					<select name="income" id="income">
+						<option value="Not set" selected>以后再告诉你</option>
+						<script language="javascript">
+      set_select_options( window.document.form1.income , income , "" ) ;
+						</script>
+					</select>
+				</td>
+			</tr>
+		</table>
+		</FORM>
+	</body>
+</HTML>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mt.console.web.mapper.IAdminMembershipMapper">
+
+	<!-- 检查帐号重复 -->
+	<select id="checkAccountExit" resultType="java.lang.Integer">
+		select count(1) from t_mt_admin
+		<where>
+			account = #{account}
+		</where>
+	</select>
+
+	<!-- 获取所有的Admin帐号（IM查找显示用） -->
+	<select id="getAllAdminMembership" resultType="java.util.HashMap">
+		SELECT
+		t1.id,
+		t1.account,
+		t1.name,
+		t1.online
+		FROM
+		t_mt_admin t1
+		LEFT JOIN
+		t_mt_admin_info
+		t2 ON t1.id = t2.account_id
+	</select>
+
+	<select id="getIMContact" resultType="java.util.HashMap">
+		SELECT
+		t1.toAccount,
+		t1.name,
+		t1.image,
+		t1.remark,
+		t1.online,
+		DATE_FORMAT(t1.create_time,
+		'%Y/%m/%d %T') AS createTime,
+		t2.max_time as lastTime,
+		t2.unReachNum
+		FROM
+		(
+		SELECT
+		t1.to_account AS toAccount,
+		t2.name,
+		t2.image,
+		t2.remark,
+		t3.online,
+		t1.delete_time,
+		t1.create_time
+		FROM
+		t_mt_im_contact t1
+		LEFT JOIN
+		t_mt_admin_info t2 ON t1.to_account = t2.account
+		LEFT JOIN
+		t_mt_admin t3
+		ON t2.account_id = t3.id
+		WHERE
+		t1. STATUS = 1
+		AND t1.account = #{account}
+		) t1
+		LEFT JOIN (
+		SELECT
+		max(create_time) AS max_time,
+		from_account AS
+		fromAccount,
+		count(IF(reach = 0, 1, NULL)) AS unReachNum
+		FROM
+		portal.t_mt_im_message
+		WHERE
+		to_account = #{account}
+		GROUP BY
+		from_account
+		) t2 ON t1.toAccount = t2.fromAccount ORDER BY
+		lastTime
+		desc, createTime DESC
+	</select>
+
+	<select id="selectAdminMembership" resultMap="AdminMembershipResultMap">
+		SELECT
+		id,
+		account,
+		name,
+		role_num,
+		DATE_FORMAT(create_time, '%Y-%m-%d %T')
+		AS
+		create_time,
+		status
+		FROM
+		t_mt_admin
+		<where>
+			<if test="account != null and password != null">
+				account =#{account} and password =#{password}
+			</if>
+		</where>
+	</select>
+
+	<select id="selectAdminMembershipInfo" resultMap="AdminMembershipInfoResultMap">
+		SELECT
+		id,
+		account,
+		phone,
+		email,
+		age,
+		occupation,
+		education,
+		location,
+		skills,
+		image,
+		remark,
+		DATE_FORMAT(update_time,
+		'%Y-%m-%d %T')
+		AS update_time
+		FROM
+		t_mt_admin_info
+		<where>
+			<if test="account != null ">
+				account =#{account}
+			</if>
+		</where>
+	</select>
+
+	<!-- 会员新增 -->
+	<insert id="insertAdminMembership" parameterType="com.mt.console.web.po.AdminMembership">
+		insert into t_mt_admin(name, account, password, reg_ip, platform, create_time, update_time)
+		values(#{name}, #{account},#{password},#{regIp},#{platform},#{createTime},#{updateTime})
+		<selectKey keyProperty="id" resultType="Long">
+			select
+			last_insert_id() as id
+		</selectKey>
+	</insert>
+
+	<!-- 会员新增 -->
+	<insert id="insertAdminMembershipInfo" parameterType="com.mt.console.web.po.AdminMembershipInfo">
+		insert into
+		t_mt_admin_info(account, phone, email, create_time, remark)
+		values(#{account},#{phone},#{email},#{createTime},#{remark})
+	</insert>
+
+	<!-- 修改会员帐号信息 -->
+	<update id="updateAdminMembership">
+		update t_mt_admin
+		<set>
+			online =
+			#{online},login_count=login_count+1,last_login_ip=#{lastLoginIp},last_login_time=#{lastLoginTime}
+		</set>
+		where id=#{id}
+	</update>
+
+	<!-- 取得记录总数 -->
+	<select id="getTotalCount" resultType="java.lang.Integer">
+		select count(1) from t_mt_admin a where a.platform = 'welltou_user'
+	</select>
+
+	<!-- 取得记录列表 -->
+	<select id="getPageList" resultType="java.util.HashMap"
+		parameterType="Map">
+		SELECT
+		a.id,
+		a.account,
+		a.name,
+		a.online,
+		a.reg_ip as regIp,
+		a.last_login_ip as lastLoginIp,
+		DATE_FORMAT(a.last_login_time, '%Y-%m-%d %H:%i:%s') AS
+		lastLoginTime,
+		a.login_count as loginCount,
+		a.lock_time as lockTime,
+		a.status,
+		DATE_FORMAT(
+		a.create_time,
+		'%Y-%m-%d %T'
+		) AS createTime,
+		DATE_FORMAT(
+		a.update_time,
+		'%Y-%m-%d %T'
+		) AS updateTime
+		FROM
+		t_mt_admin a where a.platform = 'welltou_user'
+		ORDER BY
+		a.create_time DESC limit #{index},
+		#{offset}
+	</select>
+
+	<insert id="insertContactAdminMembership" parameterType="com.mt.console.web.po.IMContact">
+		insert
+		into
+		t_mt_im_contact(account, to_account, create_time)
+		values(#{account},#{toAccount},#{createTime})
+	</insert>
+
+	<resultMap type="com.mt.console.web.po.AdminMembership"
+		id="AdminMembershipResultMap">
+		<result column="role_num" property="roleNum" />
+		<result column="create_time" property="createTime" />
+	</resultMap>
+
+	<resultMap type="com.mt.console.web.po.AdminMembershipInfo"
+		id="AdminMembershipInfoResultMap">
+		<result column="update_time" property="updateTime" />
+	</resultMap>
+
+	<resultMap type="com.mt.console.web.po.IMContact" id="IMContactResultMap">
+		<result column="to_account" property="toAccount" />
+		<result column="create_time" property="createTime" />
+		<result column="delete_time" property="deleteTime" />
+	</resultMap>
+</mapper>

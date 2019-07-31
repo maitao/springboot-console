@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mt.console.web.mapper.IPermissionMapper">
+
+	<!-- 取得记录总数 -->
+	<select id="getTotalCount" resultType="int" parameterType="Map">
+		select count(1) from (select id from t_szyx_permission a) b
+	</select>
+	<!-- 取得记录列表 -->
+	<select id="getPageList" resultType="java.util.HashMap"
+		parameterType="Map">
+		SELECT
+		a.id,
+		a.number,
+		a.method_num,
+		a.name,
+		a.class_path,
+		a.method_name,
+		a.is_ajax,
+		a.is_menu,
+		a.status,
+		a.method_remark,
+		DATE_FORMAT(a.create_time, '%Y-%m-%d %T') AS create_time
+		FROM
+		t_szyx_permission a
+		ORDER BY a.number limit #{index}, #{offset}
+	</select>
+
+	<!-- 取得记录列表 -->
+	<select id="getPageList_1" resultType="java.util.HashMap"
+		parameterType="Map">
+		SELECT
+		a.id,
+		a.number,
+		a.method_num,
+		a.name,
+		a.class_path,
+		a.method_name,
+		a.is_ajax,
+		a.is_menu,
+		a.status,
+		a.method_remark,
+		DATE_FORMAT(a.create_time, '%Y-%m-%d %T') AS create_time
+		FROM
+		t_szyx_permission a
+		ORDER BY a.class_path,
+		a.number limit #{index},
+		#{offset}
+	</select>
+
+
+
+</mapper>

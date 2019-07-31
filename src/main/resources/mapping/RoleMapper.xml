@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mt.console.web.mapper.IRoleMapper">
+
+	<!-- 取得记录总数 -->
+	<select id="getTotalCount" resultType="int" parameterType="Map">
+		select count(1) from t_mt_role 
+	</select>
+	<!-- 取得记录列表 -->
+	<select id="getPageList" resultType="java.util.HashMap"
+		parameterType="Map">
+		SELECT
+		a.id,
+		a.number,
+		a.name,
+		a.operation,
+		a.menu,
+		a.status,
+		DATE_FORMAT(a.create_time, '%Y-%m-%d %T') AS createTime,
+		remark
+		FROM
+		t_mt_role a
+		ORDER BY a.number limit #{index}, #{offset}
+	</select>
+
+	<!-- 取得记录列表 -->
+	<select id="getPermission" resultType="String">
+		SELECT a.operation FROM
+		t_mt_role a WHERE number = (SELECT b.role_num FROM t_szyx_account b
+		WHERE b.id = #{id})
+	</select>
+
+</mapper>

@@ -1,0 +1,66 @@
+2019-07-29 15:31:48.616 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-29 15:31:51.133 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-29 15:32:01.424 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-29 15:32:02.581 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-07-29 15:33:15.097 [http-nio-8082-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /admin/ws
+2019-07-29 15:33:15.102 [http-nio-8082-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /undefined
+2019-07-29 15:33:27.117 [http-nio-8082-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+2019-07-29 15:33:36.120 [http-nio-8082-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/menu/xwzx
+2019-07-29 15:37:31.392 [http-nio-8082-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/plugin/ueditor/index.html
+2019-07-29 15:37:41.449 [http-nio-8082-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/menu/xwzx
+2019-07-29 15:37:54.022 [http-nio-8082-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/menu/xwzx
+2019-07-29 15:38:38.916 [http-nio-8082-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/menu/xwzx
+2019-07-29 15:38:51.092 [http-nio-8082-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/tableList/sysConf
+2019-07-29 15:38:51.118 [http-nio-8082-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /web/mtadmin/js/tableList/sysConf.js
+2019-07-29 15:38:53.021 [http-nio-8082-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/menu/membership
+2019-07-29 15:38:53.729 [http-nio-8082-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/tableList/role
+2019-07-29 15:38:53.758 [http-nio-8082-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /web/mtadmin/js/tableList/role.js
+2019-07-29 15:38:54.209 [http-nio-8082-exec-10] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/menu/menu
+2019-07-29 15:38:54.669 [http-nio-8082-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/tableList/operation
+2019-07-29 15:38:54.714 [http-nio-8082-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /web/mtadmin/js/tableList/operation.js
+2019-07-29 15:38:55.190 [http-nio-8082-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/menu/log
+2019-07-29 15:39:10.406 [http-nio-8082-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/menu/home
+2019-07-29 16:31:06.781 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-29 16:31:08.878 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-29 16:31:18.478 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-29 16:31:19.640 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-07-29 16:56:57.418 [RMI TCP Connection(2)-127.0.0.1] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1564390617418, current=DOWN, previous=UP]
+2019-07-29 16:58:58.713 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.mt.console.SpringbootConsoleApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'testController' for bean class [com.mt.console.web.feign.TestController] conflicts with existing, non-compatible bean definition of same name and class [com.mt.console.web.controller.TestController]
+2019-07-29 17:00:12.363 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-29 17:00:12.374 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-29 17:00:13.301 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-07-29 17:47:53.403 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-29 17:47:53.412 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-29 17:47:54.082 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-07-29 17:57:46.003 [RMI TCP Connection(2)-127.0.0.1] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1564394266003, current=DOWN, previous=UP]
+2019-07-29 18:02:51.715 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-29 18:02:51.730 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-29 18:02:52.642 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-07-29 18:03:10.681 [http-nio-8082-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /console/plugin/ueditor/index.html
+2019-07-29 18:12:36.888 [RMI TCP Connection(2)-127.0.0.1] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1564395156888, current=DOWN, previous=UP]
+2019-07-29 18:13:08.880 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-29 18:13:08.889 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-29 18:13:09.681 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-07-29 18:14:08.048 [RMI TCP Connection(2)-127.0.0.1] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1564395248048, current=DOWN, previous=UP]
+2019-07-29 18:14:41.915 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-29 18:14:41.925 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-29 18:14:43.458 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-07-29 18:16:26.358 [RMI TCP Connection(2)-127.0.0.1] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1564395386358, current=DOWN, previous=UP]
+2019-07-29 18:16:56.048 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-29 18:16:56.058 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-29 18:16:56.887 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-07-29 18:18:26.984 [RMI TCP Connection(2)-127.0.0.1] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1564395506984, current=DOWN, previous=UP]
+2019-07-29 18:18:59.876 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-29 18:18:59.884 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-29 18:19:03.195 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-07-29 18:21:27.643 [RMI TCP Connection(2)-127.0.0.1] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1564395687643, current=DOWN, previous=UP]
+2019-07-29 18:22:38.625 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-29 18:22:38.638 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-29 18:22:39.536 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-07-29 18:25:51.415 [RMI TCP Connection(2)-127.0.0.1] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1564395951415, current=DOWN, previous=UP]
+2019-07-29 18:26:23.240 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-29 18:26:23.250 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-07-29 18:26:24.070 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-07-29 18:29:31.390 [http-nio-8082-exec-9] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /undefined
+2019-07-29 18:29:31.482 [http-nio-8082-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /admin/ws
+2019-07-29 18:34:18.627 [RMI TCP Connection(2)-127.0.0.1] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1564396458627, current=DOWN, previous=UP]

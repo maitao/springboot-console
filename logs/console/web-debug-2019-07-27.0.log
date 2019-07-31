@@ -1,0 +1,870 @@
+2019-07-27 06:43:26.594 [http-nio-8082-exec-1] DEBUG c.m.c.w.m.I.selectAdminMembership - ==>  Preparing: SELECT id, account, name, role_num, DATE_FORMAT(create_time, '%Y-%m-%d %T') AS create_time, status FROM t_mt_admin WHERE account =? and password =? 
+2019-07-27 06:43:26.636 [http-nio-8082-exec-1] DEBUG c.m.c.w.m.I.selectAdminMembership - ==> Parameters: changlaiai@sina.com(String), 0CA178B90C30A4244F1266D5EE8920C2BED7C4B2(String)
+2019-07-27 06:43:26.718 [http-nio-8082-exec-1] DEBUG c.m.c.w.m.I.selectAdminMembership - <==      Total: 0
+2019-07-27 06:43:33.379 [http-nio-8082-exec-4] DEBUG c.m.c.w.m.I.selectAdminMembership - ==>  Preparing: SELECT id, account, name, role_num, DATE_FORMAT(create_time, '%Y-%m-%d %T') AS create_time, status FROM t_mt_admin WHERE account =? and password =? 
+2019-07-27 06:43:33.382 [http-nio-8082-exec-4] DEBUG c.m.c.w.m.I.selectAdminMembership - ==> Parameters: changlaiai@sina.com(String), 24C7F408D9454BE9ACB551B7F6BE340A8F90B1A9(String)
+2019-07-27 06:43:33.439 [http-nio-8082-exec-4] DEBUG c.m.c.w.m.I.selectAdminMembership - <==      Total: 0
+2019-07-27 06:43:45.523 [http-nio-8082-exec-5] DEBUG c.m.c.w.m.I.selectAdminMembership - ==>  Preparing: SELECT id, account, name, role_num, DATE_FORMAT(create_time, '%Y-%m-%d %T') AS create_time, status FROM t_mt_admin WHERE account =? and password =? 
+2019-07-27 06:43:45.524 [http-nio-8082-exec-5] DEBUG c.m.c.w.m.I.selectAdminMembership - ==> Parameters: changlaiai@sina.com(String), 61E1D9F1F42F4CCCAC7DFC452F0F4733FA0A759D(String)
+2019-07-27 06:43:45.572 [http-nio-8082-exec-5] DEBUG c.m.c.w.m.I.selectAdminMembership - <==      Total: 0
+2019-07-27 06:43:53.554 [http-nio-8082-exec-6] DEBUG c.m.c.w.m.I.selectAdminMembership - ==>  Preparing: SELECT id, account, name, role_num, DATE_FORMAT(create_time, '%Y-%m-%d %T') AS create_time, status FROM t_mt_admin WHERE account =? and password =? 
+2019-07-27 06:43:53.556 [http-nio-8082-exec-6] DEBUG c.m.c.w.m.I.selectAdminMembership - ==> Parameters: changlaiai@sina.com(String), 61E1D9F1F42F4CCCAC7DFC452F0F4733FA0A759D(String)
+2019-07-27 06:43:53.614 [http-nio-8082-exec-6] DEBUG c.m.c.w.m.I.selectAdminMembership - <==      Total: 0
+2019-07-27 06:48:31.941 [http-nio-8082-exec-6] DEBUG c.m.c.w.m.I.selectAdminMembership - ==>  Preparing: SELECT id, account, name, role_num, DATE_FORMAT(create_time, '%Y-%m-%d %T') AS create_time, status FROM t_mt_admin WHERE account =? and password =? 
+2019-07-27 06:48:31.942 [http-nio-8082-exec-6] DEBUG c.m.c.w.m.I.selectAdminMembership - ==> Parameters: changlaiai@sina.com(String), EFAE8FAAB276E4D8D326F25DE4439AC138666385(String)
+2019-07-27 06:48:31.990 [http-nio-8082-exec-6] DEBUG c.m.c.w.m.I.selectAdminMembership - <==      Total: 0
+2019-07-27 06:48:49.066 [http-nio-8082-exec-2] DEBUG c.m.c.w.m.I.selectAdminMembership - ==>  Preparing: SELECT id, account, name, role_num, DATE_FORMAT(create_time, '%Y-%m-%d %T') AS create_time, status FROM t_mt_admin WHERE account =? and password =? 
+2019-07-27 06:48:49.068 [http-nio-8082-exec-2] DEBUG c.m.c.w.m.I.selectAdminMembership - ==> Parameters: changlaiai@sina.com(String), 2788EA1CD44D84CC19353A9118BECB37ADDCC461(String)
+2019-07-27 06:48:49.117 [http-nio-8082-exec-2] DEBUG c.m.c.w.m.I.selectAdminMembership - <==      Total: 0
+2019-07-27 06:49:00.017 [http-nio-8082-exec-6] DEBUG c.m.c.w.m.I.selectAdminMembership - ==>  Preparing: SELECT id, account, name, role_num, DATE_FORMAT(create_time, '%Y-%m-%d %T') AS create_time, status FROM t_mt_admin WHERE account =? and password =? 
+2019-07-27 06:49:00.019 [http-nio-8082-exec-6] DEBUG c.m.c.w.m.I.selectAdminMembership - ==> Parameters: changlaiai@sina.com(String), 2788EA1CD44D84CC19353A9118BECB37ADDCC461(String)
+2019-07-27 06:49:00.067 [http-nio-8082-exec-6] DEBUG c.m.c.w.m.I.selectAdminMembership - <==      Total: 0
+2019-07-27 07:34:29.212 [http-nio-8082-exec-4] DEBUG c.m.c.w.m.I.selectAdminMembership - ==>  Preparing: SELECT id, account, name, role_num, DATE_FORMAT(create_time, '%Y-%m-%d %T') AS create_time, status FROM t_mt_admin WHERE account =? and password =? 
+2019-07-27 07:34:29.250 [http-nio-8082-exec-4] DEBUG c.m.c.w.m.I.selectAdminMembership - ==> Parameters: changlaiai@sina.com(String), 0CA178B90C30A4244F1266D5EE8920C2BED7C4B2(String)
+2019-07-27 07:34:29.328 [http-nio-8082-exec-4] DEBUG c.m.c.w.m.I.selectAdminMembership - <==      Total: 0
+2019-07-27 07:35:00.256 [http-nio-8082-exec-1] DEBUG c.m.c.w.m.I.selectAdminMembership - ==>  Preparing: SELECT id, account, name, role_num, DATE_FORMAT(create_time, '%Y-%m-%d %T') AS create_time, status FROM t_mt_admin WHERE account =? and password =? 
+2019-07-27 07:35:00.258 [http-nio-8082-exec-1] DEBUG c.m.c.w.m.I.selectAdminMembership - ==> Parameters: changlaiai@sina.com(String), EBF2C0903CA00738C3AAEEC388469CF0E6618399(String)
+2019-07-27 07:35:00.301 [http-nio-8082-exec-1] DEBUG c.m.c.w.m.I.selectAdminMembership - <==      Total: 0
+2019-07-27 07:35:04.230 [http-nio-8082-exec-3] DEBUG c.m.c.w.m.I.selectAdminMembership - ==>  Preparing: SELECT id, account, name, role_num, DATE_FORMAT(create_time, '%Y-%m-%d %T') AS create_time, status FROM t_mt_admin WHERE account =? and password =? 
+2019-07-27 07:35:04.233 [http-nio-8082-exec-3] DEBUG c.m.c.w.m.I.selectAdminMembership - ==> Parameters: changlaiai@sina.com(String), 87C9250F326E9F06EAA6EA8333C36BB8E11D0C9B(String)
+2019-07-27 07:35:04.283 [http-nio-8082-exec-3] DEBUG c.m.c.w.m.I.selectAdminMembership - <==      Total: 0
+2019-07-27 07:35:10.925 [http-nio-8082-exec-6] DEBUG c.m.c.w.m.I.selectAdminMembership - ==>  Preparing: SELECT id, account, name, role_num, DATE_FORMAT(create_time, '%Y-%m-%d %T') AS create_time, status FROM t_mt_admin WHERE account =? and password =? 
+2019-07-27 07:35:10.926 [http-nio-8082-exec-6] DEBUG c.m.c.w.m.I.selectAdminMembership - ==> Parameters: changlaiai@sina.com(String), 87C9250F326E9F06EAA6EA8333C36BB8E11D0C9B(String)
+2019-07-27 07:35:10.969 [http-nio-8082-exec-6] DEBUG c.m.c.w.m.I.selectAdminMembership - <==      Total: 0
+2019-07-27 08:11:19.364 [http-nio-8082-exec-5] DEBUG c.m.c.w.m.I.selectAdminMembership - ==>  Preparing: SELECT id, account, name, role_num, DATE_FORMAT(create_time, '%Y-%m-%d %T') AS create_time, status FROM t_mt_admin WHERE account =? and password =? 
+2019-07-27 08:11:22.272 [http-nio-8082-exec-5] DEBUG c.m.c.w.m.I.selectAdminMembership - ==> Parameters: changlaiai@sina.com(String), 0CA178B90C30A4244F1266D5EE8920C2BED7C4B2(String)
+2019-07-27 08:11:24.645 [http-nio-8082-exec-5] DEBUG c.m.c.w.m.I.selectAdminMembership - <==      Total: 0
+2019-07-27 10:54:54.485 [http-nio-8082-exec-4] DEBUG c.m.c.w.m.I.selectAdminMembership - ==>  Preparing: SELECT id, account, name, role_num, DATE_FORMAT(create_time, '%Y-%m-%d %T') AS create_time, status FROM t_mt_admin WHERE account =? and password =? 
+2019-07-27 10:54:54.539 [http-nio-8082-exec-4] DEBUG c.m.c.w.m.I.selectAdminMembership - ==> Parameters: changlaiai@sina.com(String), 40D99A166F17FB9905282DED67E3F9AB0EF6A636(String)
+2019-07-27 10:54:54.638 [http-nio-8082-exec-4] DEBUG c.m.c.w.m.I.selectAdminMembership - <==      Total: 1
+2019-07-27 10:54:54.651 [http-nio-8082-exec-4] DEBUG c.m.c.w.m.I.updateAdminMembership - ==>  Preparing: update t_mt_admin SET online = ?,login_count=login_count+1,last_login_ip=?,last_login_time=? where id=? 
+2019-07-27 10:54:54.658 [http-nio-8082-exec-4] DEBUG c.m.c.w.m.I.updateAdminMembership - ==> Parameters: 1(Integer), 0:0:0:0:0:0:0:1(String), 2019-07-27 10:54:54.648(Timestamp), 4(Long)
+2019-07-27 10:54:54.769 [http-nio-8082-exec-4] DEBUG c.m.c.w.m.I.updateAdminMembership - <==    Updates: 1
+2019-07-27 10:54:54.955 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.ICommonMapper.getSysConf - ==>  Preparing: SELECT a.number, a.parent_num, a.conf_key, a.value, a.status, a.remark, a.create_time FROM t_mt_sysconf a 
+2019-07-27 10:54:54.956 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.ICommonMapper.getSysConf - ==> Parameters: 
+2019-07-27 10:54:55.043 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.ICommonMapper.getSysConf - <==      Total: 9
+2019-07-27 10:54:55.054 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.ICommonMapper.getSetting - ==>  Preparing: select id, account, layout, left_sidebar_hover, left_sidebar_collapsed, right_sidebar_cover, right_sidebar_skin, layout_skin from t_mt_setting WHERE account_id =? 
+2019-07-27 10:54:55.055 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.ICommonMapper.getSetting - ==> Parameters: 4(Long)
+2019-07-27 10:54:55.108 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.ICommonMapper.getSetting - <==      Total: 1
+2019-07-27 10:54:55.167 [http-nio-8082-exec-4] DEBUG c.m.c.w.m.I.selectAdminMembershipInfo - ==>  Preparing: SELECT id, account, phone, email, age, occupation, education, location, skills, image, remark, DATE_FORMAT(update_time, '%Y-%m-%d %T') AS update_time FROM t_mt_admin_info WHERE account =? 
+2019-07-27 10:54:55.168 [http-nio-8082-exec-4] DEBUG c.m.c.w.m.I.selectAdminMembershipInfo - ==> Parameters: changlaiai@sina.com(String)
+2019-07-27 10:54:55.249 [http-nio-8082-exec-4] DEBUG c.m.c.w.m.I.selectAdminMembershipInfo - <==      Total: 1
+2019-07-27 10:56:34.312 [http-nio-8082-exec-8] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==>  Preparing: SELECT a.menu FROM t_mt_role a where a.number = ? 
+2019-07-27 10:56:34.317 [http-nio-8082-exec-8] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==> Parameters: 0(Integer)
+2019-07-27 10:56:34.420 [http-nio-8082-exec-8] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - <==      Total: 1
+2019-07-27 10:56:34.439 [http-nio-8082-exec-8] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==>  Preparing: SELECT a.number, a.parent_num, a.name, a.short_url, a.left_icon, a.right_icon FROM t_mt_menu a where a.number in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) 
+2019-07-27 10:56:34.442 [http-nio-8082-exec-8] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==> Parameters: 01-01(String), 01-02(String), 02-01(String), 02-02(String), 02-03(String), 02-04(String), 02-05(String), 05-01(String), 05-02(String), 05-03(String), 05-04(String), 05-05(String), 05-06(String), 05-07(String), 05-08(String), 05-09(String), 05-10(String), 05-11(String), 06-01(String), 06-02(String), 06-03(String), 07-01(String), 07-02(String), 07-03(String), 07-04(String), 08-01(String), 08-02(String), 08-03(String), 08-04(String), 08-05(String), 08-06(String), 08-07(String), 08-08(String), 09-01(String)
+2019-07-27 10:56:34.519 [http-nio-8082-exec-8] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - <==      Total: 34
+2019-07-27 10:56:55.915 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==>  Preparing: SELECT a.menu FROM t_mt_role a where a.number = ? 
+2019-07-27 10:56:55.916 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==> Parameters: 0(Integer)
+2019-07-27 10:56:55.968 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - <==      Total: 1
+2019-07-27 10:56:55.974 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==>  Preparing: SELECT a.number, a.parent_num, a.name, a.short_url, a.left_icon, a.right_icon FROM t_mt_menu a where a.number in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) 
+2019-07-27 10:56:55.975 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==> Parameters: 01-01(String), 01-02(String), 02-01(String), 02-02(String), 02-03(String), 02-04(String), 02-05(String), 05-01(String), 05-02(String), 05-03(String), 05-04(String), 05-05(String), 05-06(String), 05-07(String), 05-08(String), 05-09(String), 05-10(String), 05-11(String), 06-01(String), 06-02(String), 06-03(String), 07-01(String), 07-02(String), 07-03(String), 07-04(String), 08-01(String), 08-02(String), 08-03(String), 08-04(String), 08-05(String), 08-06(String), 08-07(String), 08-08(String), 09-01(String)
+2019-07-27 10:56:56.036 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - <==      Total: 34
+2019-07-27 10:58:58.173 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==>  Preparing: SELECT a.menu FROM t_mt_role a where a.number = ? 
+2019-07-27 10:58:58.175 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==> Parameters: 0(Integer)
+2019-07-27 10:58:58.946 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - <==      Total: 1
+2019-07-27 10:58:58.957 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==>  Preparing: SELECT a.number, a.parent_num, a.name, a.short_url, a.left_icon, a.right_icon FROM t_mt_menu a where a.number in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) 
+2019-07-27 10:58:58.958 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==> Parameters: 01-01(String), 01-02(String), 02-01(String), 02-02(String), 02-03(String), 02-04(String), 02-05(String), 05-01(String), 05-02(String), 05-03(String), 05-04(String), 05-05(String), 05-06(String), 05-07(String), 05-08(String), 05-09(String), 05-10(String), 05-11(String), 06-01(String), 06-02(String), 06-03(String), 07-01(String), 07-02(String), 07-03(String), 07-04(String), 08-01(String), 08-02(String), 08-03(String), 08-04(String), 08-05(String), 08-06(String), 08-07(String), 08-08(String), 09-01(String)
+2019-07-27 10:58:59.034 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - <==      Total: 34
+2019-07-27 10:59:03.761 [http-nio-8082-exec-7] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==>  Preparing: SELECT a.menu FROM t_mt_role a where a.number = ? 
+2019-07-27 10:59:03.763 [http-nio-8082-exec-7] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==> Parameters: 0(Integer)
+2019-07-27 10:59:03.829 [http-nio-8082-exec-7] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - <==      Total: 1
+2019-07-27 10:59:03.841 [http-nio-8082-exec-7] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==>  Preparing: SELECT a.number, a.parent_num, a.name, a.short_url, a.left_icon, a.right_icon FROM t_mt_menu a where a.number in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) 
+2019-07-27 10:59:03.843 [http-nio-8082-exec-7] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==> Parameters: 01-01(String), 01-02(String), 02-01(String), 02-02(String), 02-03(String), 02-04(String), 02-05(String), 05-01(String), 05-02(String), 05-03(String), 05-04(String), 05-05(String), 05-06(String), 05-07(String), 05-08(String), 05-09(String), 05-10(String), 05-11(String), 06-01(String), 06-02(String), 06-03(String), 07-01(String), 07-02(String), 07-03(String), 07-04(String), 08-01(String), 08-02(String), 08-03(String), 08-04(String), 08-05(String), 08-06(String), 08-07(String), 08-08(String), 09-01(String)
+2019-07-27 10:59:03.898 [http-nio-8082-exec-7] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - <==      Total: 34
+2019-07-27 10:59:13.493 [http-nio-8082-exec-6] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==>  Preparing: SELECT a.menu FROM t_mt_role a where a.number = ? 
+2019-07-27 10:59:13.498 [http-nio-8082-exec-6] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==> Parameters: 0(Integer)
+2019-07-27 10:59:13.549 [http-nio-8082-exec-6] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - <==      Total: 1
+2019-07-27 10:59:13.554 [http-nio-8082-exec-6] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==>  Preparing: SELECT a.number, a.parent_num, a.name, a.short_url, a.left_icon, a.right_icon FROM t_mt_menu a where a.number in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) 
+2019-07-27 10:59:13.555 [http-nio-8082-exec-6] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==> Parameters: 01-01(String), 01-02(String), 02-01(String), 02-02(String), 02-03(String), 02-04(String), 02-05(String), 05-01(String), 05-02(String), 05-03(String), 05-04(String), 05-05(String), 05-06(String), 05-07(String), 05-08(String), 05-09(String), 05-10(String), 05-11(String), 06-01(String), 06-02(String), 06-03(String), 07-01(String), 07-02(String), 07-03(String), 07-04(String), 08-01(String), 08-02(String), 08-03(String), 08-04(String), 08-05(String), 08-06(String), 08-07(String), 08-08(String), 09-01(String)
+2019-07-27 10:59:13.610 [http-nio-8082-exec-6] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - <==      Total: 34
+2019-07-27 14:40:43.489 [http-nio-8082-exec-5] DEBUG c.m.c.w.m.I.selectAdminMembership - ==>  Preparing: SELECT id, account, name, role_num, DATE_FORMAT(create_time, '%Y-%m-%d %T') AS create_time, status FROM t_mt_admin WHERE account =? and password =? 
+2019-07-27 14:40:43.532 [http-nio-8082-exec-5] DEBUG c.m.c.w.m.I.selectAdminMembership - ==> Parameters: changlaiai@sina.com(String), 40D99A166F17FB9905282DED67E3F9AB0EF6A636(String)
+2019-07-27 14:40:43.680 [http-nio-8082-exec-5] DEBUG c.m.c.w.m.I.selectAdminMembership - <==      Total: 1
+2019-07-27 14:40:43.691 [http-nio-8082-exec-5] DEBUG c.m.c.w.m.I.updateAdminMembership - ==>  Preparing: update t_mt_admin SET online = ?,login_count=login_count+1,last_login_ip=?,last_login_time=? where id=? 
+2019-07-27 14:40:43.698 [http-nio-8082-exec-5] DEBUG c.m.c.w.m.I.updateAdminMembership - ==> Parameters: 1(Integer), 0:0:0:0:0:0:0:1(String), 2019-07-27 14:40:43.688(Timestamp), 4(Long)
+2019-07-27 14:40:44.055 [http-nio-8082-exec-5] DEBUG c.m.c.w.m.I.updateAdminMembership - <==    Updates: 1
+2019-07-27 14:40:44.777 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.ICommonMapper.getSysConf - ==>  Preparing: SELECT a.number, a.parent_num, a.conf_key, a.value, a.status, a.remark, a.create_time FROM t_mt_sysconf a 
+2019-07-27 14:40:44.778 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.ICommonMapper.getSysConf - ==> Parameters: 
+2019-07-27 14:40:44.834 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.ICommonMapper.getSysConf - <==      Total: 9
+2019-07-27 14:40:44.843 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.ICommonMapper.getSetting - ==>  Preparing: select id, account, layout, left_sidebar_hover, left_sidebar_collapsed, right_sidebar_cover, right_sidebar_skin, layout_skin from t_mt_setting WHERE account_id =? 
+2019-07-27 14:40:44.845 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.ICommonMapper.getSetting - ==> Parameters: 4(Long)
+2019-07-27 14:40:44.893 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.ICommonMapper.getSetting - <==      Total: 1
+2019-07-27 14:40:44.990 [http-nio-8082-exec-5] DEBUG c.m.c.w.m.I.selectAdminMembershipInfo - ==>  Preparing: SELECT id, account, phone, email, age, occupation, education, location, skills, image, remark, DATE_FORMAT(update_time, '%Y-%m-%d %T') AS update_time FROM t_mt_admin_info WHERE account =? 
+2019-07-27 14:40:44.990 [http-nio-8082-exec-5] DEBUG c.m.c.w.m.I.selectAdminMembershipInfo - ==> Parameters: changlaiai@sina.com(String)
+2019-07-27 14:40:45.072 [http-nio-8082-exec-5] DEBUG c.m.c.w.m.I.selectAdminMembershipInfo - <==      Total: 1
+2019-07-27 14:40:46.453 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==>  Preparing: SELECT a.menu FROM t_mt_role a where a.number = ? 
+2019-07-27 14:40:46.455 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==> Parameters: 0(Integer)
+2019-07-27 14:40:46.675 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - <==      Total: 1
+2019-07-27 14:40:46.691 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==>  Preparing: SELECT a.number, a.parent_num, a.name, a.short_url, a.left_icon, a.right_icon FROM t_mt_menu a where a.number in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) 
+2019-07-27 14:40:46.693 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==> Parameters: 01-01(String), 01-02(String), 02-01(String), 02-02(String), 02-03(String), 02-04(String), 02-05(String), 05-01(String), 05-02(String), 05-03(String), 05-04(String), 05-05(String), 05-06(String), 05-07(String), 05-08(String), 05-09(String), 05-10(String), 05-11(String), 06-01(String), 06-02(String), 06-03(String), 07-01(String), 07-02(String), 07-03(String), 07-04(String), 08-01(String), 08-02(String), 08-03(String), 08-04(String), 08-05(String), 08-06(String), 08-07(String), 08-08(String), 09-01(String)
+2019-07-27 14:40:46.891 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - <==      Total: 34
+2019-07-27 14:45:51.080 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==>  Preparing: SELECT a.menu FROM t_mt_role a where a.number = ? 
+2019-07-27 14:45:51.086 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==> Parameters: 0(Integer)
+2019-07-27 14:45:51.145 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - <==      Total: 1
+2019-07-27 14:45:51.158 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==>  Preparing: SELECT a.number, a.parent_num, a.name, a.short_url, a.left_icon, a.right_icon FROM t_mt_menu a where a.number in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) 
+2019-07-27 14:45:51.160 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==> Parameters: 01-01(String), 01-02(String), 02-01(String), 02-02(String), 02-03(String), 02-04(String), 02-05(String), 05-01(String), 05-02(String), 05-03(String), 05-04(String), 05-05(String), 05-06(String), 05-07(String), 05-08(String), 05-09(String), 05-10(String), 05-11(String), 06-01(String), 06-02(String), 06-03(String), 07-01(String), 07-02(String), 07-03(String), 07-04(String), 08-01(String), 08-02(String), 08-03(String), 08-04(String), 08-05(String), 08-06(String), 08-07(String), 08-08(String), 09-01(String)
+2019-07-27 14:45:51.225 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - <==      Total: 34
+2019-07-27 14:46:07.346 [http-nio-8082-exec-9] DEBUG c.m.c.w.m.I.selectAdminMembership - ==>  Preparing: SELECT id, account, name, role_num, DATE_FORMAT(create_time, '%Y-%m-%d %T') AS create_time, status FROM t_mt_admin WHERE account =? and password =? 
+2019-07-27 14:46:07.348 [http-nio-8082-exec-9] DEBUG c.m.c.w.m.I.selectAdminMembership - ==> Parameters: changlaiai@sina.com(String), 40D99A166F17FB9905282DED67E3F9AB0EF6A636(String)
+2019-07-27 14:46:07.399 [http-nio-8082-exec-9] DEBUG c.m.c.w.m.I.selectAdminMembership - <==      Total: 1
+2019-07-27 14:46:07.405 [http-nio-8082-exec-9] DEBUG c.m.c.w.m.I.updateAdminMembership - ==>  Preparing: update t_mt_admin SET online = ?,login_count=login_count+1,last_login_ip=?,last_login_time=? where id=? 
+2019-07-27 14:46:07.405 [http-nio-8082-exec-9] DEBUG c.m.c.w.m.I.updateAdminMembership - ==> Parameters: 1(Integer), 0:0:0:0:0:0:0:1(String), 2019-07-27 14:46:07.404(Timestamp), 4(Long)
+2019-07-27 14:46:07.544 [http-nio-8082-exec-9] DEBUG c.m.c.w.m.I.updateAdminMembership - <==    Updates: 1
+2019-07-27 14:46:07.697 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.ICommonMapper.getSysConf - ==>  Preparing: SELECT a.number, a.parent_num, a.conf_key, a.value, a.status, a.remark, a.create_time FROM t_mt_sysconf a 
+2019-07-27 14:46:07.697 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.ICommonMapper.getSysConf - ==> Parameters: 
+2019-07-27 14:46:07.752 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.ICommonMapper.getSysConf - <==      Total: 9
+2019-07-27 14:46:07.760 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.ICommonMapper.getSetting - ==>  Preparing: select id, account, layout, left_sidebar_hover, left_sidebar_collapsed, right_sidebar_cover, right_sidebar_skin, layout_skin from t_mt_setting WHERE account_id =? 
+2019-07-27 14:46:07.761 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.ICommonMapper.getSetting - ==> Parameters: 4(Long)
+2019-07-27 14:46:07.809 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.ICommonMapper.getSetting - <==      Total: 1
+2019-07-27 14:46:07.866 [http-nio-8082-exec-9] DEBUG c.m.c.w.m.I.selectAdminMembershipInfo - ==>  Preparing: SELECT id, account, phone, email, age, occupation, education, location, skills, image, remark, DATE_FORMAT(update_time, '%Y-%m-%d %T') AS update_time FROM t_mt_admin_info WHERE account =? 
+2019-07-27 14:46:07.869 [http-nio-8082-exec-9] DEBUG c.m.c.w.m.I.selectAdminMembershipInfo - ==> Parameters: changlaiai@sina.com(String)
+2019-07-27 14:46:07.917 [http-nio-8082-exec-9] DEBUG c.m.c.w.m.I.selectAdminMembershipInfo - <==      Total: 1
+2019-07-27 14:46:08.477 [http-nio-8082-exec-1] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==>  Preparing: SELECT a.menu FROM t_mt_role a where a.number = ? 
+2019-07-27 14:46:08.478 [http-nio-8082-exec-1] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==> Parameters: 0(Integer)
+2019-07-27 14:46:08.525 [http-nio-8082-exec-1] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - <==      Total: 1
+2019-07-27 14:46:08.529 [http-nio-8082-exec-1] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==>  Preparing: SELECT a.number, a.parent_num, a.name, a.short_url, a.left_icon, a.right_icon FROM t_mt_menu a where a.number in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) 
+2019-07-27 14:46:08.533 [http-nio-8082-exec-1] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==> Parameters: 01-01(String), 01-02(String), 02-01(String), 02-02(String), 02-03(String), 02-04(String), 02-05(String), 05-01(String), 05-02(String), 05-03(String), 05-04(String), 05-05(String), 05-06(String), 05-07(String), 05-08(String), 05-09(String), 05-10(String), 05-11(String), 06-01(String), 06-02(String), 06-03(String), 07-01(String), 07-02(String), 07-03(String), 07-04(String), 08-01(String), 08-02(String), 08-03(String), 08-04(String), 08-05(String), 08-06(String), 08-07(String), 08-08(String), 09-01(String)
+2019-07-27 14:46:08.590 [http-nio-8082-exec-1] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - <==      Total: 34
+2019-07-27 14:46:48.486 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==>  Preparing: SELECT a.menu FROM t_mt_role a where a.number = ? 
+2019-07-27 14:46:48.489 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==> Parameters: 0(Integer)
+2019-07-27 14:46:48.542 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - <==      Total: 1
+2019-07-27 14:46:48.551 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==>  Preparing: SELECT a.number, a.parent_num, a.name, a.short_url, a.left_icon, a.right_icon FROM t_mt_menu a where a.number in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) 
+2019-07-27 14:46:48.553 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==> Parameters: 01-01(String), 01-02(String), 02-01(String), 02-02(String), 02-03(String), 02-04(String), 02-05(String), 05-01(String), 05-02(String), 05-03(String), 05-04(String), 05-05(String), 05-06(String), 05-07(String), 05-08(String), 05-09(String), 05-10(String), 05-11(String), 06-01(String), 06-02(String), 06-03(String), 07-01(String), 07-02(String), 07-03(String), 07-04(String), 08-01(String), 08-02(String), 08-03(String), 08-04(String), 08-05(String), 08-06(String), 08-07(String), 08-08(String), 09-01(String)
+2019-07-27 14:46:48.608 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - <==      Total: 34
+2019-07-27 14:46:58.269 [http-nio-8082-exec-7] DEBUG c.m.c.w.m.I.selectAdminMembership - ==>  Preparing: SELECT id, account, name, role_num, DATE_FORMAT(create_time, '%Y-%m-%d %T') AS create_time, status FROM t_mt_admin WHERE account =? and password =? 
+2019-07-27 14:46:58.271 [http-nio-8082-exec-7] DEBUG c.m.c.w.m.I.selectAdminMembership - ==> Parameters: changlaiai@sina.com(String), 40D99A166F17FB9905282DED67E3F9AB0EF6A636(String)
+2019-07-27 14:46:58.329 [http-nio-8082-exec-7] DEBUG c.m.c.w.m.I.selectAdminMembership - <==      Total: 1
+2019-07-27 14:46:58.332 [http-nio-8082-exec-7] DEBUG c.m.c.w.m.I.updateAdminMembership - ==>  Preparing: update t_mt_admin SET online = ?,login_count=login_count+1,last_login_ip=?,last_login_time=? where id=? 
+2019-07-27 14:46:58.333 [http-nio-8082-exec-7] DEBUG c.m.c.w.m.I.updateAdminMembership - ==> Parameters: 1(Integer), 0:0:0:0:0:0:0:1(String), 2019-07-27 14:46:58.331(Timestamp), 4(Long)
+2019-07-27 14:46:58.451 [http-nio-8082-exec-7] DEBUG c.m.c.w.m.I.updateAdminMembership - <==    Updates: 1
+2019-07-27 14:46:58.609 [http-nio-8082-exec-7] DEBUG com.mt.console.web.mapper.ICommonMapper.getSysConf - ==>  Preparing: SELECT a.number, a.parent_num, a.conf_key, a.value, a.status, a.remark, a.create_time FROM t_mt_sysconf a 
+2019-07-27 14:46:58.610 [http-nio-8082-exec-7] DEBUG com.mt.console.web.mapper.ICommonMapper.getSysConf - ==> Parameters: 
+2019-07-27 14:46:58.663 [http-nio-8082-exec-7] DEBUG com.mt.console.web.mapper.ICommonMapper.getSysConf - <==      Total: 9
+2019-07-27 14:46:58.668 [http-nio-8082-exec-7] DEBUG com.mt.console.web.mapper.ICommonMapper.getSetting - ==>  Preparing: select id, account, layout, left_sidebar_hover, left_sidebar_collapsed, right_sidebar_cover, right_sidebar_skin, layout_skin from t_mt_setting WHERE account_id =? 
+2019-07-27 14:46:58.669 [http-nio-8082-exec-7] DEBUG com.mt.console.web.mapper.ICommonMapper.getSetting - ==> Parameters: 4(Long)
+2019-07-27 14:46:58.716 [http-nio-8082-exec-7] DEBUG com.mt.console.web.mapper.ICommonMapper.getSetting - <==      Total: 1
+2019-07-27 14:46:58.771 [http-nio-8082-exec-7] DEBUG c.m.c.w.m.I.selectAdminMembershipInfo - ==>  Preparing: SELECT id, account, phone, email, age, occupation, education, location, skills, image, remark, DATE_FORMAT(update_time, '%Y-%m-%d %T') AS update_time FROM t_mt_admin_info WHERE account =? 
+2019-07-27 14:46:58.771 [http-nio-8082-exec-7] DEBUG c.m.c.w.m.I.selectAdminMembershipInfo - ==> Parameters: changlaiai@sina.com(String)
+2019-07-27 14:46:58.826 [http-nio-8082-exec-7] DEBUG c.m.c.w.m.I.selectAdminMembershipInfo - <==      Total: 1
+2019-07-27 14:46:59.586 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==>  Preparing: SELECT a.menu FROM t_mt_role a where a.number = ? 
+2019-07-27 14:46:59.589 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==> Parameters: 0(Integer)
+2019-07-27 14:46:59.688 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - <==      Total: 1
+2019-07-27 14:46:59.697 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==>  Preparing: SELECT a.number, a.parent_num, a.name, a.short_url, a.left_icon, a.right_icon FROM t_mt_menu a where a.number in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) 
+2019-07-27 14:46:59.698 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==> Parameters: 01-01(String), 01-02(String), 02-01(String), 02-02(String), 02-03(String), 02-04(String), 02-05(String), 05-01(String), 05-02(String), 05-03(String), 05-04(String), 05-05(String), 05-06(String), 05-07(String), 05-08(String), 05-09(String), 05-10(String), 05-11(String), 06-01(String), 06-02(String), 06-03(String), 07-01(String), 07-02(String), 07-03(String), 07-04(String), 08-01(String), 08-02(String), 08-03(String), 08-04(String), 08-05(String), 08-06(String), 08-07(String), 08-08(String), 09-01(String)
+2019-07-27 14:46:59.748 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - <==      Total: 34
+2019-07-27 14:47:36.412 [http-nio-8082-exec-9] DEBUG c.m.c.w.m.I.selectAdminMembership - ==>  Preparing: SELECT id, account, name, role_num, DATE_FORMAT(create_time, '%Y-%m-%d %T') AS create_time, status FROM t_mt_admin WHERE account =? and password =? 
+2019-07-27 14:47:36.414 [http-nio-8082-exec-9] DEBUG c.m.c.w.m.I.selectAdminMembership - ==> Parameters: changlaiai@sina.com(String), 40D99A166F17FB9905282DED67E3F9AB0EF6A636(String)
+2019-07-27 14:47:36.472 [http-nio-8082-exec-9] DEBUG c.m.c.w.m.I.selectAdminMembership - <==      Total: 1
+2019-07-27 14:47:36.475 [http-nio-8082-exec-9] DEBUG c.m.c.w.m.I.updateAdminMembership - ==>  Preparing: update t_mt_admin SET online = ?,login_count=login_count+1,last_login_ip=?,last_login_time=? where id=? 
+2019-07-27 14:47:36.475 [http-nio-8082-exec-9] DEBUG c.m.c.w.m.I.updateAdminMembership - ==> Parameters: 1(Integer), 0:0:0:0:0:0:0:1(String), 2019-07-27 14:47:36.475(Timestamp), 4(Long)
+2019-07-27 14:47:36.571 [http-nio-8082-exec-9] DEBUG c.m.c.w.m.I.updateAdminMembership - <==    Updates: 1
+2019-07-27 14:47:36.721 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.ICommonMapper.getSysConf - ==>  Preparing: SELECT a.number, a.parent_num, a.conf_key, a.value, a.status, a.remark, a.create_time FROM t_mt_sysconf a 
+2019-07-27 14:47:36.721 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.ICommonMapper.getSysConf - ==> Parameters: 
+2019-07-27 14:47:36.770 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.ICommonMapper.getSysConf - <==      Total: 9
+2019-07-27 14:47:36.776 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.ICommonMapper.getSetting - ==>  Preparing: select id, account, layout, left_sidebar_hover, left_sidebar_collapsed, right_sidebar_cover, right_sidebar_skin, layout_skin from t_mt_setting WHERE account_id =? 
+2019-07-27 14:47:36.776 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.ICommonMapper.getSetting - ==> Parameters: 4(Long)
+2019-07-27 14:47:36.825 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.ICommonMapper.getSetting - <==      Total: 1
+2019-07-27 14:47:36.879 [http-nio-8082-exec-9] DEBUG c.m.c.w.m.I.selectAdminMembershipInfo - ==>  Preparing: SELECT id, account, phone, email, age, occupation, education, location, skills, image, remark, DATE_FORMAT(update_time, '%Y-%m-%d %T') AS update_time FROM t_mt_admin_info WHERE account =? 
+2019-07-27 14:47:36.883 [http-nio-8082-exec-9] DEBUG c.m.c.w.m.I.selectAdminMembershipInfo - ==> Parameters: changlaiai@sina.com(String)
+2019-07-27 14:47:36.932 [http-nio-8082-exec-9] DEBUG c.m.c.w.m.I.selectAdminMembershipInfo - <==      Total: 1
+2019-07-27 14:47:37.511 [http-nio-8082-exec-1] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==>  Preparing: SELECT a.menu FROM t_mt_role a where a.number = ? 
+2019-07-27 14:47:37.513 [http-nio-8082-exec-1] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==> Parameters: 0(Integer)
+2019-07-27 14:47:37.562 [http-nio-8082-exec-1] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - <==      Total: 1
+2019-07-27 14:47:37.570 [http-nio-8082-exec-1] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==>  Preparing: SELECT a.number, a.parent_num, a.name, a.short_url, a.left_icon, a.right_icon FROM t_mt_menu a where a.number in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) 
+2019-07-27 14:47:37.571 [http-nio-8082-exec-1] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==> Parameters: 01-01(String), 01-02(String), 02-01(String), 02-02(String), 02-03(String), 02-04(String), 02-05(String), 05-01(String), 05-02(String), 05-03(String), 05-04(String), 05-05(String), 05-06(String), 05-07(String), 05-08(String), 05-09(String), 05-10(String), 05-11(String), 06-01(String), 06-02(String), 06-03(String), 07-01(String), 07-02(String), 07-03(String), 07-04(String), 08-01(String), 08-02(String), 08-03(String), 08-04(String), 08-05(String), 08-06(String), 08-07(String), 08-08(String), 09-01(String)
+2019-07-27 14:47:37.626 [http-nio-8082-exec-1] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - <==      Total: 34
+2019-07-27 14:49:19.315 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==>  Preparing: SELECT a.menu FROM t_mt_role a where a.number = ? 
+2019-07-27 14:49:19.316 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==> Parameters: 0(Integer)
+2019-07-27 14:49:19.367 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - <==      Total: 1
+2019-07-27 14:49:19.372 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==>  Preparing: SELECT a.number, a.parent_num, a.name, a.short_url, a.left_icon, a.right_icon FROM t_mt_menu a where a.number in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) 
+2019-07-27 14:49:19.375 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==> Parameters: 01-01(String), 01-02(String), 02-01(String), 02-02(String), 02-03(String), 02-04(String), 02-05(String), 05-01(String), 05-02(String), 05-03(String), 05-04(String), 05-05(String), 05-06(String), 05-07(String), 05-08(String), 05-09(String), 05-10(String), 05-11(String), 06-01(String), 06-02(String), 06-03(String), 07-01(String), 07-02(String), 07-03(String), 07-04(String), 08-01(String), 08-02(String), 08-03(String), 08-04(String), 08-05(String), 08-06(String), 08-07(String), 08-08(String), 09-01(String)
+2019-07-27 14:49:19.428 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - <==      Total: 34
+2019-07-27 14:50:13.446 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==>  Preparing: SELECT a.menu FROM t_mt_role a where a.number = ? 
+2019-07-27 14:50:13.448 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==> Parameters: 0(Integer)
+2019-07-27 14:50:13.498 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - <==      Total: 1
+2019-07-27 14:50:13.506 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==>  Preparing: SELECT a.number, a.parent_num, a.name, a.short_url, a.left_icon, a.right_icon FROM t_mt_menu a where a.number in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) 
+2019-07-27 14:50:13.507 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==> Parameters: 01-01(String), 01-02(String), 02-01(String), 02-02(String), 02-03(String), 02-04(String), 02-05(String), 05-01(String), 05-02(String), 05-03(String), 05-04(String), 05-05(String), 05-06(String), 05-07(String), 05-08(String), 05-09(String), 05-10(String), 05-11(String), 06-01(String), 06-02(String), 06-03(String), 07-01(String), 07-02(String), 07-03(String), 07-04(String), 08-01(String), 08-02(String), 08-03(String), 08-04(String), 08-05(String), 08-06(String), 08-07(String), 08-08(String), 09-01(String)
+2019-07-27 14:50:13.562 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - <==      Total: 34
+2019-07-27 14:52:38.472 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==>  Preparing: SELECT a.menu FROM t_mt_role a where a.number = ? 
+2019-07-27 14:52:38.473 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==> Parameters: 0(Integer)
+2019-07-27 14:52:38.539 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - <==      Total: 1
+2019-07-27 14:52:38.546 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==>  Preparing: SELECT a.number, a.parent_num, a.name, a.short_url, a.left_icon, a.right_icon FROM t_mt_menu a where a.number in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) 
+2019-07-27 14:52:38.553 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==> Parameters: 01-01(String), 01-02(String), 02-01(String), 02-02(String), 02-03(String), 02-04(String), 02-05(String), 05-01(String), 05-02(String), 05-03(String), 05-04(String), 05-05(String), 05-06(String), 05-07(String), 05-08(String), 05-09(String), 05-10(String), 05-11(String), 06-01(String), 06-02(String), 06-03(String), 07-01(String), 07-02(String), 07-03(String), 07-04(String), 08-01(String), 08-02(String), 08-03(String), 08-04(String), 08-05(String), 08-06(String), 08-07(String), 08-08(String), 09-01(String)
+2019-07-27 14:52:38.605 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - <==      Total: 34
+2019-07-27 14:55:59.940 [http-nio-8082-exec-1] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==>  Preparing: select count(1) from t_mt_gdate 
+2019-07-27 14:55:59.941 [http-nio-8082-exec-1] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==> Parameters: 
+2019-07-27 14:56:01.567 [http-nio-8082-exec-1] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - <==      Total: 1
+2019-07-27 14:56:01.574 [http-nio-8082-exec-1] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a ORDER BY a.num limit ?, ? 
+2019-07-27 14:56:01.576 [http-nio-8082-exec-1] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==> Parameters: 0(Integer), 50(Integer)
+2019-07-27 14:56:01.678 [http-nio-8082-exec-1] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - <==      Total: 20
+2019-07-27 14:56:05.531 [http-nio-8082-exec-7] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==>  Preparing: select count(1) from t_mt_gdate 
+2019-07-27 14:56:05.532 [http-nio-8082-exec-7] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==> Parameters: 
+2019-07-27 14:56:05.583 [http-nio-8082-exec-7] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - <==      Total: 1
+2019-07-27 14:56:05.586 [http-nio-8082-exec-7] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a ORDER BY a.num limit ?, ? 
+2019-07-27 14:56:05.588 [http-nio-8082-exec-7] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==> Parameters: 0(Integer), 50(Integer)
+2019-07-27 14:56:05.876 [http-nio-8082-exec-7] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - <==      Total: 20
+2019-07-27 15:02:54.048 [http-nio-8082-exec-5] DEBUG c.m.c.w.m.I.selectAdminMembership - ==>  Preparing: SELECT id, account, name, role_num, DATE_FORMAT(create_time, '%Y-%m-%d %T') AS create_time, status FROM t_mt_admin WHERE account =? and password =? 
+2019-07-27 15:02:54.091 [http-nio-8082-exec-5] DEBUG c.m.c.w.m.I.selectAdminMembership - ==> Parameters: changlaiai@sina.com(String), 40D99A166F17FB9905282DED67E3F9AB0EF6A636(String)
+2019-07-27 15:02:54.411 [http-nio-8082-exec-5] DEBUG c.m.c.w.m.I.selectAdminMembership - <==      Total: 1
+2019-07-27 15:02:54.420 [http-nio-8082-exec-5] DEBUG c.m.c.w.m.I.updateAdminMembership - ==>  Preparing: update t_mt_admin SET online = ?,login_count=login_count+1,last_login_ip=?,last_login_time=? where id=? 
+2019-07-27 15:02:54.427 [http-nio-8082-exec-5] DEBUG c.m.c.w.m.I.updateAdminMembership - ==> Parameters: 1(Integer), 0:0:0:0:0:0:0:1(String), 2019-07-27 15:02:54.418(Timestamp), 4(Long)
+2019-07-27 15:02:54.573 [http-nio-8082-exec-5] DEBUG c.m.c.w.m.I.updateAdminMembership - <==    Updates: 1
+2019-07-27 15:02:54.769 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.ICommonMapper.getSysConf - ==>  Preparing: SELECT a.number, a.parent_num, a.conf_key, a.value, a.status, a.remark, a.create_time FROM t_mt_sysconf a 
+2019-07-27 15:02:54.770 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.ICommonMapper.getSysConf - ==> Parameters: 
+2019-07-27 15:02:54.826 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.ICommonMapper.getSysConf - <==      Total: 9
+2019-07-27 15:02:54.835 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.ICommonMapper.getSetting - ==>  Preparing: select id, account, layout, left_sidebar_hover, left_sidebar_collapsed, right_sidebar_cover, right_sidebar_skin, layout_skin from t_mt_setting WHERE account_id =? 
+2019-07-27 15:02:54.836 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.ICommonMapper.getSetting - ==> Parameters: 4(Long)
+2019-07-27 15:02:54.950 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.ICommonMapper.getSetting - <==      Total: 1
+2019-07-27 15:02:55.011 [http-nio-8082-exec-5] DEBUG c.m.c.w.m.I.selectAdminMembershipInfo - ==>  Preparing: SELECT id, account, phone, email, age, occupation, education, location, skills, image, remark, DATE_FORMAT(update_time, '%Y-%m-%d %T') AS update_time FROM t_mt_admin_info WHERE account =? 
+2019-07-27 15:02:55.011 [http-nio-8082-exec-5] DEBUG c.m.c.w.m.I.selectAdminMembershipInfo - ==> Parameters: changlaiai@sina.com(String)
+2019-07-27 15:02:55.103 [http-nio-8082-exec-5] DEBUG c.m.c.w.m.I.selectAdminMembershipInfo - <==      Total: 1
+2019-07-27 15:02:56.166 [http-nio-8082-exec-8] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==>  Preparing: SELECT a.menu FROM t_mt_role a where a.number = ? 
+2019-07-27 15:02:56.168 [http-nio-8082-exec-8] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==> Parameters: 0(Integer)
+2019-07-27 15:02:56.256 [http-nio-8082-exec-8] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - <==      Total: 1
+2019-07-27 15:02:56.267 [http-nio-8082-exec-8] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==>  Preparing: SELECT a.number, a.parent_num, a.name, a.short_url, a.left_icon, a.right_icon FROM t_mt_menu a where a.number in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) 
+2019-07-27 15:02:56.270 [http-nio-8082-exec-8] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==> Parameters: 01-01(String), 01-02(String), 02-01(String), 02-02(String), 02-03(String), 02-04(String), 02-05(String), 05-01(String), 05-02(String), 05-03(String), 05-04(String), 05-05(String), 05-06(String), 05-07(String), 05-08(String), 05-09(String), 05-10(String), 05-11(String), 06-01(String), 06-02(String), 06-03(String), 07-01(String), 07-02(String), 07-03(String), 07-04(String), 08-01(String), 08-02(String), 08-03(String), 08-04(String), 08-05(String), 08-06(String), 08-07(String), 08-08(String), 09-01(String)
+2019-07-27 15:02:56.330 [http-nio-8082-exec-8] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - <==      Total: 34
+2019-07-27 15:03:02.607 [http-nio-8082-exec-3] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==>  Preparing: select count(1) from t_mt_gdate 
+2019-07-27 15:03:02.608 [http-nio-8082-exec-3] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==> Parameters: 
+2019-07-27 15:03:02.660 [http-nio-8082-exec-3] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - <==      Total: 1
+2019-07-27 15:03:02.666 [http-nio-8082-exec-3] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a ORDER BY a.num limit ?, ? 
+2019-07-27 15:03:02.667 [http-nio-8082-exec-3] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==> Parameters: 0(Integer), 50(Integer)
+2019-07-27 15:03:02.726 [http-nio-8082-exec-3] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - <==      Total: 20
+2019-07-27 15:45:34.222 [http-nio-8082-exec-4] DEBUG c.m.c.w.m.I.selectAdminMembership - ==>  Preparing: SELECT id, account, name, role_num, DATE_FORMAT(create_time, '%Y-%m-%d %T') AS create_time, status FROM t_mt_admin WHERE account =? and password =? 
+2019-07-27 15:45:34.262 [http-nio-8082-exec-4] DEBUG c.m.c.w.m.I.selectAdminMembership - ==> Parameters: changlaiai@sina.com(String), 40D99A166F17FB9905282DED67E3F9AB0EF6A636(String)
+2019-07-27 15:45:34.353 [http-nio-8082-exec-4] DEBUG c.m.c.w.m.I.selectAdminMembership - <==      Total: 1
+2019-07-27 15:45:34.362 [http-nio-8082-exec-4] DEBUG c.m.c.w.m.I.updateAdminMembership - ==>  Preparing: update t_mt_admin SET online = ?,login_count=login_count+1,last_login_ip=?,last_login_time=? where id=? 
+2019-07-27 15:45:34.369 [http-nio-8082-exec-4] DEBUG c.m.c.w.m.I.updateAdminMembership - ==> Parameters: 1(Integer), 0:0:0:0:0:0:0:1(String), 2019-07-27 15:45:34.359(Timestamp), 4(Long)
+2019-07-27 15:45:34.509 [http-nio-8082-exec-4] DEBUG c.m.c.w.m.I.updateAdminMembership - <==    Updates: 1
+2019-07-27 15:45:34.679 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.ICommonMapper.getSysConf - ==>  Preparing: SELECT a.number, a.parent_num, a.conf_key, a.value, a.status, a.remark, a.create_time FROM t_mt_sysconf a 
+2019-07-27 15:45:34.680 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.ICommonMapper.getSysConf - ==> Parameters: 
+2019-07-27 15:45:34.786 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.ICommonMapper.getSysConf - <==      Total: 9
+2019-07-27 15:45:34.796 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.ICommonMapper.getSetting - ==>  Preparing: select id, account, layout, left_sidebar_hover, left_sidebar_collapsed, right_sidebar_cover, right_sidebar_skin, layout_skin from t_mt_setting WHERE account_id =? 
+2019-07-27 15:45:34.796 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.ICommonMapper.getSetting - ==> Parameters: 4(Long)
+2019-07-27 15:45:34.963 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.ICommonMapper.getSetting - <==      Total: 1
+2019-07-27 15:45:35.132 [http-nio-8082-exec-4] DEBUG c.m.c.w.m.I.selectAdminMembershipInfo - ==>  Preparing: SELECT id, account, phone, email, age, occupation, education, location, skills, image, remark, DATE_FORMAT(update_time, '%Y-%m-%d %T') AS update_time FROM t_mt_admin_info WHERE account =? 
+2019-07-27 15:45:35.133 [http-nio-8082-exec-4] DEBUG c.m.c.w.m.I.selectAdminMembershipInfo - ==> Parameters: changlaiai@sina.com(String)
+2019-07-27 15:45:35.765 [http-nio-8082-exec-4] DEBUG c.m.c.w.m.I.selectAdminMembershipInfo - <==      Total: 1
+2019-07-27 15:45:37.398 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==>  Preparing: SELECT a.menu FROM t_mt_role a where a.number = ? 
+2019-07-27 15:45:37.400 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==> Parameters: 0(Integer)
+2019-07-27 15:45:37.458 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - <==      Total: 1
+2019-07-27 15:45:37.475 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==>  Preparing: SELECT a.number, a.parent_num, a.name, a.short_url, a.left_icon, a.right_icon FROM t_mt_menu a where a.number in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) 
+2019-07-27 15:45:37.478 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==> Parameters: 01-01(String), 01-02(String), 02-01(String), 02-02(String), 02-03(String), 02-04(String), 02-05(String), 05-01(String), 05-02(String), 05-03(String), 05-04(String), 05-05(String), 05-06(String), 05-07(String), 05-08(String), 05-09(String), 05-10(String), 05-11(String), 06-01(String), 06-02(String), 06-03(String), 07-01(String), 07-02(String), 07-03(String), 07-04(String), 08-01(String), 08-02(String), 08-03(String), 08-04(String), 08-05(String), 08-06(String), 08-07(String), 08-08(String), 09-01(String)
+2019-07-27 15:45:37.547 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - <==      Total: 34
+2019-07-27 15:45:41.720 [http-nio-8082-exec-10] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==>  Preparing: select count(1) from t_mt_gdate 
+2019-07-27 15:45:41.722 [http-nio-8082-exec-10] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==> Parameters: 
+2019-07-27 15:45:42.086 [http-nio-8082-exec-10] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - <==      Total: 1
+2019-07-27 15:45:42.091 [http-nio-8082-exec-10] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a ORDER BY a.num limit ?, ? 
+2019-07-27 15:45:42.091 [http-nio-8082-exec-10] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==> Parameters: 0(Integer), 50(Integer)
+2019-07-27 15:45:42.675 [http-nio-8082-exec-10] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - <==      Total: 20
+2019-07-27 15:48:23.777 [http-nio-8082-exec-10] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==>  Preparing: SELECT a.menu FROM t_mt_role a where a.number = ? 
+2019-07-27 15:48:23.782 [http-nio-8082-exec-10] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==> Parameters: 0(Integer)
+2019-07-27 15:48:23.839 [http-nio-8082-exec-10] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - <==      Total: 1
+2019-07-27 15:48:23.847 [http-nio-8082-exec-10] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==>  Preparing: SELECT a.number, a.parent_num, a.name, a.short_url, a.left_icon, a.right_icon FROM t_mt_menu a where a.number in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) 
+2019-07-27 15:48:23.848 [http-nio-8082-exec-10] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==> Parameters: 01-01(String), 01-02(String), 02-01(String), 02-02(String), 02-03(String), 02-04(String), 02-05(String), 05-01(String), 05-02(String), 05-03(String), 05-04(String), 05-05(String), 05-06(String), 05-07(String), 05-08(String), 05-09(String), 05-10(String), 05-11(String), 06-01(String), 06-02(String), 06-03(String), 07-01(String), 07-02(String), 07-03(String), 07-04(String), 08-01(String), 08-02(String), 08-03(String), 08-04(String), 08-05(String), 08-06(String), 08-07(String), 08-08(String), 09-01(String)
+2019-07-27 15:48:23.907 [http-nio-8082-exec-10] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - <==      Total: 34
+2019-07-27 15:48:25.679 [http-nio-8082-exec-2] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==>  Preparing: select count(1) from t_mt_gdate 
+2019-07-27 15:48:25.681 [http-nio-8082-exec-2] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==> Parameters: 
+2019-07-27 15:48:25.742 [http-nio-8082-exec-2] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - <==      Total: 1
+2019-07-27 15:48:25.750 [http-nio-8082-exec-2] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a ORDER BY a.num limit ?, ? 
+2019-07-27 15:48:25.750 [http-nio-8082-exec-2] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==> Parameters: 0(Integer), 50(Integer)
+2019-07-27 15:48:25.810 [http-nio-8082-exec-2] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - <==      Total: 20
+2019-07-27 15:48:31.018 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==>  Preparing: SELECT a.menu FROM t_mt_role a where a.number = ? 
+2019-07-27 15:48:31.021 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==> Parameters: 0(Integer)
+2019-07-27 15:48:31.103 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - <==      Total: 1
+2019-07-27 15:48:31.109 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==>  Preparing: SELECT a.number, a.parent_num, a.name, a.short_url, a.left_icon, a.right_icon FROM t_mt_menu a where a.number in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) 
+2019-07-27 15:48:31.111 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==> Parameters: 01-01(String), 01-02(String), 02-01(String), 02-02(String), 02-03(String), 02-04(String), 02-05(String), 05-01(String), 05-02(String), 05-03(String), 05-04(String), 05-05(String), 05-06(String), 05-07(String), 05-08(String), 05-09(String), 05-10(String), 05-11(String), 06-01(String), 06-02(String), 06-03(String), 07-01(String), 07-02(String), 07-03(String), 07-04(String), 08-01(String), 08-02(String), 08-03(String), 08-04(String), 08-05(String), 08-06(String), 08-07(String), 08-08(String), 09-01(String)
+2019-07-27 15:48:31.178 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - <==      Total: 34
+2019-07-27 15:48:31.475 [http-nio-8082-exec-10] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==>  Preparing: select count(1) from t_mt_gdate 
+2019-07-27 15:48:31.476 [http-nio-8082-exec-10] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==> Parameters: 
+2019-07-27 15:48:31.530 [http-nio-8082-exec-10] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - <==      Total: 1
+2019-07-27 15:48:31.541 [http-nio-8082-exec-10] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a ORDER BY a.num limit ?, ? 
+2019-07-27 15:48:31.541 [http-nio-8082-exec-10] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==> Parameters: 0(Integer), 50(Integer)
+2019-07-27 15:48:31.597 [http-nio-8082-exec-10] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - <==      Total: 20
+2019-07-27 15:48:40.008 [http-nio-8082-exec-8] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 15:48:40.010 [http-nio-8082-exec-8] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 15:48:40.201 [http-nio-8082-exec-8] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 15:48:40.212 [http-nio-8082-exec-8] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 15:48:40.212 [http-nio-8082-exec-8] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 15:48:40.532 [http-nio-8082-exec-8] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 15:50:35.619 [http-nio-8082-exec-9] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==>  Preparing: select count(1) from t_mt_gdate 
+2019-07-27 15:50:35.623 [http-nio-8082-exec-9] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==> Parameters: 
+2019-07-27 15:50:35.673 [http-nio-8082-exec-9] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - <==      Total: 1
+2019-07-27 15:50:35.678 [http-nio-8082-exec-9] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a ORDER BY a.num limit ?, ? 
+2019-07-27 15:50:35.678 [http-nio-8082-exec-9] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==> Parameters: 0(Integer), 50(Integer)
+2019-07-27 15:50:35.748 [http-nio-8082-exec-9] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - <==      Total: 20
+2019-07-27 15:50:39.128 [http-nio-8082-exec-8] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 15:50:39.131 [http-nio-8082-exec-8] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 15:50:39.462 [http-nio-8082-exec-8] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 15:50:39.469 [http-nio-8082-exec-8] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 15:50:39.470 [http-nio-8082-exec-8] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 15:50:39.635 [http-nio-8082-exec-8] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 15:51:56.489 [http-nio-8082-exec-9] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==>  Preparing: select count(1) from t_mt_gdate 
+2019-07-27 15:51:56.490 [http-nio-8082-exec-9] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==> Parameters: 
+2019-07-27 15:51:56.779 [http-nio-8082-exec-9] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - <==      Total: 1
+2019-07-27 15:51:56.783 [http-nio-8082-exec-9] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a ORDER BY a.num limit ?, ? 
+2019-07-27 15:51:56.784 [http-nio-8082-exec-9] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==> Parameters: 0(Integer), 50(Integer)
+2019-07-27 15:51:56.991 [http-nio-8082-exec-9] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - <==      Total: 20
+2019-07-27 15:51:57.916 [http-nio-8082-exec-8] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 15:51:57.918 [http-nio-8082-exec-8] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 15:51:58.348 [http-nio-8082-exec-8] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 15:51:58.356 [http-nio-8082-exec-8] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 15:51:58.356 [http-nio-8082-exec-8] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 15:51:58.698 [http-nio-8082-exec-8] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 15:54:01.116 [http-nio-8082-exec-4] DEBUG c.m.c.w.m.I.selectAdminMembership - ==>  Preparing: SELECT id, account, name, role_num, DATE_FORMAT(create_time, '%Y-%m-%d %T') AS create_time, status FROM t_mt_admin WHERE account =? and password =? 
+2019-07-27 15:54:01.162 [http-nio-8082-exec-4] DEBUG c.m.c.w.m.I.selectAdminMembership - ==> Parameters: changlaiai@sina.com(String), 40D99A166F17FB9905282DED67E3F9AB0EF6A636(String)
+2019-07-27 15:54:02.077 [http-nio-8082-exec-4] DEBUG c.m.c.w.m.I.selectAdminMembership - <==      Total: 1
+2019-07-27 15:54:03.287 [http-nio-8082-exec-4] DEBUG c.m.c.w.m.I.updateAdminMembership - ==>  Preparing: update t_mt_admin SET online = ?,login_count=login_count+1,last_login_ip=?,last_login_time=? where id=? 
+2019-07-27 15:54:03.299 [http-nio-8082-exec-4] DEBUG c.m.c.w.m.I.updateAdminMembership - ==> Parameters: 1(Integer), 0:0:0:0:0:0:0:1(String), 2019-07-27 15:54:02.096(Timestamp), 4(Long)
+2019-07-27 15:54:04.288 [http-nio-8082-exec-4] DEBUG c.m.c.w.m.I.updateAdminMembership - <==    Updates: 1
+2019-07-27 15:54:06.977 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.ICommonMapper.getSysConf - ==>  Preparing: SELECT a.number, a.parent_num, a.conf_key, a.value, a.status, a.remark, a.create_time FROM t_mt_sysconf a 
+2019-07-27 15:54:06.979 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.ICommonMapper.getSysConf - ==> Parameters: 
+2019-07-27 15:54:08.114 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.ICommonMapper.getSysConf - <==      Total: 9
+2019-07-27 15:54:09.585 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.ICommonMapper.getSetting - ==>  Preparing: select id, account, layout, left_sidebar_hover, left_sidebar_collapsed, right_sidebar_cover, right_sidebar_skin, layout_skin from t_mt_setting WHERE account_id =? 
+2019-07-27 15:54:09.589 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.ICommonMapper.getSetting - ==> Parameters: 4(Long)
+2019-07-27 15:54:10.002 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.ICommonMapper.getSetting - <==      Total: 1
+2019-07-27 15:54:11.931 [http-nio-8082-exec-4] DEBUG c.m.c.w.m.I.selectAdminMembershipInfo - ==>  Preparing: SELECT id, account, phone, email, age, occupation, education, location, skills, image, remark, DATE_FORMAT(update_time, '%Y-%m-%d %T') AS update_time FROM t_mt_admin_info WHERE account =? 
+2019-07-27 15:54:11.934 [http-nio-8082-exec-4] DEBUG c.m.c.w.m.I.selectAdminMembershipInfo - ==> Parameters: changlaiai@sina.com(String)
+2019-07-27 15:54:12.844 [http-nio-8082-exec-4] DEBUG c.m.c.w.m.I.selectAdminMembershipInfo - <==      Total: 1
+2019-07-27 15:54:21.064 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==>  Preparing: SELECT a.menu FROM t_mt_role a where a.number = ? 
+2019-07-27 15:54:21.073 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==> Parameters: 0(Integer)
+2019-07-27 15:54:22.014 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - <==      Total: 1
+2019-07-27 15:54:22.962 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==>  Preparing: SELECT a.number, a.parent_num, a.name, a.short_url, a.left_icon, a.right_icon FROM t_mt_menu a where a.number in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) 
+2019-07-27 15:54:22.966 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==> Parameters: 01-01(String), 01-02(String), 02-01(String), 02-02(String), 02-03(String), 02-04(String), 02-05(String), 05-01(String), 05-02(String), 05-03(String), 05-04(String), 05-05(String), 05-06(String), 05-07(String), 05-08(String), 05-09(String), 05-10(String), 05-11(String), 06-01(String), 06-02(String), 06-03(String), 07-01(String), 07-02(String), 07-03(String), 07-04(String), 08-01(String), 08-02(String), 08-03(String), 08-04(String), 08-05(String), 08-06(String), 08-07(String), 08-08(String), 09-01(String)
+2019-07-27 15:54:23.249 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - <==      Total: 34
+2019-07-27 15:54:35.440 [http-nio-8082-exec-10] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==>  Preparing: select count(1) from t_mt_gdate 
+2019-07-27 15:54:35.443 [http-nio-8082-exec-10] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==> Parameters: 
+2019-07-27 15:54:36.180 [http-nio-8082-exec-10] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - <==      Total: 1
+2019-07-27 15:54:37.311 [http-nio-8082-exec-10] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a ORDER BY a.num limit ?, ? 
+2019-07-27 15:54:37.315 [http-nio-8082-exec-10] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==> Parameters: 0(Integer), 50(Integer)
+2019-07-27 15:54:37.933 [http-nio-8082-exec-10] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - <==      Total: 20
+2019-07-27 15:55:14.078 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 15:55:14.082 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 15:55:14.622 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 15:55:26.851 [http-nio-8082-exec-9] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 15:55:26.854 [http-nio-8082-exec-9] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 15:55:27.680 [http-nio-8082-exec-9] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 15:55:34.405 [http-nio-8082-exec-7] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==>  Preparing: select count(1) from t_mt_gdate 
+2019-07-27 15:55:34.408 [http-nio-8082-exec-7] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==> Parameters: 
+2019-07-27 15:55:35.051 [http-nio-8082-exec-7] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - <==      Total: 1
+2019-07-27 15:55:35.056 [http-nio-8082-exec-7] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a ORDER BY a.num limit ?, ? 
+2019-07-27 15:55:35.056 [http-nio-8082-exec-7] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==> Parameters: 0(Integer), 50(Integer)
+2019-07-27 15:55:35.658 [http-nio-8082-exec-7] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - <==      Total: 20
+2019-07-27 15:58:41.811 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 15:58:41.837 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 15:58:42.309 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 15:59:01.590 [http-nio-8082-exec-9] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 15:59:01.594 [http-nio-8082-exec-9] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 15:59:01.680 [http-nio-8082-exec-9] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 16:02:45.308 [http-nio-8082-exec-10] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==>  Preparing: select count(1) from t_mt_gdate 
+2019-07-27 16:02:45.310 [http-nio-8082-exec-10] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==> Parameters: 
+2019-07-27 16:02:45.620 [http-nio-8082-exec-10] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - <==      Total: 1
+2019-07-27 16:02:45.625 [http-nio-8082-exec-10] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a ORDER BY a.num limit ?, ? 
+2019-07-27 16:02:45.626 [http-nio-8082-exec-10] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==> Parameters: 0(Integer), 50(Integer)
+2019-07-27 16:02:45.797 [http-nio-8082-exec-10] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - <==      Total: 20
+2019-07-27 16:02:50.149 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:02:50.154 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 16:02:50.576 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:02:50.583 [http-nio-8082-exec-9] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:02:50.584 [http-nio-8082-exec-9] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 16:02:50.639 [http-nio-8082-exec-9] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 16:11:36.086 [http-nio-8082-exec-7] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:11:36.088 [http-nio-8082-exec-7] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 16:11:36.390 [http-nio-8082-exec-7] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:11:36.401 [http-nio-8082-exec-7] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:11:36.401 [http-nio-8082-exec-7] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 16:11:36.687 [http-nio-8082-exec-7] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 16:13:05.759 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:13:05.760 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 16:13:05.856 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:13:05.888 [http-nio-8082-exec-4] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:13:05.889 [http-nio-8082-exec-4] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 16:13:05.977 [http-nio-8082-exec-4] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 16:13:34.434 [http-nio-8082-exec-7] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:13:34.436 [http-nio-8082-exec-7] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 16:13:34.782 [http-nio-8082-exec-7] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:13:34.810 [http-nio-8082-exec-7] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:13:34.810 [http-nio-8082-exec-7] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 16:13:35.129 [http-nio-8082-exec-7] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 16:13:39.286 [http-nio-8082-exec-10] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:13:39.287 [http-nio-8082-exec-10] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 16:13:39.390 [http-nio-8082-exec-10] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:13:39.402 [http-nio-8082-exec-10] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:13:39.402 [http-nio-8082-exec-10] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 16:13:39.562 [http-nio-8082-exec-10] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 16:14:28.843 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:14:28.845 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 16:14:29.352 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:14:29.360 [http-nio-8082-exec-3] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:14:29.360 [http-nio-8082-exec-3] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 16:14:29.533 [http-nio-8082-exec-3] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 16:16:29.627 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:16:29.629 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 16:16:29.973 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:16:29.983 [http-nio-8082-exec-5] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:16:29.983 [http-nio-8082-exec-5] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 16:16:30.321 [http-nio-8082-exec-5] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 16:17:16.842 [http-nio-8082-exec-8] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:17:16.843 [http-nio-8082-exec-8] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 16:17:17.195 [http-nio-8082-exec-8] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:17:17.223 [http-nio-8082-exec-8] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:17:17.223 [http-nio-8082-exec-8] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 16:17:17.520 [http-nio-8082-exec-8] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 16:17:38.716 [http-nio-8082-exec-6] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:17:38.729 [http-nio-8082-exec-6] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 16:17:39.105 [http-nio-8082-exec-6] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:17:39.116 [http-nio-8082-exec-6] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:17:39.117 [http-nio-8082-exec-6] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 16:17:39.175 [http-nio-8082-exec-6] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 16:18:24.396 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:18:24.398 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 16:18:24.847 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:18:24.861 [http-nio-8082-exec-9] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:18:24.861 [http-nio-8082-exec-9] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 16:18:25.236 [http-nio-8082-exec-9] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 16:19:26.627 [http-nio-8082-exec-10] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:19:26.629 [http-nio-8082-exec-10] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 16:19:26.683 [http-nio-8082-exec-10] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:19:26.689 [http-nio-8082-exec-10] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:19:26.689 [http-nio-8082-exec-10] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 16:19:26.745 [http-nio-8082-exec-10] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 16:20:56.940 [http-nio-8082-exec-6] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:20:56.942 [http-nio-8082-exec-6] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 16:20:57.053 [http-nio-8082-exec-6] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:20:57.079 [http-nio-8082-exec-6] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:20:57.079 [http-nio-8082-exec-6] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 16:20:57.439 [http-nio-8082-exec-6] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 16:21:01.491 [http-nio-8082-exec-2] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:21:01.492 [http-nio-8082-exec-2] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 16:21:01.691 [http-nio-8082-exec-2] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:21:01.699 [http-nio-8082-exec-2] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:21:01.700 [http-nio-8082-exec-2] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 16:21:01.900 [http-nio-8082-exec-2] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 16:21:46.811 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:21:46.814 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 16:21:48.695 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:21:48.788 [http-nio-8082-exec-9] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:21:48.789 [http-nio-8082-exec-9] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 16:21:48.959 [http-nio-8082-exec-9] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 16:22:45.028 [http-nio-8082-exec-8] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:22:45.030 [http-nio-8082-exec-8] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 16:22:45.470 [http-nio-8082-exec-8] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:22:45.480 [http-nio-8082-exec-8] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:22:45.481 [http-nio-8082-exec-8] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 16:22:45.572 [http-nio-8082-exec-8] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 16:22:53.567 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:22:53.569 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 16:22:53.694 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:22:53.718 [http-nio-8082-exec-4] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:22:53.718 [http-nio-8082-exec-4] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 16:22:53.776 [http-nio-8082-exec-4] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 16:23:35.962 [http-nio-8082-exec-6] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:23:35.965 [http-nio-8082-exec-6] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 16:23:36.885 [http-nio-8082-exec-6] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:23:36.913 [http-nio-8082-exec-6] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:23:36.914 [http-nio-8082-exec-6] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 16:23:37.231 [http-nio-8082-exec-6] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 16:23:43.777 [http-nio-8082-exec-2] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:23:43.779 [http-nio-8082-exec-2] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 16:23:44.157 [http-nio-8082-exec-2] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:23:44.185 [http-nio-8082-exec-2] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:23:44.186 [http-nio-8082-exec-2] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 16:23:44.703 [http-nio-8082-exec-2] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 16:23:49.571 [http-nio-8082-exec-10] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:23:49.575 [http-nio-8082-exec-10] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 16:23:49.726 [http-nio-8082-exec-10] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:23:49.736 [http-nio-8082-exec-10] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:23:49.737 [http-nio-8082-exec-10] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 16:23:49.826 [http-nio-8082-exec-10] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 16:24:06.103 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:24:06.105 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 16:24:06.324 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:24:06.331 [http-nio-8082-exec-5] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:24:06.332 [http-nio-8082-exec-5] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 16:24:06.436 [http-nio-8082-exec-5] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 16:26:53.442 [http-nio-8082-exec-6] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:26:53.444 [http-nio-8082-exec-6] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 16:26:53.555 [http-nio-8082-exec-6] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:26:53.565 [http-nio-8082-exec-6] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:26:53.566 [http-nio-8082-exec-6] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 16:26:53.709 [http-nio-8082-exec-6] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 16:27:14.814 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:27:14.817 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 16:27:14.980 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:27:14.988 [http-nio-8082-exec-9] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:27:14.989 [http-nio-8082-exec-9] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 16:27:15.046 [http-nio-8082-exec-9] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 16:28:22.606 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:28:22.609 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 16:28:22.712 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:28:22.726 [http-nio-8082-exec-5] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:28:22.727 [http-nio-8082-exec-5] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 16:28:22.790 [http-nio-8082-exec-5] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 16:40:04.532 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:40:04.534 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 16:40:04.585 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:40:04.598 [http-nio-8082-exec-3] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:40:04.598 [http-nio-8082-exec-3] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 16:40:04.648 [http-nio-8082-exec-3] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 16:40:42.094 [http-nio-8082-exec-1] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==>  Preparing: SELECT a.menu FROM t_mt_role a where a.number = ? 
+2019-07-27 16:40:42.098 [http-nio-8082-exec-1] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==> Parameters: 0(Integer)
+2019-07-27 16:40:42.154 [http-nio-8082-exec-1] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - <==      Total: 1
+2019-07-27 16:40:42.167 [http-nio-8082-exec-1] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==>  Preparing: SELECT a.number, a.parent_num, a.name, a.short_url, a.left_icon, a.right_icon FROM t_mt_menu a where a.number in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) 
+2019-07-27 16:40:42.169 [http-nio-8082-exec-1] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==> Parameters: 01-01(String), 01-02(String), 02-01(String), 02-02(String), 02-03(String), 02-04(String), 02-05(String), 05-01(String), 05-02(String), 05-03(String), 05-04(String), 05-05(String), 05-06(String), 05-07(String), 05-08(String), 05-09(String), 05-10(String), 05-11(String), 06-01(String), 06-02(String), 06-03(String), 07-01(String), 07-02(String), 07-03(String), 07-04(String), 08-01(String), 08-02(String), 08-03(String), 08-04(String), 08-05(String), 08-06(String), 08-07(String), 08-08(String), 09-01(String)
+2019-07-27 16:40:42.220 [http-nio-8082-exec-1] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - <==      Total: 34
+2019-07-27 16:40:46.172 [http-nio-8082-exec-5] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==>  Preparing: select count(1) from t_mt_gdate 
+2019-07-27 16:40:46.175 [http-nio-8082-exec-5] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==> Parameters: 
+2019-07-27 16:40:46.222 [http-nio-8082-exec-5] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - <==      Total: 1
+2019-07-27 16:40:46.226 [http-nio-8082-exec-5] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a ORDER BY a.num limit ?, ? 
+2019-07-27 16:40:46.226 [http-nio-8082-exec-5] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==> Parameters: 0(Integer), 50(Integer)
+2019-07-27 16:40:46.285 [http-nio-8082-exec-5] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - <==      Total: 20
+2019-07-27 16:40:47.747 [http-nio-8082-exec-1] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:40:47.749 [http-nio-8082-exec-1] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 16:40:47.808 [http-nio-8082-exec-1] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:40:47.815 [http-nio-8082-exec-1] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:40:47.815 [http-nio-8082-exec-1] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 16:40:47.864 [http-nio-8082-exec-1] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 16:41:45.723 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:41:45.725 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 16:41:45.802 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:41:45.813 [http-nio-8082-exec-3] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:41:45.813 [http-nio-8082-exec-3] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 16:41:45.868 [http-nio-8082-exec-3] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 16:41:51.516 [http-nio-8082-exec-2] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==>  Preparing: select count(1) from t_mt_gdate 
+2019-07-27 16:41:51.518 [http-nio-8082-exec-2] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==> Parameters: 
+2019-07-27 16:41:51.704 [http-nio-8082-exec-2] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - <==      Total: 1
+2019-07-27 16:41:51.709 [http-nio-8082-exec-2] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a ORDER BY a.num limit ?, ? 
+2019-07-27 16:41:51.710 [http-nio-8082-exec-2] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==> Parameters: 0(Integer), 50(Integer)
+2019-07-27 16:41:51.762 [http-nio-8082-exec-2] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - <==      Total: 20
+2019-07-27 16:41:52.862 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:41:52.863 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 16:41:53.012 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:41:53.019 [http-nio-8082-exec-9] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:41:53.019 [http-nio-8082-exec-9] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 16:41:53.090 [http-nio-8082-exec-9] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 16:45:18.878 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:45:18.880 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 16:45:19.265 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:45:19.272 [http-nio-8082-exec-3] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:45:19.272 [http-nio-8082-exec-3] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 16:45:19.859 [http-nio-8082-exec-3] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 16:45:51.877 [http-nio-8082-exec-8] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:45:51.879 [http-nio-8082-exec-8] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 16:45:51.928 [http-nio-8082-exec-8] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:45:51.934 [http-nio-8082-exec-8] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:45:51.934 [http-nio-8082-exec-8] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 16:45:52.004 [http-nio-8082-exec-8] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 16:45:56.299 [http-nio-8082-exec-2] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==>  Preparing: select count(1) from t_mt_gdate 
+2019-07-27 16:45:56.300 [http-nio-8082-exec-2] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==> Parameters: 
+2019-07-27 16:45:56.409 [http-nio-8082-exec-2] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - <==      Total: 1
+2019-07-27 16:45:56.412 [http-nio-8082-exec-2] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a ORDER BY a.num limit ?, ? 
+2019-07-27 16:45:56.412 [http-nio-8082-exec-2] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==> Parameters: 0(Integer), 50(Integer)
+2019-07-27 16:45:56.523 [http-nio-8082-exec-2] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - <==      Total: 20
+2019-07-27 16:45:57.724 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:45:57.725 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 16:45:57.887 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:45:57.892 [http-nio-8082-exec-9] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:45:57.893 [http-nio-8082-exec-9] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 16:45:58.080 [http-nio-8082-exec-9] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 16:46:02.072 [http-nio-8082-exec-8] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==>  Preparing: select count(1) from t_mt_gdate 
+2019-07-27 16:46:02.075 [http-nio-8082-exec-8] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==> Parameters: 
+2019-07-27 16:46:02.216 [http-nio-8082-exec-8] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - <==      Total: 1
+2019-07-27 16:46:02.219 [http-nio-8082-exec-8] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a ORDER BY a.num limit ?, ? 
+2019-07-27 16:46:02.220 [http-nio-8082-exec-8] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==> Parameters: 0(Integer), 50(Integer)
+2019-07-27 16:46:02.560 [http-nio-8082-exec-8] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - <==      Total: 20
+2019-07-27 16:46:05.447 [http-nio-8082-exec-10] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:46:05.449 [http-nio-8082-exec-10] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 16:46:05.570 [http-nio-8082-exec-10] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:46:05.575 [http-nio-8082-exec-10] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:46:05.576 [http-nio-8082-exec-10] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 16:46:05.688 [http-nio-8082-exec-10] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 16:47:00.973 [http-nio-8082-exec-9] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==>  Preparing: select count(1) from t_mt_gdate 
+2019-07-27 16:47:00.975 [http-nio-8082-exec-9] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==> Parameters: 
+2019-07-27 16:47:01.141 [http-nio-8082-exec-9] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - <==      Total: 1
+2019-07-27 16:47:01.146 [http-nio-8082-exec-9] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a ORDER BY a.num limit ?, ? 
+2019-07-27 16:47:01.146 [http-nio-8082-exec-9] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==> Parameters: 0(Integer), 50(Integer)
+2019-07-27 16:47:01.216 [http-nio-8082-exec-9] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - <==      Total: 20
+2019-07-27 16:47:02.074 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:47:02.076 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 16:47:02.241 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:47:02.247 [http-nio-8082-exec-3] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:47:02.248 [http-nio-8082-exec-3] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 16:47:02.325 [http-nio-8082-exec-3] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 16:48:02.518 [http-nio-8082-exec-10] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==>  Preparing: select count(1) from t_mt_gdate 
+2019-07-27 16:48:02.519 [http-nio-8082-exec-10] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==> Parameters: 
+2019-07-27 16:48:02.587 [http-nio-8082-exec-10] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - <==      Total: 1
+2019-07-27 16:48:02.589 [http-nio-8082-exec-10] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a ORDER BY a.num limit ?, ? 
+2019-07-27 16:48:02.590 [http-nio-8082-exec-10] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==> Parameters: 0(Integer), 50(Integer)
+2019-07-27 16:48:02.642 [http-nio-8082-exec-10] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - <==      Total: 20
+2019-07-27 16:48:03.715 [http-nio-8082-exec-2] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:48:03.716 [http-nio-8082-exec-2] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 16:48:03.790 [http-nio-8082-exec-2] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:48:03.799 [http-nio-8082-exec-2] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:48:03.799 [http-nio-8082-exec-2] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 16:48:03.847 [http-nio-8082-exec-2] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 16:48:55.051 [http-nio-8082-exec-6] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:48:55.053 [http-nio-8082-exec-6] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 16:48:55.247 [http-nio-8082-exec-6] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:48:55.252 [http-nio-8082-exec-6] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:48:55.253 [http-nio-8082-exec-6] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 16:48:55.612 [http-nio-8082-exec-6] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 16:49:09.441 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:49:09.443 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 16:49:09.556 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:49:09.568 [http-nio-8082-exec-4] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:49:09.569 [http-nio-8082-exec-4] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 16:49:09.852 [http-nio-8082-exec-4] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 16:51:33.436 [http-nio-8082-exec-8] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:51:33.438 [http-nio-8082-exec-8] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 16:51:33.539 [http-nio-8082-exec-8] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:51:33.548 [http-nio-8082-exec-8] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:51:33.549 [http-nio-8082-exec-8] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 16:51:33.615 [http-nio-8082-exec-8] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 16:51:40.569 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:51:40.571 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 16:51:40.656 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:51:40.664 [http-nio-8082-exec-5] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:51:40.664 [http-nio-8082-exec-5] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 16:51:40.740 [http-nio-8082-exec-5] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 16:51:44.625 [http-nio-8082-exec-8] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==>  Preparing: SELECT a.menu FROM t_mt_role a where a.number = ? 
+2019-07-27 16:51:44.627 [http-nio-8082-exec-8] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==> Parameters: 0(Integer)
+2019-07-27 16:51:44.728 [http-nio-8082-exec-8] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - <==      Total: 1
+2019-07-27 16:51:44.733 [http-nio-8082-exec-8] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==>  Preparing: SELECT a.number, a.parent_num, a.name, a.short_url, a.left_icon, a.right_icon FROM t_mt_menu a where a.number in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) 
+2019-07-27 16:51:44.734 [http-nio-8082-exec-8] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==> Parameters: 01-01(String), 01-02(String), 02-01(String), 02-02(String), 02-03(String), 02-04(String), 02-05(String), 05-01(String), 05-02(String), 05-03(String), 05-04(String), 05-05(String), 05-06(String), 05-07(String), 05-08(String), 05-09(String), 05-10(String), 05-11(String), 06-01(String), 06-02(String), 06-03(String), 07-01(String), 07-02(String), 07-03(String), 07-04(String), 08-01(String), 08-02(String), 08-03(String), 08-04(String), 08-05(String), 08-06(String), 08-07(String), 08-08(String), 09-01(String)
+2019-07-27 16:51:44.794 [http-nio-8082-exec-8] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - <==      Total: 34
+2019-07-27 16:51:49.752 [http-nio-8082-exec-5] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==>  Preparing: select count(1) from t_mt_gdate 
+2019-07-27 16:51:49.754 [http-nio-8082-exec-5] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==> Parameters: 
+2019-07-27 16:51:50.310 [http-nio-8082-exec-5] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - <==      Total: 1
+2019-07-27 16:51:50.314 [http-nio-8082-exec-5] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a ORDER BY a.num limit ?, ? 
+2019-07-27 16:51:50.315 [http-nio-8082-exec-5] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==> Parameters: 0(Integer), 50(Integer)
+2019-07-27 16:51:51.560 [http-nio-8082-exec-5] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - <==      Total: 20
+2019-07-27 16:51:52.949 [http-nio-8082-exec-8] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:51:52.951 [http-nio-8082-exec-8] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 16:51:53.001 [http-nio-8082-exec-8] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:51:53.008 [http-nio-8082-exec-8] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:51:53.008 [http-nio-8082-exec-8] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 16:51:53.063 [http-nio-8082-exec-8] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 16:52:38.481 [http-nio-8082-exec-6] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==>  Preparing: select count(1) from t_mt_gdate 
+2019-07-27 16:52:38.482 [http-nio-8082-exec-6] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==> Parameters: 
+2019-07-27 16:52:38.560 [http-nio-8082-exec-6] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - <==      Total: 1
+2019-07-27 16:52:38.567 [http-nio-8082-exec-6] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a ORDER BY a.num limit ?, ? 
+2019-07-27 16:52:38.567 [http-nio-8082-exec-6] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==> Parameters: 0(Integer), 50(Integer)
+2019-07-27 16:52:38.669 [http-nio-8082-exec-6] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - <==      Total: 20
+2019-07-27 16:52:39.935 [http-nio-8082-exec-1] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:52:39.938 [http-nio-8082-exec-1] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 16:52:40.028 [http-nio-8082-exec-1] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:52:40.034 [http-nio-8082-exec-1] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:52:40.035 [http-nio-8082-exec-1] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 16:52:40.135 [http-nio-8082-exec-1] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 16:52:46.090 [http-nio-8082-exec-2] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==>  Preparing: SELECT a.menu FROM t_mt_role a where a.number = ? 
+2019-07-27 16:52:46.092 [http-nio-8082-exec-2] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==> Parameters: 0(Integer)
+2019-07-27 16:52:46.222 [http-nio-8082-exec-2] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - <==      Total: 1
+2019-07-27 16:52:46.230 [http-nio-8082-exec-2] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==>  Preparing: SELECT a.number, a.parent_num, a.name, a.short_url, a.left_icon, a.right_icon FROM t_mt_menu a where a.number in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) 
+2019-07-27 16:52:46.230 [http-nio-8082-exec-2] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==> Parameters: 01-01(String), 01-02(String), 02-01(String), 02-02(String), 02-03(String), 02-04(String), 02-05(String), 05-01(String), 05-02(String), 05-03(String), 05-04(String), 05-05(String), 05-06(String), 05-07(String), 05-08(String), 05-09(String), 05-10(String), 05-11(String), 06-01(String), 06-02(String), 06-03(String), 07-01(String), 07-02(String), 07-03(String), 07-04(String), 08-01(String), 08-02(String), 08-03(String), 08-04(String), 08-05(String), 08-06(String), 08-07(String), 08-08(String), 09-01(String)
+2019-07-27 16:52:46.440 [http-nio-8082-exec-2] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - <==      Total: 34
+2019-07-27 16:52:50.547 [http-nio-8082-exec-7] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==>  Preparing: select count(1) from t_mt_gdate 
+2019-07-27 16:52:50.549 [http-nio-8082-exec-7] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==> Parameters: 
+2019-07-27 16:52:50.662 [http-nio-8082-exec-7] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - <==      Total: 1
+2019-07-27 16:52:50.667 [http-nio-8082-exec-7] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a ORDER BY a.num limit ?, ? 
+2019-07-27 16:52:50.667 [http-nio-8082-exec-7] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==> Parameters: 0(Integer), 50(Integer)
+2019-07-27 16:52:50.723 [http-nio-8082-exec-7] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - <==      Total: 20
+2019-07-27 16:52:51.635 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:52:51.637 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 16:52:51.891 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:52:51.896 [http-nio-8082-exec-4] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:52:51.897 [http-nio-8082-exec-4] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 16:52:51.952 [http-nio-8082-exec-4] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 16:55:29.092 [http-nio-8082-exec-10] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:55:29.093 [http-nio-8082-exec-10] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 16:55:29.143 [http-nio-8082-exec-10] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:55:29.151 [http-nio-8082-exec-10] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:55:29.151 [http-nio-8082-exec-10] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 16:55:29.212 [http-nio-8082-exec-10] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 16:55:30.279 [http-nio-8082-exec-1] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:55:30.281 [http-nio-8082-exec-1] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 16:55:30.401 [http-nio-8082-exec-1] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:55:30.409 [http-nio-8082-exec-1] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:55:30.410 [http-nio-8082-exec-1] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 16:55:30.526 [http-nio-8082-exec-1] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 16:55:34.013 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==>  Preparing: SELECT a.menu FROM t_mt_role a where a.number = ? 
+2019-07-27 16:55:34.018 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==> Parameters: 0(Integer)
+2019-07-27 16:55:34.170 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - <==      Total: 1
+2019-07-27 16:55:34.176 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==>  Preparing: SELECT a.number, a.parent_num, a.name, a.short_url, a.left_icon, a.right_icon FROM t_mt_menu a where a.number in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) 
+2019-07-27 16:55:34.177 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==> Parameters: 01-01(String), 01-02(String), 02-01(String), 02-02(String), 02-03(String), 02-04(String), 02-05(String), 05-01(String), 05-02(String), 05-03(String), 05-04(String), 05-05(String), 05-06(String), 05-07(String), 05-08(String), 05-09(String), 05-10(String), 05-11(String), 06-01(String), 06-02(String), 06-03(String), 07-01(String), 07-02(String), 07-03(String), 07-04(String), 08-01(String), 08-02(String), 08-03(String), 08-04(String), 08-05(String), 08-06(String), 08-07(String), 08-08(String), 09-01(String)
+2019-07-27 16:55:34.348 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - <==      Total: 34
+2019-07-27 16:55:39.564 [http-nio-8082-exec-1] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==>  Preparing: select count(1) from t_mt_gdate 
+2019-07-27 16:55:39.565 [http-nio-8082-exec-1] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==> Parameters: 
+2019-07-27 16:55:39.622 [http-nio-8082-exec-1] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - <==      Total: 1
+2019-07-27 16:55:39.626 [http-nio-8082-exec-1] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a ORDER BY a.num limit ?, ? 
+2019-07-27 16:55:39.626 [http-nio-8082-exec-1] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==> Parameters: 0(Integer), 50(Integer)
+2019-07-27 16:55:39.679 [http-nio-8082-exec-1] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - <==      Total: 20
+2019-07-27 16:55:41.004 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:55:41.006 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 3(Integer)
+2019-07-27 16:55:41.062 [http-nio-8082-exec-9] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:55:41.068 [http-nio-8082-exec-9] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:55:41.069 [http-nio-8082-exec-9] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 3(Integer)
+2019-07-27 16:55:41.119 [http-nio-8082-exec-9] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 6
+2019-07-27 16:56:17.507 [http-nio-8082-exec-10] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:56:17.507 [http-nio-8082-exec-10] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 16:56:17.562 [http-nio-8082-exec-10] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:56:17.570 [http-nio-8082-exec-10] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:56:17.570 [http-nio-8082-exec-10] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 16:56:17.622 [http-nio-8082-exec-10] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 16:56:18.877 [http-nio-8082-exec-1] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:56:18.880 [http-nio-8082-exec-1] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 16:56:18.930 [http-nio-8082-exec-1] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:56:18.937 [http-nio-8082-exec-1] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:56:18.938 [http-nio-8082-exec-1] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 16:56:18.990 [http-nio-8082-exec-1] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 16:58:11.515 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 16:58:11.518 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 16:58:11.570 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 16:58:11.580 [http-nio-8082-exec-3] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 16:58:11.581 [http-nio-8082-exec-3] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 16:58:11.639 [http-nio-8082-exec-3] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 17:01:20.526 [http-nio-8082-exec-4] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==>  Preparing: select count(1) from t_mt_gdate 
+2019-07-27 17:01:20.527 [http-nio-8082-exec-4] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==> Parameters: 
+2019-07-27 17:01:20.580 [http-nio-8082-exec-4] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - <==      Total: 1
+2019-07-27 17:01:20.583 [http-nio-8082-exec-4] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a ORDER BY a.num limit ?, ? 
+2019-07-27 17:01:20.583 [http-nio-8082-exec-4] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==> Parameters: 0(Integer), 50(Integer)
+2019-07-27 17:01:20.640 [http-nio-8082-exec-4] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - <==      Total: 20
+2019-07-27 17:03:12.435 [http-nio-8082-exec-8] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 17:03:12.437 [http-nio-8082-exec-8] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 11(Integer)
+2019-07-27 17:03:12.497 [http-nio-8082-exec-8] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 17:03:12.507 [http-nio-8082-exec-8] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 17:03:12.507 [http-nio-8082-exec-8] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 11(Integer)
+2019-07-27 17:03:12.606 [http-nio-8082-exec-8] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 0
+2019-07-27 17:03:21.084 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==>  Preparing: SELECT a.menu FROM t_mt_role a where a.number = ? 
+2019-07-27 17:03:21.086 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==> Parameters: 0(Integer)
+2019-07-27 17:03:21.146 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - <==      Total: 1
+2019-07-27 17:03:21.152 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==>  Preparing: SELECT a.number, a.parent_num, a.name, a.short_url, a.left_icon, a.right_icon FROM t_mt_menu a where a.number in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) 
+2019-07-27 17:03:21.154 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==> Parameters: 01-01(String), 01-02(String), 02-01(String), 02-02(String), 02-03(String), 02-04(String), 02-05(String), 05-01(String), 05-02(String), 05-03(String), 05-04(String), 05-05(String), 05-06(String), 05-07(String), 05-08(String), 05-09(String), 05-10(String), 05-11(String), 06-01(String), 06-02(String), 06-03(String), 07-01(String), 07-02(String), 07-03(String), 07-04(String), 08-01(String), 08-02(String), 08-03(String), 08-04(String), 08-05(String), 08-06(String), 08-07(String), 08-08(String), 09-01(String)
+2019-07-27 17:03:21.220 [http-nio-8082-exec-3] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - <==      Total: 34
+2019-07-27 17:03:27.629 [http-nio-8082-exec-4] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==>  Preparing: select count(1) from t_mt_gdate 
+2019-07-27 17:03:27.630 [http-nio-8082-exec-4] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==> Parameters: 
+2019-07-27 17:03:27.798 [http-nio-8082-exec-4] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - <==      Total: 1
+2019-07-27 17:03:27.803 [http-nio-8082-exec-4] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a ORDER BY a.num limit ?, ? 
+2019-07-27 17:03:27.803 [http-nio-8082-exec-4] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==> Parameters: 0(Integer), 50(Integer)
+2019-07-27 17:03:27.973 [http-nio-8082-exec-4] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - <==      Total: 20
+2019-07-27 17:03:29.524 [http-nio-8082-exec-2] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 17:03:29.527 [http-nio-8082-exec-2] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 17:03:29.786 [http-nio-8082-exec-2] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 17:03:29.792 [http-nio-8082-exec-2] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 17:03:29.792 [http-nio-8082-exec-2] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 17:03:30.107 [http-nio-8082-exec-2] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 17:06:53.243 [http-nio-8082-exec-5] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==>  Preparing: select count(1) from t_mt_gdate 
+2019-07-27 17:06:53.245 [http-nio-8082-exec-5] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==> Parameters: 
+2019-07-27 17:06:53.301 [http-nio-8082-exec-5] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - <==      Total: 1
+2019-07-27 17:06:53.308 [http-nio-8082-exec-5] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a ORDER BY a.num limit ?, ? 
+2019-07-27 17:06:53.309 [http-nio-8082-exec-5] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==> Parameters: 0(Integer), 50(Integer)
+2019-07-27 17:06:53.358 [http-nio-8082-exec-5] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - <==      Total: 20
+2019-07-27 17:06:54.338 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 17:06:54.340 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 17:06:54.402 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 17:06:54.407 [http-nio-8082-exec-4] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 17:06:54.407 [http-nio-8082-exec-4] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 17:06:54.522 [http-nio-8082-exec-4] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 17:12:21.411 [http-nio-8082-exec-7] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==>  Preparing: select count(1) from t_mt_gdate 
+2019-07-27 17:12:21.412 [http-nio-8082-exec-7] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==> Parameters: 
+2019-07-27 17:12:21.467 [http-nio-8082-exec-7] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - <==      Total: 1
+2019-07-27 17:12:21.472 [http-nio-8082-exec-7] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a ORDER BY a.num limit ?, ? 
+2019-07-27 17:12:21.473 [http-nio-8082-exec-7] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==> Parameters: 0(Integer), 50(Integer)
+2019-07-27 17:12:21.529 [http-nio-8082-exec-7] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - <==      Total: 20
+2019-07-27 17:12:23.310 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 17:12:23.312 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 17:12:23.592 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 17:12:23.598 [http-nio-8082-exec-5] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 17:12:23.598 [http-nio-8082-exec-5] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 17:12:23.718 [http-nio-8082-exec-5] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 17:13:13.852 [http-nio-8082-exec-2] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==>  Preparing: SELECT a.menu FROM t_mt_role a where a.number = ? 
+2019-07-27 17:13:13.853 [http-nio-8082-exec-2] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - ==> Parameters: 0(Integer)
+2019-07-27 17:13:13.908 [http-nio-8082-exec-2] DEBUG com.mt.console.web.mapper.IMenuMapper.getRoleMemu - <==      Total: 1
+2019-07-27 17:13:13.916 [http-nio-8082-exec-2] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==>  Preparing: SELECT a.number, a.parent_num, a.name, a.short_url, a.left_icon, a.right_icon FROM t_mt_menu a where a.number in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) 
+2019-07-27 17:13:13.917 [http-nio-8082-exec-2] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - ==> Parameters: 01-01(String), 01-02(String), 02-01(String), 02-02(String), 02-03(String), 02-04(String), 02-05(String), 05-01(String), 05-02(String), 05-03(String), 05-04(String), 05-05(String), 05-06(String), 05-07(String), 05-08(String), 05-09(String), 05-10(String), 05-11(String), 06-01(String), 06-02(String), 06-03(String), 07-01(String), 07-02(String), 07-03(String), 07-04(String), 08-01(String), 08-02(String), 08-03(String), 08-04(String), 08-05(String), 08-06(String), 08-07(String), 08-08(String), 09-01(String)
+2019-07-27 17:13:13.987 [http-nio-8082-exec-2] DEBUG com.mt.console.web.mapper.IMenuMapper.getMenu - <==      Total: 34
+2019-07-27 17:13:18.595 [http-nio-8082-exec-5] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==>  Preparing: select count(1) from t_mt_gdate 
+2019-07-27 17:13:18.597 [http-nio-8082-exec-5] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==> Parameters: 
+2019-07-27 17:13:18.652 [http-nio-8082-exec-5] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - <==      Total: 1
+2019-07-27 17:13:18.654 [http-nio-8082-exec-5] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a ORDER BY a.num limit ?, ? 
+2019-07-27 17:13:18.655 [http-nio-8082-exec-5] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==> Parameters: 0(Integer), 50(Integer)
+2019-07-27 17:13:18.715 [http-nio-8082-exec-5] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - <==      Total: 20
+2019-07-27 17:13:19.702 [http-nio-8082-exec-2] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 17:13:19.704 [http-nio-8082-exec-2] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 17:13:20.010 [http-nio-8082-exec-2] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 17:13:20.016 [http-nio-8082-exec-2] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 17:13:20.017 [http-nio-8082-exec-2] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 17:13:20.237 [http-nio-8082-exec-2] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 17:13:58.114 [http-nio-8082-exec-2] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==>  Preparing: select count(1) from t_mt_gdate 
+2019-07-27 17:13:58.116 [http-nio-8082-exec-2] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==> Parameters: 
+2019-07-27 17:13:58.164 [http-nio-8082-exec-2] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - <==      Total: 1
+2019-07-27 17:13:58.169 [http-nio-8082-exec-2] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a ORDER BY a.num limit ?, ? 
+2019-07-27 17:13:58.169 [http-nio-8082-exec-2] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==> Parameters: 0(Integer), 50(Integer)
+2019-07-27 17:13:58.219 [http-nio-8082-exec-2] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - <==      Total: 20
+2019-07-27 17:13:59.189 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 17:13:59.190 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 17:13:59.327 [http-nio-8082-exec-4] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 17:13:59.334 [http-nio-8082-exec-4] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 17:13:59.335 [http-nio-8082-exec-4] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 17:13:59.418 [http-nio-8082-exec-4] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 17:14:09.928 [http-nio-8082-exec-6] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==>  Preparing: select count(1) from t_mt_gdate 
+2019-07-27 17:14:09.929 [http-nio-8082-exec-6] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==> Parameters: 
+2019-07-27 17:14:10.061 [http-nio-8082-exec-6] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - <==      Total: 1
+2019-07-27 17:14:10.064 [http-nio-8082-exec-6] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a ORDER BY a.num limit ?, ? 
+2019-07-27 17:14:10.065 [http-nio-8082-exec-6] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==> Parameters: 0(Integer), 50(Integer)
+2019-07-27 17:14:10.297 [http-nio-8082-exec-6] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - <==      Total: 20
+2019-07-27 17:14:11.091 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 17:14:11.092 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 17:14:11.296 [http-nio-8082-exec-5] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 17:14:11.303 [http-nio-8082-exec-5] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 17:14:11.303 [http-nio-8082-exec-5] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 17:14:11.353 [http-nio-8082-exec-5] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 17:14:29.565 [http-nio-8082-exec-4] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==>  Preparing: select count(1) from t_mt_gdate 
+2019-07-27 17:14:29.567 [http-nio-8082-exec-4] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==> Parameters: 
+2019-07-27 17:14:29.811 [http-nio-8082-exec-4] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - <==      Total: 1
+2019-07-27 17:14:29.816 [http-nio-8082-exec-4] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a ORDER BY a.num limit ?, ? 
+2019-07-27 17:14:29.816 [http-nio-8082-exec-4] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==> Parameters: 0(Integer), 50(Integer)
+2019-07-27 17:14:29.904 [http-nio-8082-exec-4] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - <==      Total: 20
+2019-07-27 17:14:33.393 [http-nio-8082-exec-1] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 17:14:33.395 [http-nio-8082-exec-1] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 16(Integer)
+2019-07-27 17:14:33.714 [http-nio-8082-exec-1] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 17:14:33.722 [http-nio-8082-exec-1] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 17:14:33.723 [http-nio-8082-exec-1] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 16(Integer)
+2019-07-27 17:14:33.773 [http-nio-8082-exec-1] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 0
+2019-07-27 17:14:37.164 [http-nio-8082-exec-3] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==>  Preparing: select count(1) from t_mt_gdate 
+2019-07-27 17:14:37.165 [http-nio-8082-exec-3] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==> Parameters: 
+2019-07-27 17:14:37.599 [http-nio-8082-exec-3] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - <==      Total: 1
+2019-07-27 17:14:37.602 [http-nio-8082-exec-3] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a ORDER BY a.num limit ?, ? 
+2019-07-27 17:14:37.603 [http-nio-8082-exec-3] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==> Parameters: 0(Integer), 50(Integer)
+2019-07-27 17:14:37.721 [http-nio-8082-exec-3] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - <==      Total: 20
+2019-07-27 17:14:40.185 [http-nio-8082-exec-7] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 17:14:40.188 [http-nio-8082-exec-7] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 9(Integer)
+2019-07-27 17:14:40.335 [http-nio-8082-exec-7] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 17:14:40.340 [http-nio-8082-exec-7] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 17:14:40.340 [http-nio-8082-exec-7] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 9(Integer)
+2019-07-27 17:14:40.540 [http-nio-8082-exec-7] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 17:14:43.651 [http-nio-8082-exec-2] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==>  Preparing: select count(1) from t_mt_gdate 
+2019-07-27 17:14:43.652 [http-nio-8082-exec-2] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==> Parameters: 
+2019-07-27 17:14:43.856 [http-nio-8082-exec-2] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - <==      Total: 1
+2019-07-27 17:14:43.859 [http-nio-8082-exec-2] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a ORDER BY a.num limit ?, ? 
+2019-07-27 17:14:43.860 [http-nio-8082-exec-2] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==> Parameters: 0(Integer), 50(Integer)
+2019-07-27 17:14:43.940 [http-nio-8082-exec-2] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - <==      Total: 20
+2019-07-27 17:14:54.763 [http-nio-8082-exec-5] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==>  Preparing: select count(1) from t_mt_gdate 
+2019-07-27 17:14:54.765 [http-nio-8082-exec-5] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - ==> Parameters: 
+2019-07-27 17:14:54.829 [http-nio-8082-exec-5] DEBUG c.m.c.web.mapper.IGirlDateMapper.getTotalCount - <==      Total: 1
+2019-07-27 17:14:54.832 [http-nio-8082-exec-5] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a ORDER BY a.num limit ?, ? 
+2019-07-27 17:14:54.832 [http-nio-8082-exec-5] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - ==> Parameters: 0(Integer), 50(Integer)
+2019-07-27 17:14:54.892 [http-nio-8082-exec-5] DEBUG c.m.console.web.mapper.IGirlDateMapper.getPageList - <==      Total: 20
+2019-07-27 17:14:58.522 [http-nio-8082-exec-10] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==>  Preparing: SELECT a.id, a.num, a.name, a.nickname, a.foreignname, a.country, a.province, a.city, a.birthdate, a.nation, a.occupation, a.height, a.weight, a.bust, a.waist, a.hip, a.bloodgroup, a.gperintro, a.praisecount, a.commentcount, a.remark, a.phone, a.qq, a.imgpath, a.status FROM t_mt_gdate a WHERE a.num =? 
+2019-07-27 17:14:58.526 [http-nio-8082-exec-10] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - ==> Parameters: 2(Integer)
+2019-07-27 17:14:58.581 [http-nio-8082-exec-10] DEBUG com.mt.console.web.mapper.IGirlDateMapper.getGDate - <==      Total: 1
+2019-07-27 17:14:58.588 [http-nio-8082-exec-10] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==>  Preparing: select id, num ,picurl from t_mt_gdate_pics where num = ? 
+2019-07-27 17:14:58.588 [http-nio-8082-exec-10] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - ==> Parameters: 2(Integer)
+2019-07-27 17:14:58.643 [http-nio-8082-exec-10] DEBUG c.m.console.web.mapper.IGirlDateMapper.getGDatePic - <==      Total: 10
+2019-07-27 17:34:51.311 [main] DEBUG org.springframework.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-07-27 17:35:02.444 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 55 mappings in 'requestMappingHandlerMapping'
+2019-07-27 17:35:03.032 [main] DEBUG o.s.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/swagger-ui.html, /webjars/**, /static/**, /upload/**] in 'resourceHandlerMapping'
+2019-07-27 17:35:03.315 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-07-27 17:35:03.398 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-07-27 17:35:05.160 [main] DEBUG o.s.w.servlet.view.freemarker.FreeMarkerConfigurer - Template loader path [class path resource [templates/]] resolved to file path [C:\mt\workspace\springboot-console\target\classes\templates]

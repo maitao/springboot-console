@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mt.console.web.mapper.IPortalLogMapper">
+
+	<!-- 新增记录 -->
+	<insert id="insert" parameterType="com.mt.console.web.po.PortalLog">
+		insert into t_mt_log(number, account_id, account, class_path,
+		method_name,
+		method_remark,
+		arguments, level, error_msg, use_time,
+		create_time)
+		values(#{number},#{accountId},#{account},#{classPath},#{methodName},#{methodRemark},#{arguments},#{level},#{errorMsg},#{useTime},#{createTime})
+		<selectKey keyProperty="id" resultType="Long">
+			select
+			last_insert_id() as id
+		</selectKey>
+	</insert>
+
+	<!-- 取得记录总数 -->
+	<select id="getTotalCount" resultType="int" parameterType="Map">
+		select count(1) from t_mt_log
+	</select>
+
+	<!-- 取得记录列表 -->
+	<select id="getPageList" resultType="java.util.HashMap"
+		parameterType="Map">
+		SELECT
+		a.id,
+		a.number,
+		a.class_path,
+		a.account,
+		a.level,
+		a.method_name,
+		a.method_remark,
+		a.arguments,
+		a.error_msg,
+		a.use_time,
+		DATE_FORMAT(a.create_time, '%Y-%m-%d %T') AS create_time
+		FROM
+		t_mt_log a
+		ORDER BY
+		a.number DESC
+		limit #{index}, #{offset}
+	</select>
+
+	<resultMap type="com.mt.console.web.po.PortalLog" id="LogResultMap">
+	</resultMap>
+
+</mapper>

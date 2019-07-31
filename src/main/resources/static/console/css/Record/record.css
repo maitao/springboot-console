@@ -1,0 +1,46 @@
+@CHARSET "UTF-8";
+
+span.error {
+	display: block;
+	width: auto;
+	position: absolute;
+	z-index: 1002;
+	top: 10px;
+	right: 10px;
+}
+
+.table>tbody>tr>td {
+	vertical-align: middle;
+}
+
+.table>tbody>tr>td {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.createtime {
+	color: #999;
+	font-size: 11px;
+	font-family: Arial, Psimsun, sans-serif;
+	word-wrap: break-word;
+}
+
+
+.laydate_box *{
+box-sizing: content-box;
+}
+
+.search-btn {
+	z-index: 1;
+	position: absolute;
+	left: 3px;
+	top: 50%;
+	margin-top: -8px;
+	height: 16px;
+	width: 18px;
+	background: #fff url("../../Common/img/search.png") no-repeat;
+	background-size: 18px 18px;
+	background-position: center;
+	cursor: pointer;
+}
+

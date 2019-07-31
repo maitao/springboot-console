@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mt.console.web.mapper.IPortalCommonMapper">
+
+	<sql id="imagePage">
+		SELECT
+		id, img_path, name, create_time from t_mt_image order by create_time
+	</sql>
+	
+	<sql id="articlePage">
+		SELECT
+		a.id,
+		a.title,
+		a.level,
+		a.view_count,
+		a.content,
+		a.status,
+		a.summary,
+		DATE_FORMAT(a.create_time, '%Y-%m-%d %T') AS create_time,
+		DATE_FORMAT(a.update_time, '%Y-%m-%d %T') AS update_time,
+		a.create_account,
+		a.update_account,
+		b.name 
+		from t_mt_article a left join t_mt_article_category b on a.category_id = b.id
+		<where>
+			<if test="null != condition and '' != condition">
+				<if test="condition == 3">
+					a.level = 1 
+				</if>
+				<if test="condition == 4">
+					('' = a.category_id or a.category_id is null)
+				</if>
+				<if test="condition != 1 and condition != 2 and condition != 3 and condition != 4 and condition != 20">
+					a.category_id = #{condition} 
+				</if>
+				<if test="condition == 20">
+					a.status = 0
+				</if>
+				<if test="condition != 20">
+					and a.status = 1
+				</if>
+			</if>
+			<if test="null == condition or '' == condition">
+				a.status = 1
+			</if>
+		</where>
+		order by a.create_time desc
+	</sql>
+	
+	<select id="getTotalCount" resultType="int" parameterType="Map">
+		select count(1) from
+		<if test="key=='image'">t_mt_image</if>
+		<if test="key=='article'">t_mt_article</if>
+	</select>
+	<!-- 取得记录列表 -->
+	<select id="getPageList" resultType="java.util.HashMap"
+		parameterType="Map">
+		<if test="key=='image'">
+			<include refid="imagePage" />
+		</if>
+		<if test="key=='article'">
+			<include refid="articlePage" />
+		</if>
+		limit #{index},
+		#{offset}
+	</select>
+
+</mapper>

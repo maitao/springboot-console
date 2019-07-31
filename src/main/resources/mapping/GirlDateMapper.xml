@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mt.console.web.mapper.IGirlDateMapper">
+	<!-- 取得记录总数 -->
+	<select id="getTotalCount" resultType="int" parameterType="Map">
+		select count(1) from t_mt_gdate
+	</select>
+	<!-- 取得记录列表 -->
+	<select id="getPageList" resultType="java.util.HashMap"
+		parameterType="Map">
+		SELECT
+		a.id,
+		a.num,
+		a.name,
+		a.nickname,
+		a.foreignname,
+		a.country,
+		a.province,
+		a.city,
+		a.birthdate,
+		a.nation,
+		a.occupation,
+		a.height,
+		a.weight,
+		a.bust,
+		a.waist,
+		a.hip,
+		a.bloodgroup,
+		a.gperintro,
+		a.praisecount,
+		a.commentcount,
+		a.remark,
+		a.phone,
+		a.qq,
+		a.imgpath,
+		a.status
+		FROM
+		t_mt_gdate a
+		ORDER BY
+		a.num
+		limit #{index}, #{offset}
+	</select>
+	<!-- 取得用户列表 -->
+	<select id="getGDate" resultMap="GDateResultMap">
+		SELECT
+		a.id,
+		a.num,
+		a.name,
+		a.nickname,
+		a.foreignname,
+		a.country,
+		a.province,
+		a.city,
+		a.birthdate,
+		a.nation,
+		a.occupation,
+		a.height,
+		a.weight,
+		a.bust,
+		a.waist,
+		a.hip,
+		a.bloodgroup,
+		a.gperintro,
+		a.praisecount,
+		a.commentcount,
+		a.remark,
+		a.phone,
+		a.qq,
+		a.imgpath,
+		a.status
+		FROM
+		t_mt_gdate
+		a
+		<where>
+			a.num =#{num}
+		</where>
+	</select>
+	<select id="getGDatePic" resultType="java.util.HashMap">
+		select id, num ,picurl from t_mt_gdate_pics where num = #{num}
+	</select>
+	<resultMap type="com.mt.console.web.po.GDate" id="GDateResultMap">
+	</resultMap>
+</mapper>
